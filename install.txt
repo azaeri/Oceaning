@@ -1,0 +1,21 @@
+
+How to install.
+
+
+
+1. Extract SemanticRelationTagger.zip
+
+2. Add all jar files in the lib directory to your project.
+
+3. Extract the model.zip directory to a dir 
+
+3. Extract  res.zip file to the working directory of your project. It includes a resources.properties file that you have to change it accord to the path which you extract the model.zip
+
+4.Extract rogets.zip to your user directory.
+
+
+now you can use the semanticRelationTagger in your project.
+
+see Test.java for example.
+
+

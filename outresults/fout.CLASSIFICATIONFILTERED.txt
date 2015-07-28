@@ -1,0 +1,4 @@
+5:167 ;0;    ArticleTitle SubClassOf: Title[Title:2:C-noun--1-S_ISUB-1,00-Title]        
+5:167 ;1;    ArticleTitle SubClassOf: Writing[Article:2:C-noun-2-S_LEVEN-0,86-writing#Writing]        
+5:167 ;2;    ArticleTitle EquivalentTo: Writing[Article:2:C-noun-2-S_LEVEN-0,86-writing#Writing] and Title[Title:2:C-noun--1-S_ISUB-1,00-Title] 
+13:111 ;0;    ArticleTitle SubClassOf: Title[Title:2:C-noun--1-S_ISUB-1,00-Title]                                

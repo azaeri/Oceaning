@@ -1,0 +1,2 @@
+5:620 ;2;    FetTransistor EquivalentTo: Transistor[3: Fet] and FetTransistor[2: Transistor] 
+5:416 ;2;    AutomaticGun EquivalentTo: AutomaticGun[2: Automatic] and Gun[1: Gun] 

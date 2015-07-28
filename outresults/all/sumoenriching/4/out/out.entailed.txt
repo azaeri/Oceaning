@@ -1,0 +1,8 @@
+68:313 ;2;    WinterSeason SubClassOf: Quantity[: Season] and during[: during] only Quantity[: Winter]                        
+5:319 ;2;    PropellerJet EquivalentTo: PropellerJet[: Propeller] and Airplane[: Jet] 
+68:507 ;2;    DateFruit SubClassOf: Fruit[: Fruit] and during[: during] only Quantity[: Date]                        
+5:416 ;2;    AutomaticGun EquivalentTo: AutomaticGun[: Automatic] and Gun[: Gun] 
+2:577 ;4;    SunniMuslim SubClassOf: Muslim[: Sunni] and Muslim[: Muslim]    
+68:223 ;2;    SummerSeason SubClassOf: Quantity[: Season] and during[: during] only Quantity[: Summer]                        
+2:176 ;3;    HumanAdult SubClassOf: Human[: Human] and Organism[: Adult] and Human[: human]    
+2:176 ;4;    HumanAdult SubClassOf: Human[: Human] and Organism[: Adult]    

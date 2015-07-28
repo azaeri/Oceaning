@@ -1,0 +1,1710 @@
+15:855 ;1;    AirForce SubClassOf: origin[1: origin] some Atmosphere[3: Air]            
+15:855 ;1;    AirForce SubClassOf: origin[1: origin] some Flying[4: Air]            
+15:855 ;1;    AirForce SubClassOf: origin[1: origin] some Air[1: Air]            
+14:278 ;1;    MultipoleSection SubClassOf: Cutting[4: Section] and contains[2: contain] some Multipole[1: Multipole]                 
+14:278 ;2;    MultipoleSection SubClassOf: Cutting[4: Section] and inverse home[3: place] some Multipole[1: Multipole]         
+14:278 ;2;    MultipoleSection SubClassOf: Cutting[4: Section] and inverse property[4: place] some Multipole[1: Multipole]         
+32:183 ;4;    LARPlatoon SubClassOf: inverse traverses[2: traverse] some Thing             
+15:909 ;1;    AuditoriumSeat SubClassOf: origin[1: origin] some Auditorium[1: Auditorium]            
+15:909 ;2;    AuditoriumSeat EquivalentTo: Eye[4: Seat] and origin[1: origin] some Auditorium[1: Auditorium]     
+15:909 ;2;    AuditoriumSeat EquivalentTo: Heart[4: Seat] and origin[1: origin] some Auditorium[1: Auditorium]     
+15:909 ;2;    AuditoriumSeat EquivalentTo: Seat[1: Seat] and origin[1: origin] some Auditorium[1: Auditorium]     
+15:909 ;2;    AuditoriumSeat EquivalentTo: Tail[3: Seat] and origin[1: origin] some Auditorium[1: Auditorium]     
+10:121 ;1;    OrganicThing SubClassOf: inverse causes[1: causes] some Fertilizer[4: Organic]          
+10:121 ;2;    OrganicThing SubClassOf: inverse causes[1: causes] some Thing       
+15:339 ;1;    VehicleThrottle SubClassOf: origin[1: origin] some Vehicle[1: Vehicle]            
+15:339 ;2;    VehicleThrottle EquivalentTo: Gun[3: Throttle] and origin[1: origin] some Vehicle[1: Vehicle]     
+32:87 ;2;    VehicleThrottle SubClassOf: inverse traverses[2: traverse] some Vehicle[1: Vehicle]                
+32:87 ;4;    VehicleThrottle SubClassOf: inverse traverses[2: traverse] some Thing             
+32:87 ;6;    VehicleThrottle EquivalentTo: Gun[3: Throttle] and inverse traverses[2: traverse] some Vehicle[1: Vehicle]         
+38:582 ;2;    SugarBeet SubClassOf: instance[4: case] some Sugar[1: Sugar]                        
+38:582 ;2;    SugarBeet SubClassOf: instance[4: case] some Dough[3: Sugar]                        
+38:582 ;2;    SugarBeet SubClassOf: instance[4: case] some Cabbage[3: Sugar]                        
+38:582 ;2;    SugarBeet SubClassOf: instance[4: case] some Carbohydrate[4: Sugar]                        
+32:62 ;4;    PolyphonicMusic SubClassOf: inverse traverses[2: traverse] some Thing             
+68:156 ;2;    PropositionalAttitude SubClassOf: Position[4: Attitude] and during[1: during] only Proposition[2: Propositional]                        
+99:97 ;4;    MechanicsDomain SubClassOf: measure[2: measures] some Thing     
+5:114 ;2;    FireEngine EquivalentTo: Attack[3: Fire] and Engine[1: Engine] 
+5:114 ;2;    FireEngine EquivalentTo: Attack[3: Fire] and Motor[4: Engine] 
+5:114 ;2;    FireEngine EquivalentTo: Fire[1: Fire] and Engine[1: Engine] 
+5:114 ;2;    FireEngine EquivalentTo: Fire[1: Fire] and Motor[4: Engine] 
+12:470 ;1;    TreeBranch SubClassOf: Limb[3: Branch] and composer[2: composed] some Tree[1: Tree]                 
+12:470 ;1;    TreeBranch SubClassOf: Arm[3: Branch] and composer[2: composed] some Tree[1: Tree]                 
+12:470 ;1;    TreeBranch SubClassOf: Leg[4: Branch] and composer[2: composed] some Tree[1: Tree]                 
+32:428 ;4;    ZenatiLanguage SubClassOf: inverse traverses[2: traverse] some Thing             
+15:545 ;1;    PlantSubstance SubClassOf: origin[1: origin] some Plant[1: Plant]            
+15:545 ;2;    PlantSubstance EquivalentTo: Meat[4: Substance] and origin[1: origin] some Plant[1: Plant]     
+15:545 ;2;    PlantSubstance EquivalentTo: Substance[1: Substance] and origin[1: origin] some Plant[1: Plant]     
+32:170 ;4;    JfetTransistor SubClassOf: inverse traverses[2: traverse] some Thing             
+38:995 ;2;    BookPublisher SubClassOf: instance[4: case] some Book[1: Book]                        
+38:995 ;2;    BookPublisher SubClassOf: instance[4: case] some Word[4: Book]                        
+38:995 ;2;    BookPublisher SubClassOf: instance[4: case] some Script[4: Book]                        
+5:190 ;2;    RoadVehicle EquivalentTo: Road[1: Road] and Vehicle[1: Vehicle] 
+15:179 ;1;    RoadVehicle SubClassOf: origin[1: origin] some Road[1: Road]            
+15:179 ;2;    RoadVehicle EquivalentTo: Vehicle[1: Vehicle] and origin[1: origin] some Road[1: Road]     
+32:431 ;4;    GuaporeLanguage SubClassOf: inverse traverses[2: traverse] some Thing             
+32:347 ;4;    CantLanguage SubClassOf: inverse traverses[2: traverse] some Thing             
+38:141 ;2;    GraphPath SubClassOf: instance[4: case] some Graph[1: Graph]                        
+14:239 ;1;    CoralReef SubClassOf: Reef[1: Reef] and contains[2: contain] some Coral[1: Coral]                 
+14:239 ;2;    CoralReef SubClassOf: Reef[1: Reef] and inverse home[3: place] some Coral[1: Coral]         
+14:239 ;2;    CoralReef SubClassOf: Reef[1: Reef] and inverse property[4: place] some Coral[1: Coral]         
+38:938 ;2;    WineGrape SubClassOf: instance[4: case] some Wine[1: Wine]                        
+15:117 ;1;    ComputerDirectory SubClassOf: origin[1: origin] some Computer[1: Computer]            
+32:129 ;2;    ArtilleryCannon SubClassOf: inverse traverses[2: traverse] some Battery[3: Artillery]                
+32:129 ;2;    ArtilleryCannon SubClassOf: inverse traverses[2: traverse] some Weapon[3: Artillery]                
+32:129 ;2;    ArtilleryCannon SubClassOf: inverse traverses[2: traverse] some Gun[4: Artillery]                
+32:129 ;4;    ArtilleryCannon SubClassOf: inverse traverses[2: traverse] some Thing             
+38:566 ;2;    OpiumPoppy SubClassOf: instance[4: case] some Opium[1: Opium]                        
+38:229 ;2;    VehicleController SubClassOf: instance[4: case] some Vehicle[1: Vehicle]                        
+10:301 ;1;    SoilErosion SubClassOf: inverse causes[1: causes] some Soil[1: Soil]          
+10:301 ;2;    SoilErosion SubClassOf: inverse causes[1: causes] some Thing       
+38:154 ;2;    SoilErosion SubClassOf: instance[4: case] some Soil[1: Soil]                        
+32:88 ;4;    RCCircuit SubClassOf: inverse traverses[2: traverse] some Thing             
+10:101 ;1;    AnimalSubstance SubClassOf: inverse causes[1: causes] some Animal[1: Animal]          
+10:101 ;2;    AnimalSubstance SubClassOf: inverse causes[1: causes] some Thing       
+32:74 ;2;    FormText SubClassOf: inverse traverses[2: traverse] some Class[4: Form]                
+32:74 ;2;    FormText SubClassOf: inverse traverses[2: traverse] some Descriptor[4: Form]                
+32:74 ;4;    FormText SubClassOf: inverse traverses[2: traverse] some Thing             
+32:74 ;6;    FormText EquivalentTo: Text[1: Text] and inverse traverses[2: traverse] some Class[4: Form]         
+32:74 ;6;    FormText EquivalentTo: Text[1: Text] and inverse traverses[2: traverse] some Descriptor[4: Form]         
+5:103 ;2;    LandForm EquivalentTo: Farming[3: Land] and Class[4: Form] 
+5:103 ;2;    LandForm EquivalentTo: Farming[3: Land] and Descriptor[4: Form] 
+5:103 ;2;    LandForm EquivalentTo: Soil[4: Land] and Class[4: Form] 
+5:103 ;2;    LandForm EquivalentTo: Nation[4: Land] and Class[4: Form] 
+5:103 ;2;    LandForm EquivalentTo: Nation[4: Land] and Descriptor[4: Form] 
+38:188 ;2;    MultipolePort SubClassOf: instance[4: case] some Multipole[1: Multipole]                        
+38:152 ;2;    ProductID SubClassOf: instance[4: case] some Product[1: Product]                        
+32:169 ;4;    CaribLanguage SubClassOf: inverse traverses[2: traverse] some Thing             
+32:470 ;4;    GuaicuruanLanguage SubClassOf: inverse traverses[2: traverse] some Thing             
+12:251 ;1;    ProductPackage SubClassOf: Packet[3: Package] and composer[2: composed] some Product[1: Product]                 
+38:201 ;2;    ProductPackage SubClassOf: instance[4: case] some Product[1: Product]                        
+38:309 ;2;    ServiceProcess SubClassOf: instance[4: case] some Utility[4: Service]                        
+38:309 ;2;    ServiceProcess SubClassOf: instance[4: case] some Serving[3: Service]                        
+32:275 ;2;    ArtilleryGun SubClassOf: inverse traverses[2: traverse] some Battery[3: Artillery]                
+32:275 ;2;    ArtilleryGun SubClassOf: inverse traverses[2: traverse] some Weapon[3: Artillery]                
+32:275 ;2;    ArtilleryGun SubClassOf: inverse traverses[2: traverse] some Gun[4: Artillery]                
+32:275 ;4;    ArtilleryGun SubClassOf: inverse traverses[2: traverse] some Thing             
+32:275 ;6;    ArtilleryGun EquivalentTo: Gun[1: Gun] and inverse traverses[2: traverse] some Battery[3: Artillery]         
+32:275 ;6;    ArtilleryGun EquivalentTo: Gun[1: Gun] and inverse traverses[2: traverse] some Weapon[3: Artillery]         
+32:275 ;6;    ArtilleryGun EquivalentTo: Gun[1: Gun] and inverse traverses[2: traverse] some Gun[4: Artillery]         
+32:275 ;6;    ArtilleryGun EquivalentTo: Firearm[4: Gun] and inverse traverses[2: traverse] some Battery[3: Artillery]         
+32:275 ;6;    ArtilleryGun EquivalentTo: Firearm[4: Gun] and inverse traverses[2: traverse] some Weapon[3: Artillery]         
+32:275 ;6;    ArtilleryGun EquivalentTo: Firearm[4: Gun] and inverse traverses[2: traverse] some Gun[4: Artillery]         
+14:140 ;1;    ArtilleryGun SubClassOf: Gun[1: Gun] and contains[2: contain] some Battery[3: Artillery]                 
+14:140 ;1;    ArtilleryGun SubClassOf: Gun[1: Gun] and contains[2: contain] some Weapon[3: Artillery]                 
+14:140 ;1;    ArtilleryGun SubClassOf: Gun[1: Gun] and contains[2: contain] some Gun[4: Artillery]                 
+14:140 ;1;    ArtilleryGun SubClassOf: Firearm[4: Gun] and contains[2: contain] some Battery[3: Artillery]                 
+14:140 ;1;    ArtilleryGun SubClassOf: Firearm[4: Gun] and contains[2: contain] some Weapon[3: Artillery]                 
+14:140 ;1;    ArtilleryGun SubClassOf: Firearm[4: Gun] and contains[2: contain] some Gun[4: Artillery]                 
+14:140 ;2;    ArtilleryGun SubClassOf: Gun[1: Gun] and inverse property[4: place] some Battery[3: Artillery]         
+14:140 ;2;    ArtilleryGun SubClassOf: Gun[1: Gun] and inverse property[4: place] some Weapon[3: Artillery]         
+14:140 ;2;    ArtilleryGun SubClassOf: Gun[1: Gun] and inverse property[4: place] some Gun[4: Artillery]         
+14:140 ;2;    ArtilleryGun SubClassOf: Firearm[4: Gun] and inverse property[4: place] some Battery[3: Artillery]         
+14:140 ;2;    ArtilleryGun SubClassOf: Firearm[4: Gun] and inverse property[4: place] some Weapon[3: Artillery]         
+14:140 ;2;    ArtilleryGun SubClassOf: Firearm[4: Gun] and inverse property[4: place] some Gun[4: Artillery]         
+10:137 ;1;    ArtilleryGun SubClassOf: inverse causes[1: causes] some Battery[3: Artillery]          
+10:137 ;1;    ArtilleryGun SubClassOf: inverse causes[1: causes] some Weapon[3: Artillery]          
+10:137 ;1;    ArtilleryGun SubClassOf: inverse causes[1: causes] some Gun[4: Artillery]          
+10:137 ;2;    ArtilleryGun SubClassOf: inverse causes[1: causes] some Thing       
+32:54 ;2;    AnimalTeam SubClassOf: inverse traverses[2: traverse] some Animal[1: Animal]                
+32:54 ;4;    AnimalTeam SubClassOf: inverse traverses[2: traverse] some Thing             
+32:886 ;2;    GasolineEngine SubClassOf: inverse traverses[2: traverse] some Gasoline[1: Gasoline]                
+32:886 ;4;    GasolineEngine SubClassOf: inverse traverses[2: traverse] some Thing             
+32:886 ;6;    GasolineEngine EquivalentTo: Locomotive[4: Engine] and inverse traverses[2: traverse] some Gasoline[1: Gasoline]         
+32:886 ;6;    GasolineEngine EquivalentTo: Engine[1: Engine] and inverse traverses[2: traverse] some Gasoline[1: Gasoline]         
+32:886 ;6;    GasolineEngine EquivalentTo: Motor[4: Engine] and inverse traverses[2: traverse] some Gasoline[1: Gasoline]         
+32:466 ;4;    TucanoanLanguage SubClassOf: inverse traverses[2: traverse] some Thing             
+38:78 ;2;    TransportProtein SubClassOf: instance[4: case] some Transportation[4: Transport]                        
+38:78 ;2;    TransportProtein SubClassOf: instance[4: case] some Shipping[4: Transport]                        
+38:78 ;2;    TransportProtein SubClassOf: instance[4: case] some Vehicle[4: Transport]                        
+32:470 ;4;    TacananLanguage SubClassOf: inverse traverses[2: traverse] some Thing             
+15:210 ;1;    AirRoute SubClassOf: origin[1: origin] some Atmosphere[3: Air]            
+15:210 ;1;    AirRoute SubClassOf: origin[1: origin] some Flying[4: Air]            
+15:210 ;1;    AirRoute SubClassOf: origin[1: origin] some Air[1: Air]            
+15:210 ;2;    AirRoute EquivalentTo: Road[4: Route] and origin[1: origin] some Atmosphere[3: Air]     
+15:210 ;2;    AirRoute EquivalentTo: Road[4: Route] and origin[1: origin] some Flying[4: Air]     
+15:210 ;2;    AirRoute EquivalentTo: Road[4: Route] and origin[1: origin] some Air[1: Air]     
+14:206 ;1;    AirRoute SubClassOf: Road[4: Route] and contains[2: contain] some Atmosphere[3: Air]                 
+14:206 ;1;    AirRoute SubClassOf: Road[4: Route] and contains[2: contain] some Flying[4: Air]                 
+14:206 ;1;    AirRoute SubClassOf: Road[4: Route] and contains[2: contain] some Air[1: Air]                 
+14:206 ;2;    AirRoute SubClassOf: Road[4: Route] and inverse home[3: place] some Atmosphere[3: Air]         
+14:206 ;2;    AirRoute SubClassOf: Road[4: Route] and inverse home[3: place] some Flying[4: Air]         
+14:206 ;2;    AirRoute SubClassOf: Road[4: Route] and inverse property[4: place] some Atmosphere[3: Air]         
+14:206 ;2;    AirRoute SubClassOf: Road[4: Route] and inverse property[4: place] some Flying[4: Air]         
+14:206 ;2;    AirRoute SubClassOf: Road[4: Route] and inverse property[4: place] some Air[1: Air]         
+5:88 ;2;    AirRoute EquivalentTo: Atmosphere[3: Air] and Road[4: Route] 
+5:88 ;2;    AirRoute EquivalentTo: Flying[4: Air] and Road[4: Route] 
+5:88 ;2;    AirRoute EquivalentTo: Air[1: Air] and Road[4: Route] 
+32:643 ;4;    AtlasLanguage SubClassOf: inverse traverses[2: traverse] some Thing             
+38:940 ;2;    WeaponsCompany SubClassOf: instance[4: case] some Weapon[2: Weapons]                        
+38:874 ;2;    MusicRecording SubClassOf: instance[4: case] some Music[1: Music]                        
+38:874 ;2;    MusicRecording SubClassOf: instance[4: case] some Medicine[3: Music]                        
+10:184 ;1;    WindProcess SubClassOf: inverse causes[1: causes] some Wind[1: Wind]          
+10:184 ;1;    WindProcess SubClassOf: inverse causes[1: causes] some Lead[3: Wind]          
+10:184 ;2;    WindProcess SubClassOf: inverse causes[1: causes] some Thing       
+32:165 ;4;    DragonWeapon SubClassOf: inverse traverses[2: traverse] some Thing             
+1:853 ;1;    Transitway EquivalentTo: path[4: way] some Transportation[4: Transit]             
+1:853 ;1;    Transitway EquivalentTo: manner[4: way] some Transportation[4: Transit]             
+1:853 ;1;    Transitway EquivalentTo: direction[4: way] some Transportation[4: Transit]             
+32:145 ;4;    AlgebraicEquation SubClassOf: inverse traverses[2: traverse] some Thing             
+32:625 ;4;    AutomaticApplication SubClassOf: inverse traverses[2: traverse] some Thing             
+38:153 ;2;    TransportationCompany SubClassOf: instance[4: case] some Transportation[1: Transportation]                        
+38:153 ;2;    TransportationCompany SubClassOf: instance[4: case] some Transfer[4: Transportation]                        
+38:153 ;2;    TransportationCompany SubClassOf: instance[4: case] some Shipping[4: Transportation]                        
+32:178 ;4;    RadioReceiver SubClassOf: inverse traverses[2: traverse] some Thing             
+32:472 ;4;    SkoLanguage SubClassOf: inverse traverses[2: traverse] some Thing             
+10:122 ;2;    DataCompression SubClassOf: inverse causes[1: causes] some Thing       
+32:124 ;2;    LandTransportation SubClassOf: inverse traverses[2: traverse] some Farming[3: Land]                
+32:124 ;2;    LandTransportation SubClassOf: inverse traverses[2: traverse] some Soil[4: Land]                
+32:124 ;2;    LandTransportation SubClassOf: inverse traverses[2: traverse] some Nation[4: Land]                
+32:124 ;4;    LandTransportation SubClassOf: inverse traverses[2: traverse] some Thing             
+32:124 ;6;    LandTransportation EquivalentTo: Transportation[1: Transportation] and inverse traverses[2: traverse] some Farming[3: Land]         
+32:124 ;6;    LandTransportation EquivalentTo: Transportation[1: Transportation] and inverse traverses[2: traverse] some Soil[4: Land]         
+32:124 ;6;    LandTransportation EquivalentTo: Transportation[1: Transportation] and inverse traverses[2: traverse] some Nation[4: Land]         
+32:124 ;6;    LandTransportation EquivalentTo: Transfer[4: Transportation] and inverse traverses[2: traverse] some Farming[3: Land]         
+32:124 ;6;    LandTransportation EquivalentTo: Transfer[4: Transportation] and inverse traverses[2: traverse] some Soil[4: Land]         
+32:124 ;6;    LandTransportation EquivalentTo: Transfer[4: Transportation] and inverse traverses[2: traverse] some Nation[4: Land]         
+32:124 ;6;    LandTransportation EquivalentTo: Shipping[4: Transportation] and inverse traverses[2: traverse] some Farming[3: Land]         
+32:124 ;6;    LandTransportation EquivalentTo: Shipping[4: Transportation] and inverse traverses[2: traverse] some Soil[4: Land]         
+32:124 ;6;    LandTransportation EquivalentTo: Shipping[4: Transportation] and inverse traverses[2: traverse] some Nation[4: Land]         
+32:466 ;4;    ZamucoanLanguage SubClassOf: inverse traverses[2: traverse] some Thing             
+38:97 ;2;    OilPicture SubClassOf: instance[4: case] some Oil[1: Oil]                        
+5:541 ;2;    IndexOption EquivalentTo: Index[1: Index] and Option[1: Option] 
+10:212 ;2;    ConsolidationLoan SubClassOf: inverse causes[1: causes] some Thing       
+38:221 ;2;    TieClothing SubClassOf: instance[4: case] some Bridge[3: Tie]                        
+32:51 ;4;    TractorTrailer SubClassOf: inverse traverses[2: traverse] some Thing             
+32:524 ;2;    RadarReconnaissance SubClassOf: inverse traverses[2: traverse] some Radar[1: Radar]                
+32:524 ;4;    RadarReconnaissance SubClassOf: inverse traverses[2: traverse] some Thing             
+99:76 ;3;    RadarReconnaissance SubClassOf: measure[2: measures] some Radar[1: Radar]        
+99:76 ;4;    RadarReconnaissance SubClassOf: measure[2: measures] some Thing     
+32:150 ;4;    BerberLanguage SubClassOf: inverse traverses[2: traverse] some Thing             
+5:176 ;2;    ReferenceText EquivalentTo: Character[3: Reference] and Text[1: Text] 
+5:176 ;2;    ReferenceText EquivalentTo: Source[3: Reference] and Text[1: Text] 
+15:128 ;1;    AnimalShell SubClassOf: origin[1: origin] some Animal[1: Animal]            
+15:128 ;2;    AnimalShell EquivalentTo: Shield[4: Shell] and origin[1: origin] some Animal[1: Animal]     
+14:104 ;1;    AnimalShell SubClassOf: Shield[4: Shell] and contains[2: contain] some Animal[1: Animal]                 
+14:104 ;2;    AnimalShell SubClassOf: Shield[4: Shell] and inverse home[3: place] some Animal[1: Animal]         
+14:104 ;2;    AnimalShell SubClassOf: Shield[4: Shell] and inverse property[4: place] some Animal[1: Animal]         
+32:133 ;2;    StockSplit SubClassOf: inverse traverses[2: traverse] some Blood[4: Stock]                
+32:133 ;2;    StockSplit SubClassOf: inverse traverses[2: traverse] some Store[4: Stock]                
+32:133 ;2;    StockSplit SubClassOf: inverse traverses[2: traverse] some Share[3: Stock]                
+32:133 ;2;    StockSplit SubClassOf: inverse traverses[2: traverse] some Livestock[3: Stock]                
+32:133 ;2;    StockSplit SubClassOf: inverse traverses[2: traverse] some GunStock[3: Stock]                
+32:133 ;2;    StockSplit SubClassOf: inverse traverses[2: traverse] some Stock[1: Stock]                
+32:133 ;4;    StockSplit SubClassOf: inverse traverses[2: traverse] some Thing             
+32:133 ;6;    StockSplit EquivalentTo: Bottle[3: Split] and inverse traverses[2: traverse] some Blood[4: Stock]         
+32:133 ;6;    StockSplit EquivalentTo: Bottle[3: Split] and inverse traverses[2: traverse] some Store[4: Stock]         
+32:133 ;6;    StockSplit EquivalentTo: Bottle[3: Split] and inverse traverses[2: traverse] some Share[3: Stock]         
+32:133 ;6;    StockSplit EquivalentTo: Bottle[3: Split] and inverse traverses[2: traverse] some Livestock[3: Stock]         
+32:133 ;6;    StockSplit EquivalentTo: Bottle[3: Split] and inverse traverses[2: traverse] some GunStock[3: Stock]         
+32:133 ;6;    StockSplit EquivalentTo: Bottle[3: Split] and inverse traverses[2: traverse] some Stock[1: Stock]         
+32:182 ;4;    NpnTransistor SubClassOf: inverse traverses[2: traverse] some Thing             
+99:75 ;4;    NpnTransistor SubClassOf: measure[2: measures] some Thing     
+32:493 ;4;    HattamLanguage SubClassOf: inverse traverses[2: traverse] some Thing             
+5:794 ;2;    IdentifierPart EquivalentTo: Identifier[1: Identifier] and Function[4: Part] 
+5:794 ;2;    IdentifierPart EquivalentTo: Identifier[1: Identifier] and Region[4: Part] 
+5:794 ;2;    IdentifierPart EquivalentTo: Identifier[1: Identifier] and Character[4: Part] 
+5:794 ;2;    IdentifierPart EquivalentTo: Identifier[1: Identifier] and Share[3: Part] 
+14:344 ;1;    BodyJunction SubClassOf: Function[2: Junction] and contains[2: contain] some Torso[3: Body]                 
+14:344 ;2;    BodyJunction SubClassOf: Function[2: Junction] and inverse home[3: place] some Torso[3: Body]         
+14:344 ;2;    BodyJunction SubClassOf: Function[2: Junction] and inverse property[4: place] some Torso[3: Body]         
+38:204 ;2;    BodyJunction SubClassOf: instance[4: case] some Torso[3: Body]                        
+10:263 ;2;    VibrioCholera SubClassOf: inverse causes[1: causes] some Thing       
+5:116 ;2;    RefrigeratorCar EquivalentTo: Refrigerator[1: Refrigerator] and Railcar[4: Car] 
+5:116 ;2;    RefrigeratorCar EquivalentTo: Refrigerator[1: Refrigerator] and Machine[4: Car] 
+32:371 ;4;    CaddoanLanguage SubClassOf: inverse traverses[2: traverse] some Thing             
+38:778 ;2;    PowerGeneration SubClassOf: instance[4: case] some Index[4: Power]                        
+32:256 ;2;    ShipRegistration SubClassOf: inverse traverses[2: traverse] some Ship[1: Ship]                
+32:256 ;4;    ShipRegistration SubClassOf: inverse traverses[2: traverse] some Thing             
+68:507 ;2;    DateFruit SubClassOf: Fruit[1: Fruit] and during[1: during] only Epoch[3: Date]                        
+5:106 ;2;    DateFruit EquivalentTo: Epoch[3: Date] and Fruit[1: Fruit] 
+14:799 ;1;    LandArea SubClassOf: Region[4: Area] and contains[2: contain] some Farming[3: Land]                 
+14:799 ;1;    LandArea SubClassOf: Region[4: Area] and contains[2: contain] some Soil[4: Land]                 
+14:799 ;1;    LandArea SubClassOf: Region[4: Area] and contains[2: contain] some Nation[4: Land]                 
+14:799 ;1;    LandArea SubClassOf: Sphere[4: Area] and contains[2: contain] some Farming[3: Land]                 
+14:799 ;1;    LandArea SubClassOf: Sphere[4: Area] and contains[2: contain] some Soil[4: Land]                 
+14:799 ;1;    LandArea SubClassOf: Sphere[4: Area] and contains[2: contain] some Nation[4: Land]                 
+14:799 ;1;    LandArea SubClassOf: Field[4: Area] and contains[2: contain] some Farming[3: Land]                 
+14:799 ;1;    LandArea SubClassOf: Field[4: Area] and contains[2: contain] some Soil[4: Land]                 
+14:799 ;1;    LandArea SubClassOf: Field[4: Area] and contains[2: contain] some Nation[4: Land]                 
+14:799 ;2;    LandArea SubClassOf: Region[4: Area] and inverse home[3: place] some Farming[3: Land]         
+14:799 ;2;    LandArea SubClassOf: Region[4: Area] and inverse home[3: place] some Nation[4: Land]         
+14:799 ;2;    LandArea SubClassOf: Region[4: Area] and inverse property[4: place] some Farming[3: Land]         
+14:799 ;2;    LandArea SubClassOf: Region[4: Area] and inverse property[4: place] some Soil[4: Land]         
+14:799 ;2;    LandArea SubClassOf: Region[4: Area] and inverse property[4: place] some Nation[4: Land]         
+14:799 ;2;    LandArea SubClassOf: Sphere[4: Area] and inverse home[3: place] some Farming[3: Land]         
+14:799 ;2;    LandArea SubClassOf: Sphere[4: Area] and inverse home[3: place] some Nation[4: Land]         
+14:799 ;2;    LandArea SubClassOf: Sphere[4: Area] and inverse property[4: place] some Farming[3: Land]         
+14:799 ;2;    LandArea SubClassOf: Sphere[4: Area] and inverse property[4: place] some Soil[4: Land]         
+14:799 ;2;    LandArea SubClassOf: Sphere[4: Area] and inverse property[4: place] some Nation[4: Land]         
+14:799 ;2;    LandArea SubClassOf: Field[4: Area] and inverse home[3: place] some Farming[3: Land]         
+14:799 ;2;    LandArea SubClassOf: Field[4: Area] and inverse home[3: place] some Nation[4: Land]         
+14:799 ;2;    LandArea SubClassOf: Field[4: Area] and inverse property[4: place] some Farming[3: Land]         
+14:799 ;2;    LandArea SubClassOf: Field[4: Area] and inverse property[4: place] some Soil[4: Land]         
+14:799 ;2;    LandArea SubClassOf: Field[4: Area] and inverse property[4: place] some Nation[4: Land]         
+10:253 ;2;    VolcanicEruption SubClassOf: inverse causes[1: causes] some Thing       
+10:243 ;2;    NonspecificDisease SubClassOf: inverse causes[1: causes] some Thing       
+32:222 ;4;    JointPublication SubClassOf: inverse traverses[2: traverse] some Thing             
+32:413 ;4;    ItalicLanguage SubClassOf: inverse traverses[2: traverse] some Thing             
+10:56 ;2;    ItalicLanguage SubClassOf: inverse causes[1: causes] some Thing       
+99:101 ;4;    PerfumeEssence SubClassOf: measure[2: measures] some Thing     
+32:752 ;4;    TorricelliLanguage SubClassOf: inverse traverses[2: traverse] some Thing             
+15:870 ;1;    Gutrah SubClassOf: origin[1: origin] some Intestine[4: Gut]            
+5:244 ;2;    WeatherFront EquivalentTo: Leather[2: Weather] and Head[3: Front] 
+5:244 ;2;    WeatherFront EquivalentTo: Feather[2: Weather] and Head[3: Front] 
+38:71 ;2;    GunPowder SubClassOf: instance[4: case] some Gun[1: Gun]                        
+38:71 ;2;    GunPowder SubClassOf: instance[4: case] some Firearm[4: Gun]                        
+10:400 ;1;    WaterWave SubClassOf: inverse causes[1: causes] some Water[1: Water]          
+10:400 ;2;    WaterWave SubClassOf: inverse causes[1: causes] some Thing       
+14:211 ;1;    WaterWave SubClassOf: Waving[3: Wave] and contains[2: contain] some Water[1: Water]                 
+14:211 ;2;    WaterWave SubClassOf: Waving[3: Wave] and inverse property[4: place] some Water[1: Water]         
+15:879 ;1;    ForestProduct SubClassOf: origin[1: origin] some Forest[1: Forest]            
+15:879 ;1;    ForestProduct SubClassOf: origin[1: origin] some Timber[4: Forest]            
+15:879 ;1;    ForestProduct SubClassOf: origin[1: origin] some Wood[4: Forest]            
+15:879 ;2;    ForestProduct EquivalentTo: Product[1: Product] and origin[1: origin] some Forest[1: Forest]     
+15:879 ;2;    ForestProduct EquivalentTo: Product[1: Product] and origin[1: origin] some Timber[4: Forest]     
+15:879 ;2;    ForestProduct EquivalentTo: Product[1: Product] and origin[1: origin] some Wood[4: Forest]     
+10:136 ;2;    PiggybankLoan SubClassOf: inverse causes[1: causes] some Thing       
+38:200 ;2;    LandslideProcess SubClassOf: instance[4: case] some Landslide[1: Landslide]                        
+38:209 ;2;    CutFlower SubClassOf: instance[4: case] some Opening[4: Cut]                        
+38:209 ;2;    CutFlower SubClassOf: instance[4: case] some Cutting[3: Cut]                        
+32:62 ;2;    AirTransportation SubClassOf: inverse traverses[2: traverse] some Atmosphere[3: Air]                
+32:62 ;2;    AirTransportation SubClassOf: inverse traverses[2: traverse] some Flying[4: Air]                
+32:62 ;2;    AirTransportation SubClassOf: inverse traverses[2: traverse] some Air[1: Air]                
+32:62 ;4;    AirTransportation SubClassOf: inverse traverses[2: traverse] some Thing             
+32:62 ;6;    AirTransportation EquivalentTo: Transportation[1: Transportation] and inverse traverses[2: traverse] some Atmosphere[3: Air]         
+32:62 ;6;    AirTransportation EquivalentTo: Transportation[1: Transportation] and inverse traverses[2: traverse] some Flying[4: Air]         
+32:62 ;6;    AirTransportation EquivalentTo: Transportation[1: Transportation] and inverse traverses[2: traverse] some Air[1: Air]         
+32:62 ;6;    AirTransportation EquivalentTo: Transfer[4: Transportation] and inverse traverses[2: traverse] some Atmosphere[3: Air]         
+32:62 ;6;    AirTransportation EquivalentTo: Transfer[4: Transportation] and inverse traverses[2: traverse] some Flying[4: Air]         
+32:62 ;6;    AirTransportation EquivalentTo: Transfer[4: Transportation] and inverse traverses[2: traverse] some Air[1: Air]         
+32:62 ;6;    AirTransportation EquivalentTo: Shipping[4: Transportation] and inverse traverses[2: traverse] some Atmosphere[3: Air]         
+32:62 ;6;    AirTransportation EquivalentTo: Shipping[4: Transportation] and inverse traverses[2: traverse] some Flying[4: Air]         
+32:62 ;6;    AirTransportation EquivalentTo: Shipping[4: Transportation] and inverse traverses[2: traverse] some Air[1: Air]         
+32:81 ;4;    SpaceTransportation SubClassOf: inverse traverses[2: traverse] some Thing             
+15:292 ;1;    VehicleWheel SubClassOf: origin[1: origin] some Vehicle[1: Vehicle]            
+15:292 ;2;    VehicleWheel EquivalentTo: Cycle[4: Wheel] and origin[1: origin] some Vehicle[1: Vehicle]     
+15:292 ;2;    VehicleWheel EquivalentTo: Bicycle[4: Wheel] and origin[1: origin] some Vehicle[1: Vehicle]     
+15:292 ;2;    VehicleWheel EquivalentTo: Wheel[1: Wheel] and origin[1: origin] some Vehicle[1: Vehicle]     
+32:107 ;2;    VehicleWheel SubClassOf: inverse traverses[2: traverse] some Vehicle[1: Vehicle]                
+32:107 ;4;    VehicleWheel SubClassOf: inverse traverses[2: traverse] some Thing             
+32:107 ;6;    VehicleWheel EquivalentTo: Cycle[4: Wheel] and inverse traverses[2: traverse] some Vehicle[1: Vehicle]         
+32:107 ;6;    VehicleWheel EquivalentTo: Bicycle[4: Wheel] and inverse traverses[2: traverse] some Vehicle[1: Vehicle]         
+32:107 ;6;    VehicleWheel EquivalentTo: Wheel[1: Wheel] and inverse traverses[2: traverse] some Vehicle[1: Vehicle]         
+14:185 ;1;    LemonFruit SubClassOf: Fruit[1: Fruit] and contains[2: contain] some Lemon[1: Lemon]                 
+14:185 ;2;    LemonFruit SubClassOf: Fruit[1: Fruit] and inverse home[3: place] some Lemon[1: Lemon]         
+14:185 ;2;    LemonFruit SubClassOf: Fruit[1: Fruit] and inverse property[4: place] some Lemon[1: Lemon]         
+38:161 ;2;    LemonFruit SubClassOf: instance[4: case] some Lemon[1: Lemon]                        
+32:403 ;4;    HokanLanguage SubClassOf: inverse traverses[2: traverse] some Thing             
+32:997 ;2;    MortarAttack SubClassOf: inverse traverses[2: traverse] some Mortar[1: Mortar]                
+32:997 ;4;    MortarAttack SubClassOf: inverse traverses[2: traverse] some Thing             
+32:997 ;6;    MortarAttack EquivalentTo: Attack[1: Attack] and inverse traverses[2: traverse] some Mortar[1: Mortar]         
+32:997 ;6;    MortarAttack EquivalentTo: Fire[3: Attack] and inverse traverses[2: traverse] some Mortar[1: Mortar]         
+38:129 ;2;    ContainerPort SubClassOf: instance[4: case] some Container[1: Container]                        
+15:151 ;1;    MultipoleModel SubClassOf: origin[1: origin] some Multipole[1: Multipole]            
+15:151 ;2;    MultipoleModel EquivalentTo: Modeling[4: Model] and origin[1: origin] some Multipole[1: Multipole]     
+15:151 ;2;    MultipoleModel EquivalentTo: Model[1: Model] and origin[1: origin] some Multipole[1: Multipole]     
+68:132 ;2;    MultipoleModel SubClassOf: Modeling[4: Model] and during[1: during] only Multipole[1: Multipole]                        
+68:132 ;2;    MultipoleModel SubClassOf: Model[1: Model] and during[1: during] only Multipole[1: Multipole]                        
+32:477 ;4;    NyimangLanguage SubClassOf: inverse traverses[2: traverse] some Thing             
+68:326 ;2;    SeriesResonance SubClassOf: Ringing[3: Resonance] and during[1: during] only Ordering[4: Series]                        
+68:326 ;2;    SeriesResonance SubClassOf: Ringing[3: Resonance] and during[1: during] only Order[4: Series]                        
+68:326 ;2;    SeriesResonance SubClassOf: Ringing[3: Resonance] and during[1: during] only Series[1: Series]                        
+68:326 ;2;    SeriesResonance SubClassOf: Resonance[1: Resonance] and during[1: during] only Ordering[4: Series]                        
+68:326 ;2;    SeriesResonance SubClassOf: Resonance[1: Resonance] and during[1: during] only Order[4: Series]                        
+68:326 ;2;    SeriesResonance SubClassOf: Resonance[1: Resonance] and during[1: during] only Series[1: Series]                        
+10:52 ;1;    SeriesResonance SubClassOf: inverse causes[1: causes] some Ordering[4: Series]          
+10:52 ;1;    SeriesResonance SubClassOf: inverse causes[1: causes] some Order[4: Series]          
+10:52 ;1;    SeriesResonance SubClassOf: inverse causes[1: causes] some Series[1: Series]          
+10:52 ;2;    SeriesResonance SubClassOf: inverse causes[1: causes] some Thing       
+15:50 ;1;    SeriesResonance SubClassOf: origin[1: origin] some Ordering[4: Series]            
+15:50 ;1;    SeriesResonance SubClassOf: origin[1: origin] some Order[4: Series]            
+15:50 ;1;    SeriesResonance SubClassOf: origin[1: origin] some Series[1: Series]            
+15:50 ;2;    SeriesResonance EquivalentTo: Ringing[3: Resonance] and origin[1: origin] some Ordering[4: Series]     
+15:50 ;2;    SeriesResonance EquivalentTo: Ringing[3: Resonance] and origin[1: origin] some Order[4: Series]     
+15:50 ;2;    SeriesResonance EquivalentTo: Ringing[3: Resonance] and origin[1: origin] some Series[1: Series]     
+15:50 ;2;    SeriesResonance EquivalentTo: Resonance[1: Resonance] and origin[1: origin] some Ordering[4: Series]     
+15:50 ;2;    SeriesResonance EquivalentTo: Resonance[1: Resonance] and origin[1: origin] some Order[4: Series]     
+15:50 ;2;    SeriesResonance EquivalentTo: Resonance[1: Resonance] and origin[1: origin] some Series[1: Series]     
+99:132 ;4;    GolgiApparatus SubClassOf: measure[2: measures] some Thing     
+32:125 ;4;    GolgiApparatus SubClassOf: inverse traverses[2: traverse] some Thing             
+15:492 ;1;    SeaPort SubClassOf: origin[1: origin] some Sea[1: Sea]            
+15:492 ;1;    SeaPort SubClassOf: origin[1: origin] some Ocean[3: Sea]            
+38:118 ;2;    SeaPort SubClassOf: instance[4: case] some Sea[1: Sea]                        
+38:118 ;2;    SeaPort SubClassOf: instance[4: case] some Ocean[3: Sea]                        
+38:685 ;2;    TelevisionSystem SubClassOf: instance[4: case] some television[1: Television]                        
+38:685 ;2;    TelevisionSystem SubClassOf: instance[4: case] some TV[3: Television]                        
+15:232 ;1;    TelevisionSystem SubClassOf: origin[1: origin] some television[1: Television]            
+15:232 ;1;    TelevisionSystem SubClassOf: origin[1: origin] some TV[3: Television]            
+15:232 ;2;    TelevisionSystem EquivalentTo: Organization[3: System] and origin[1: origin] some television[1: Television]     
+15:232 ;2;    TelevisionSystem EquivalentTo: Organization[3: System] and origin[1: origin] some TV[3: Television]     
+10:133 ;1;    BodyMotion SubClassOf: inverse causes[1: causes] some Torso[3: Body]          
+10:133 ;2;    BodyMotion SubClassOf: inverse causes[1: causes] some Thing       
+32:422 ;4;    MatacoLanguage SubClassOf: inverse traverses[2: traverse] some Thing             
+32:442 ;4;    KatukinanLanguage SubClassOf: inverse traverses[2: traverse] some Thing             
+32:545 ;4;    KeresLanguage SubClassOf: inverse traverses[2: traverse] some Thing             
+38:149 ;2;    InfantryCompany SubClassOf: instance[4: case] some Foot[3: Infantry]                        
+15:711 ;1;    ShipCrew SubClassOf: origin[1: origin] some Ship[1: Ship]            
+32:455 ;4;    HarakmbetLanguage SubClassOf: inverse traverses[2: traverse] some Thing             
+32:674 ;4;    BiochemicalAttack SubClassOf: inverse traverses[2: traverse] some Thing             
+10:177 ;1;    StockOption SubClassOf: inverse causes[1: causes] some Blood[4: Stock]          
+10:177 ;1;    StockOption SubClassOf: inverse causes[1: causes] some Store[4: Stock]          
+10:177 ;1;    StockOption SubClassOf: inverse causes[1: causes] some Share[3: Stock]          
+10:177 ;1;    StockOption SubClassOf: inverse causes[1: causes] some Livestock[3: Stock]          
+10:177 ;1;    StockOption SubClassOf: inverse causes[1: causes] some GunStock[3: Stock]          
+10:177 ;1;    StockOption SubClassOf: inverse causes[1: causes] some Stock[1: Stock]          
+10:177 ;2;    StockOption SubClassOf: inverse causes[1: causes] some Thing       
+32:470 ;4;    NambiquaranLanguage SubClassOf: inverse traverses[2: traverse] some Thing             
+10:154 ;2;    LinguisticExpression SubClassOf: inverse causes[1: causes] some Thing       
+14:835 ;1;    PostcodeArea SubClassOf: Region[4: Area] and contains[2: contain] some Postcode[1: Postcode]                 
+14:835 ;1;    PostcodeArea SubClassOf: Sphere[4: Area] and contains[2: contain] some Postcode[1: Postcode]                 
+14:835 ;1;    PostcodeArea SubClassOf: Field[4: Area] and contains[2: contain] some Postcode[1: Postcode]                 
+14:835 ;2;    PostcodeArea SubClassOf: Region[4: Area] and inverse home[3: place] some Postcode[1: Postcode]         
+14:835 ;2;    PostcodeArea SubClassOf: Region[4: Area] and inverse property[4: place] some Postcode[1: Postcode]         
+14:835 ;2;    PostcodeArea SubClassOf: Sphere[4: Area] and inverse home[3: place] some Postcode[1: Postcode]         
+14:835 ;2;    PostcodeArea SubClassOf: Sphere[4: Area] and inverse property[4: place] some Postcode[1: Postcode]         
+14:835 ;2;    PostcodeArea SubClassOf: Field[4: Area] and inverse home[3: place] some Postcode[1: Postcode]         
+14:835 ;2;    PostcodeArea SubClassOf: Field[4: Area] and inverse property[4: place] some Postcode[1: Postcode]         
+32:385 ;4;    AltaicLanguage SubClassOf: inverse traverses[2: traverse] some Thing             
+32:83 ;2;    NonlinearEquation SubClassOf: inverse traverses[2: traverse] some Nonlinear[1: Nonlinear]                
+32:83 ;4;    NonlinearEquation SubClassOf: inverse traverses[2: traverse] some Thing             
+32:83 ;6;    NonlinearEquation EquivalentTo: Equation[1: Equation] and inverse traverses[2: traverse] some Nonlinear[1: Nonlinear]         
+15:156 ;1;    MultipolePole SubClassOf: origin[1: origin] some Multipole[1: Multipole]            
+15:156 ;2;    MultipolePole EquivalentTo: Terminal[4: Pole] and origin[1: origin] some Multipole[1: Multipole]     
+14:86 ;1;    MultipolePole SubClassOf: Terminal[4: Pole] and contains[2: contain] some Multipole[1: Multipole]                 
+14:86 ;2;    MultipolePole SubClassOf: Terminal[4: Pole] and inverse home[3: place] some Multipole[1: Multipole]         
+14:86 ;2;    MultipolePole SubClassOf: Terminal[4: Pole] and inverse property[4: place] some Multipole[1: Multipole]         
+32:265 ;4;    CushiticLanguage SubClassOf: inverse traverses[2: traverse] some Thing             
+32:207 ;4;    RomanceLanguage SubClassOf: inverse traverses[2: traverse] some Thing             
+10:66 ;2;    OHPTransparency SubClassOf: inverse causes[1: causes] some Thing       
+14:125 ;1;    RestaurantBuilding SubClassOf: Building[1: Building] and contains[2: contain] some Restaurant[1: Restaurant]                 
+14:125 ;2;    RestaurantBuilding SubClassOf: Building[1: Building] and inverse home[3: place] some Restaurant[1: Restaurant]         
+14:125 ;2;    RestaurantBuilding SubClassOf: Building[1: Building] and inverse property[4: place] some Restaurant[1: Restaurant]         
+32:328 ;2;    ShipRegister SubClassOf: inverse traverses[2: traverse] some Ship[1: Ship]                
+32:328 ;4;    ShipRegister SubClassOf: inverse traverses[2: traverse] some Thing             
+15:81 ;1;    ShipRegister SubClassOf: origin[1: origin] some Ship[1: Ship]            
+12:334 ;1;    ChristianBible SubClassOf: Book[4: Bible] and composer[2: composed] some Christian[1: Christian]                 
+12:334 ;1;    ChristianBible SubClassOf: Word[4: Bible] and composer[2: composed] some Christian[1: Christian]                 
+32:111 ;4;    DirectAssault SubClassOf: inverse traverses[2: traverse] some Thing             
+32:169 ;4;    WinnebagoLanguage SubClassOf: inverse traverses[2: traverse] some Thing             
+15:121 ;1;    DirectionChange SubClassOf: origin[1: origin] some Focusing[3: Direction]            
+15:121 ;1;    DirectionChange SubClassOf: origin[1: origin] some Commission[3: Direction]            
+10:239 ;2;    ChemicalSynthesis SubClassOf: inverse causes[1: causes] some Thing       
+32:130 ;4;    OpticalDevice SubClassOf: inverse traverses[2: traverse] some Thing             
+38:223 ;2;    FoodFish SubClassOf: instance[4: case] some Nutrient[4: Food]                        
+15:970 ;1;    PrisonChapel SubClassOf: origin[1: origin] some Prison[1: Prison]            
+32:399 ;4;    AllemannicLanguage SubClassOf: inverse traverses[2: traverse] some Thing             
+10:50 ;2;    AllemannicLanguage SubClassOf: inverse causes[1: causes] some Thing       
+15:515 ;1;    ShipDeck SubClassOf: origin[1: origin] some Ship[1: Ship]            
+15:515 ;2;    ShipDeck EquivalentTo: Packet[3: Deck] and origin[1: origin] some Ship[1: Ship]     
+68:128 ;2;    MultipoleModeling SubClassOf: Modeling[1: Modeling] and during[1: during] only Multipole[1: Multipole]                        
+68:128 ;2;    MultipoleModeling SubClassOf: Model[4: Modeling] and during[1: during] only Multipole[1: Multipole]                        
+38:121 ;2;    MultipoleModeling SubClassOf: instance[4: case] some Multipole[1: Multipole]                        
+38:980 ;2;    HepatitisVirus SubClassOf: instance[4: case] some Hepatitis[1: Hepatitis]                        
+32:771 ;4;    ChemicalAttack SubClassOf: inverse traverses[2: traverse] some Thing             
+10:51 ;2;    ChlamydiaPsittaci SubClassOf: inverse causes[1: causes] some Thing       
+38:868 ;2;    ArtStudio SubClassOf: instance[4: case] some ArtWork[4: Art]                        
+38:116 ;2;    RailroadCompany SubClassOf: instance[4: case] some Railway[4: Railroad]                        
+14:158 ;1;    TimePosition SubClassOf: Position[1: Position] and contains[2: contain] some Hour[4: Time]                 
+14:158 ;1;    TimePosition SubClassOf: Position[1: Position] and contains[2: contain] some Meter[3: Time]                 
+14:158 ;1;    TimePosition SubClassOf: Position[1: Position] and contains[2: contain] some Sentence[4: Time]                 
+14:158 ;1;    TimePosition SubClassOf: Position[1: Position] and contains[2: contain] some Reading[4: Time]                 
+14:158 ;1;    TimePosition SubClassOf: Locating[4: Position] and contains[2: contain] some Hour[4: Time]                 
+14:158 ;1;    TimePosition SubClassOf: Locating[4: Position] and contains[2: contain] some Meter[3: Time]                 
+14:158 ;1;    TimePosition SubClassOf: Locating[4: Position] and contains[2: contain] some Sentence[4: Time]                 
+14:158 ;1;    TimePosition SubClassOf: Locating[4: Position] and contains[2: contain] some Reading[4: Time]                 
+14:158 ;2;    TimePosition SubClassOf: Position[1: Position] and inverse home[3: place] some Hour[4: Time]         
+14:158 ;2;    TimePosition SubClassOf: Position[1: Position] and inverse home[3: place] some Meter[3: Time]         
+14:158 ;2;    TimePosition SubClassOf: Position[1: Position] and inverse home[3: place] some Sentence[4: Time]         
+14:158 ;2;    TimePosition SubClassOf: Position[1: Position] and inverse home[3: place] some Reading[4: Time]         
+14:158 ;2;    TimePosition SubClassOf: Position[1: Position] and inverse property[4: place] some Hour[4: Time]         
+14:158 ;2;    TimePosition SubClassOf: Position[1: Position] and inverse property[4: place] some Meter[3: Time]         
+14:158 ;2;    TimePosition SubClassOf: Position[1: Position] and inverse property[4: place] some Sentence[4: Time]         
+14:158 ;2;    TimePosition SubClassOf: Position[1: Position] and inverse property[4: place] some Reading[4: Time]         
+14:158 ;2;    TimePosition SubClassOf: Locating[4: Position] and inverse home[3: place] some Hour[4: Time]         
+14:158 ;2;    TimePosition SubClassOf: Locating[4: Position] and inverse home[3: place] some Meter[3: Time]         
+14:158 ;2;    TimePosition SubClassOf: Locating[4: Position] and inverse home[3: place] some Sentence[4: Time]         
+14:158 ;2;    TimePosition SubClassOf: Locating[4: Position] and inverse home[3: place] some Reading[4: Time]         
+14:158 ;2;    TimePosition SubClassOf: Locating[4: Position] and inverse property[4: place] some Hour[4: Time]         
+14:158 ;2;    TimePosition SubClassOf: Locating[4: Position] and inverse property[4: place] some Meter[3: Time]         
+14:158 ;2;    TimePosition SubClassOf: Locating[4: Position] and inverse property[4: place] some Sentence[4: Time]         
+14:158 ;2;    TimePosition SubClassOf: Locating[4: Position] and inverse property[4: place] some Reading[4: Time]         
+68:135 ;2;    TimePosition SubClassOf: Position[1: Position] and during[1: during] only Hour[4: Time]                        
+68:135 ;2;    TimePosition SubClassOf: Position[1: Position] and during[1: during] only Meter[3: Time]                        
+68:135 ;2;    TimePosition SubClassOf: Position[1: Position] and during[1: during] only Sentence[4: Time]                        
+68:135 ;2;    TimePosition SubClassOf: Position[1: Position] and during[1: during] only Reading[4: Time]                        
+68:135 ;2;    TimePosition SubClassOf: Locating[4: Position] and during[1: during] only Hour[4: Time]                        
+68:135 ;2;    TimePosition SubClassOf: Locating[4: Position] and during[1: during] only Meter[3: Time]                        
+68:135 ;2;    TimePosition SubClassOf: Locating[4: Position] and during[1: during] only Sentence[4: Time]                        
+68:135 ;2;    TimePosition SubClassOf: Locating[4: Position] and during[1: during] only Reading[4: Time]                        
+32:644 ;4;    MadeiraLanguage SubClassOf: inverse traverses[2: traverse] some Thing             
+32:472 ;4;    TobaruLanguage SubClassOf: inverse traverses[2: traverse] some Thing             
+15:745 ;1;    ComputerPassword SubClassOf: origin[1: origin] some Computer[1: Computer]            
+15:745 ;2;    ComputerPassword EquivalentTo: Word[3: Password] and origin[1: origin] some Computer[1: Computer]     
+12:78 ;1;    ComputerPassword SubClassOf: Word[3: Password] and composer[2: composed] some Computer[1: Computer]                 
+5:58 ;2;    BodyPart EquivalentTo: Torso[3: Body] and Function[4: Part] 
+5:58 ;2;    BodyPart EquivalentTo: Torso[3: Body] and Region[4: Part] 
+5:58 ;2;    BodyPart EquivalentTo: Torso[3: Body] and Character[4: Part] 
+5:58 ;2;    BodyPart EquivalentTo: Torso[3: Body] and Share[3: Part] 
+32:114 ;4;    FetTransistor SubClassOf: inverse traverses[2: traverse] some Thing             
+32:764 ;2;    ComputerUser SubClassOf: inverse traverses[2: traverse] some Computer[1: Computer]                
+32:764 ;4;    ComputerUser SubClassOf: inverse traverses[2: traverse] some Thing             
+32:469 ;4;    PamanLanguage SubClassOf: inverse traverses[2: traverse] some Thing             
+32:391 ;4;    GermanicLanguage SubClassOf: inverse traverses[2: traverse] some Thing             
+10:76 ;2;    GermanicLanguage SubClassOf: inverse causes[1: causes] some Thing       
+10:113 ;2;    FinancialDefault SubClassOf: inverse causes[1: causes] some Thing       
+15:181 ;1;    CityBlock SubClassOf: origin[1: origin] some City[1: City]            
+32:695 ;2;    HandgrenadeAttack SubClassOf: inverse traverses[2: traverse] some HandGrenade[1: Handgrenade]                
+32:695 ;4;    HandgrenadeAttack SubClassOf: inverse traverses[2: traverse] some Thing             
+32:695 ;6;    HandgrenadeAttack EquivalentTo: Attack[1: Attack] and inverse traverses[2: traverse] some HandGrenade[1: Handgrenade]         
+32:695 ;6;    HandgrenadeAttack EquivalentTo: Fire[3: Attack] and inverse traverses[2: traverse] some HandGrenade[1: Handgrenade]         
+15:86 ;1;    HandgrenadeAttack SubClassOf: origin[1: origin] some HandGrenade[1: Handgrenade]            
+15:86 ;2;    HandgrenadeAttack EquivalentTo: Attack[1: Attack] and origin[1: origin] some HandGrenade[1: Handgrenade]     
+15:86 ;2;    HandgrenadeAttack EquivalentTo: Fire[3: Attack] and origin[1: origin] some HandGrenade[1: Handgrenade]     
+32:917 ;2;    CarBombing SubClassOf: inverse traverses[2: traverse] some Automobile[4: Car]                
+32:917 ;2;    CarBombing SubClassOf: inverse traverses[2: traverse] some Railcar[4: Car]                
+32:917 ;2;    CarBombing SubClassOf: inverse traverses[2: traverse] some Machine[4: Car]                
+32:917 ;4;    CarBombing SubClassOf: inverse traverses[2: traverse] some Thing             
+32:917 ;6;    CarBombing EquivalentTo: Bombing[1: Bombing] and inverse traverses[2: traverse] some Automobile[4: Car]         
+32:917 ;6;    CarBombing EquivalentTo: Bombing[1: Bombing] and inverse traverses[2: traverse] some Railcar[4: Car]         
+32:917 ;6;    CarBombing EquivalentTo: Bombing[1: Bombing] and inverse traverses[2: traverse] some Machine[4: Car]         
+38:902 ;2;    VideoRecording SubClassOf: instance[4: case] some television[4: Video]                        
+38:902 ;2;    VideoRecording SubClassOf: instance[4: case] some TV[4: Video]                        
+15:91 ;1;    HairRemoval SubClassOf: origin[1: origin] some Hair[1: Hair]            
+12:305 ;1;    VerbPhrase SubClassOf: Phrase[1: Phrase] and composer[2: composed] some Verb[1: Verb]                 
+5:75 ;2;    VerbPhrase EquivalentTo: Verb[1: Verb] and Phrase[1: Phrase] 
+32:112 ;2;    WaterOverutilization SubClassOf: inverse traverses[2: traverse] some Water[1: Water]                
+32:112 ;4;    WaterOverutilization SubClassOf: inverse traverses[2: traverse] some Thing             
+15:59 ;1;    WaterOverutilization SubClassOf: origin[1: origin] some Water[1: Water]            
+32:466 ;4;    ZaparoanLanguage SubClassOf: inverse traverses[2: traverse] some Thing             
+38:255 ;2;    OrganismProcess SubClassOf: instance[4: case] some Organism[1: Organism]                        
+99:731 ;1;    PerformanceMeasure EquivalentTo: Meter[4: Measure] and measure[2: measures] some Demonstration[4: Performance] 
+99:731 ;1;    PerformanceMeasure EquivalentTo: Meter[4: Measure] and measure[2: measures] some Performance[1: Performance] 
+99:731 ;1;    PerformanceMeasure EquivalentTo: Meter[4: Measure] and measure[2: measures] some Execution[4: Performance] 
+99:731 ;1;    PerformanceMeasure EquivalentTo: Measuring[4: Measure] and measure[2: measures] some Demonstration[4: Performance] 
+99:731 ;1;    PerformanceMeasure EquivalentTo: Measuring[4: Measure] and measure[2: measures] some Performance[1: Performance] 
+99:731 ;1;    PerformanceMeasure EquivalentTo: Measuring[4: Measure] and measure[2: measures] some Execution[4: Performance] 
+99:731 ;1;    PerformanceMeasure EquivalentTo: Quantity[4: Measure] and measure[2: measures] some Demonstration[4: Performance] 
+99:731 ;1;    PerformanceMeasure EquivalentTo: Quantity[4: Measure] and measure[2: measures] some Performance[1: Performance] 
+99:731 ;1;    PerformanceMeasure EquivalentTo: Quantity[4: Measure] and measure[2: measures] some Execution[4: Performance] 
+99:731 ;3;    PerformanceMeasure SubClassOf: measure[2: measures] some Demonstration[4: Performance]        
+99:731 ;3;    PerformanceMeasure SubClassOf: measure[2: measures] some Performance[1: Performance]        
+99:731 ;3;    PerformanceMeasure SubClassOf: measure[2: measures] some Execution[4: Performance]        
+99:731 ;4;    PerformanceMeasure SubClassOf: measure[2: measures] some Thing     
+15:124 ;1;    GraphLoop SubClassOf: origin[1: origin] some Graph[1: Graph]            
+38:64 ;2;    GraphDiagram SubClassOf: instance[4: case] some Graph[1: Graph]                        
+38:171 ;2;    EnvelopedVirus SubClassOf: instance[4: case] some Envelope[2: Enveloped]                        
+68:107 ;2;    EnvelopedVirus SubClassOf: Virus[1: Virus] and during[1: during] only Envelope[2: Enveloped]                        
+15:209 ;1;    ConsulateGeneral SubClassOf: origin[1: origin] some Consulate[1: Consulate]            
+99:51 ;4;    AstronomyDomain SubClassOf: measure[2: measures] some Thing     
+10:318 ;1;    AnimalLanguage SubClassOf: inverse causes[1: causes] some Animal[1: Animal]          
+10:318 ;2;    AnimalLanguage SubClassOf: inverse causes[1: causes] some Thing       
+32:91 ;2;    AnimalLanguage SubClassOf: inverse traverses[2: traverse] some Animal[1: Animal]                
+32:91 ;4;    AnimalLanguage SubClassOf: inverse traverses[2: traverse] some Thing             
+32:91 ;6;    AnimalLanguage EquivalentTo: Tongue[4: Language] and inverse traverses[2: traverse] some Animal[1: Animal]         
+32:91 ;6;    AnimalLanguage EquivalentTo: Language[1: Language] and inverse traverses[2: traverse] some Animal[1: Animal]         
+32:91 ;6;    AnimalLanguage EquivalentTo: Reading[4: Language] and inverse traverses[2: traverse] some Animal[1: Animal]         
+32:326 ;2;    WingDevice SubClassOf: inverse traverses[2: traverse] some Wing[1: Wing]                
+32:326 ;4;    WingDevice SubClassOf: inverse traverses[2: traverse] some Thing             
+32:326 ;6;    WingDevice EquivalentTo: Device[1: Device] and inverse traverses[2: traverse] some Wing[1: Wing]         
+15:131 ;1;    WingDevice SubClassOf: origin[1: origin] some Wing[1: Wing]            
+15:131 ;2;    WingDevice EquivalentTo: Device[1: Device] and origin[1: origin] some Wing[1: Wing]     
+38:985 ;2;    SecurityDevice SubClassOf: instance[4: case] some Certificate[4: Security]                        
+38:985 ;2;    SecurityDevice SubClassOf: instance[4: case] some Security[1: Security]                        
+15:228 ;1;    RootLocus SubClassOf: origin[1: origin] some Base[3: Root]            
+15:228 ;1;    RootLocus SubClassOf: origin[1: origin] some Solution[3: Root]            
+15:228 ;1;    RootLocus SubClassOf: origin[1: origin] some Source[4: Root]            
+15:976 ;1;    OceanLiner SubClassOf: origin[1: origin] some Sea[3: Ocean]            
+15:976 ;1;    OceanLiner SubClassOf: origin[1: origin] some Ocean[1: Ocean]            
+1:464 ;1;    MultipoleQuantity EquivalentTo: measure[4: Quantity] some Multipole[1: Multipole]             
+10:76 ;1;    BrokerLoan SubClassOf: inverse causes[1: causes] some Agent[4: Broker]          
+10:76 ;1;    BrokerLoan SubClassOf: inverse causes[1: causes] some Broker[1: Broker]          
+10:76 ;2;    BrokerLoan SubClassOf: inverse causes[1: causes] some Thing       
+5:61 ;2;    BrokerLoan EquivalentTo: Agent[4: Broker] and Loan[1: Loan] 
+5:61 ;2;    BrokerLoan EquivalentTo: Broker[1: Broker] and Loan[1: Loan] 
+10:105 ;2;    OvercastWeather SubClassOf: inverse causes[1: causes] some Thing       
+15:899 ;1;    ComputerData SubClassOf: origin[1: origin] some Computer[1: Computer]            
+15:376 ;1;    AirPollution SubClassOf: origin[1: origin] some Atmosphere[3: Air]            
+15:376 ;1;    AirPollution SubClassOf: origin[1: origin] some Flying[4: Air]            
+15:376 ;1;    AirPollution SubClassOf: origin[1: origin] some Air[1: Air]            
+15:376 ;2;    AirPollution EquivalentTo: Pollution[1: Pollution] and origin[1: origin] some Atmosphere[3: Air]     
+15:376 ;2;    AirPollution EquivalentTo: Pollution[1: Pollution] and origin[1: origin] some Flying[4: Air]     
+15:376 ;2;    AirPollution EquivalentTo: Pollution[1: Pollution] and origin[1: origin] some Air[1: Air]     
+10:104 ;2;    LegalCharge SubClassOf: inverse causes[1: causes] some Thing       
+5:553 ;2;    ArcticRegion EquivalentTo: Rubber[3: Arctic] and Region[1: Region] 
+14:345 ;1;    ArcticRegion SubClassOf: Region[1: Region] and contains[2: contain] some Rubber[3: Arctic]                 
+14:345 ;2;    ArcticRegion SubClassOf: Region[1: Region] and inverse property[4: place] some Rubber[3: Arctic]         
+15:69 ;1;    AgentID SubClassOf: origin[1: origin] some Agent[1: Agent]            
+15:69 ;1;    AgentID SubClassOf: origin[1: origin] some Broker[4: Agent]            
+14:191 ;1;    HopperDredger SubClassOf: Dredger[1: Dredger] and contains[2: contain] some Grasshopper[4: Hopper]                 
+14:191 ;2;    HopperDredger SubClassOf: Dredger[1: Dredger] and inverse home[3: place] some Grasshopper[4: Hopper]         
+14:191 ;2;    HopperDredger SubClassOf: Dredger[1: Dredger] and inverse property[4: place] some Grasshopper[4: Hopper]         
+32:119 ;2;    HopperDredger SubClassOf: inverse traverses[2: traverse] some Grasshopper[4: Hopper]                
+32:119 ;4;    HopperDredger SubClassOf: inverse traverses[2: traverse] some Thing             
+32:119 ;6;    HopperDredger EquivalentTo: Dredger[1: Dredger] and inverse traverses[2: traverse] some Grasshopper[4: Hopper]         
+15:883 ;1;    TerminalGuidance SubClassOf: origin[1: origin] some Terminal[1: Terminal]            
+5:418 ;2;    DigitAppendage EquivalentTo: Finger[3: Digit] and Process[4: Appendage] 
+5:418 ;2;    DigitAppendage EquivalentTo: Finger[3: Digit] and Handle[4: Appendage] 
+38:103 ;2;    DigitAppendage SubClassOf: instance[4: case] some Finger[3: Digit]                        
+32:368 ;2;    AirportClassification SubClassOf: inverse traverses[2: traverse] some Airport[1: Airport]                
+32:368 ;4;    AirportClassification SubClassOf: inverse traverses[2: traverse] some Thing             
+15:232 ;1;    AirportClassification SubClassOf: origin[1: origin] some Airport[1: Airport]            
+32:470 ;4;    AruanLanguage SubClassOf: inverse traverses[2: traverse] some Thing             
+32:162 ;4;    ReceiverDevice SubClassOf: inverse traverses[2: traverse] some Thing             
+38:50 ;2;    Tabun SubClassOf: instance[4: case] some Check[3: Tab]                        
+15:145 ;1;    VehicleTire SubClassOf: origin[1: origin] some Vehicle[1: Vehicle]            
+1:210 ;1;    LoanCommitment EquivalentTo: allegiance[4: Commitment] some Loan[1: Loan]             
+10:146 ;1;    LoanCommitment SubClassOf: inverse causes[1: causes] some Loan[1: Loan]          
+10:146 ;2;    LoanCommitment SubClassOf: inverse causes[1: causes] some Thing       
+38:681 ;2;    HumanChild SubClassOf: instance[4: case] some Human[1: Human]                        
+38:681 ;2;    HumanChild SubClassOf: instance[4: case] some Man[4: Human]                        
+99:50 ;3;    HumanChild SubClassOf: measure[2: measures] some Human[1: Human]        
+99:50 ;3;    HumanChild SubClassOf: measure[2: measures] some Man[4: Human]        
+99:50 ;4;    HumanChild SubClassOf: measure[2: measures] some Thing     
+32:592 ;4;    RailVehicle SubClassOf: inverse traverses[2: traverse] some Thing             
+15:339 ;1;    ShipCabin SubClassOf: origin[1: origin] some Ship[1: Ship]            
+38:67 ;2;    ShipCabin SubClassOf: instance[4: case] some Ship[1: Ship]                        
+10:369 ;1;    BirdEgg SubClassOf: inverse causes[1: causes] some Bird[1: Bird]          
+10:369 ;2;    BirdEgg SubClassOf: inverse causes[1: causes] some Thing       
+12:85 ;1;    BirdEgg SubClassOf: Nut[4: Egg] and composer[2: composed] some Bird[1: Bird]                 
+12:85 ;1;    BirdEgg SubClassOf: Ball[4: Egg] and composer[2: composed] some Bird[1: Bird]                 
+12:85 ;1;    BirdEgg SubClassOf: Egg[1: Egg] and composer[2: composed] some Bird[1: Bird]                 
+10:55 ;1;    ThrustFault SubClassOf: inverse causes[1: causes] some Poking[3: Thrust]          
+10:55 ;2;    ThrustFault SubClassOf: inverse causes[1: causes] some Thing       
+10:136 ;1;    BusinessCompetition SubClassOf: inverse causes[1: causes] some Busness[2: Business]          
+10:136 ;1;    BusinessCompetition SubClassOf: inverse causes[1: causes] some Business[1: Business]          
+10:136 ;2;    BusinessCompetition SubClassOf: inverse causes[1: causes] some Thing       
+32:473 ;4;    QuechuanLanguage SubClassOf: inverse traverses[2: traverse] some Thing             
+15:734 ;1;    TerritoryCode SubClassOf: origin[1: origin] some Soil[3: Territory]            
+32:147 ;4;    BesselsEquation SubClassOf: inverse traverses[2: traverse] some Thing             
+15:754 ;1;    AirReconnaissance SubClassOf: origin[1: origin] some Atmosphere[3: Air]            
+15:754 ;1;    AirReconnaissance SubClassOf: origin[1: origin] some Flying[4: Air]            
+15:754 ;1;    AirReconnaissance SubClassOf: origin[1: origin] some Air[1: Air]            
+32:513 ;4;    BiochemicalWeapon SubClassOf: inverse traverses[2: traverse] some Thing             
+12:896 ;1;    InfantryUnit SubClassOf: Artifact[4: Unit] and composer[2: composed] some Foot[3: Infantry]                 
+68:994 ;2;    NightTime SubClassOf: Hour[4: Time] and during[1: during] only NightTime[4: Night]                        
+68:994 ;2;    NightTime SubClassOf: Meter[3: Time] and during[1: during] only NightTime[4: Night]                        
+68:994 ;2;    NightTime SubClassOf: Sentence[4: Time] and during[1: during] only NightTime[4: Night]                        
+68:994 ;2;    NightTime SubClassOf: Reading[4: Time] and during[1: during] only NightTime[4: Night]                        
+99:117 ;4;    VariolaMinor SubClassOf: measure[2: measures] some Thing     
+32:102 ;2;    ComputerPath SubClassOf: inverse traverses[2: traverse] some Computer[1: Computer]                
+32:102 ;4;    ComputerPath SubClassOf: inverse traverses[2: traverse] some Thing             
+15:80 ;1;    ComputerPath SubClassOf: origin[1: origin] some Computer[1: Computer]            
+38:248 ;2;    TelephoneLine SubClassOf: instance[4: case] some telephone[1: Telephone]                        
+38:248 ;2;    TelephoneLine SubClassOf: instance[4: case] some Telephone[1: Telephone]                        
+32:133 ;2;    TelephoneLine SubClassOf: inverse traverses[2: traverse] some telephone[1: Telephone]                
+32:133 ;2;    TelephoneLine SubClassOf: inverse traverses[2: traverse] some Telephone[1: Telephone]                
+32:133 ;4;    TelephoneLine SubClassOf: inverse traverses[2: traverse] some Thing             
+32:133 ;6;    TelephoneLine EquivalentTo: Pipeline[4: Line] and inverse traverses[2: traverse] some telephone[1: Telephone]         
+32:133 ;6;    TelephoneLine EquivalentTo: Pipeline[4: Line] and inverse traverses[2: traverse] some Telephone[1: Telephone]         
+32:133 ;6;    TelephoneLine EquivalentTo: Blood[4: Line] and inverse traverses[2: traverse] some telephone[1: Telephone]         
+32:133 ;6;    TelephoneLine EquivalentTo: Blood[4: Line] and inverse traverses[2: traverse] some Telephone[1: Telephone]         
+32:133 ;6;    TelephoneLine EquivalentTo: Air[4: Line] and inverse traverses[2: traverse] some telephone[1: Telephone]         
+32:133 ;6;    TelephoneLine EquivalentTo: Air[4: Line] and inverse traverses[2: traverse] some Telephone[1: Telephone]         
+32:133 ;6;    TelephoneLine EquivalentTo: Business[4: Line] and inverse traverses[2: traverse] some telephone[1: Telephone]         
+32:133 ;6;    TelephoneLine EquivalentTo: Business[4: Line] and inverse traverses[2: traverse] some Telephone[1: Telephone]         
+32:133 ;6;    TelephoneLine EquivalentTo: Stock[4: Line] and inverse traverses[2: traverse] some telephone[1: Telephone]         
+32:133 ;6;    TelephoneLine EquivalentTo: Stock[4: Line] and inverse traverses[2: traverse] some Telephone[1: Telephone]         
+32:133 ;6;    TelephoneLine EquivalentTo: Note[3: Line] and inverse traverses[2: traverse] some telephone[1: Telephone]         
+32:133 ;6;    TelephoneLine EquivalentTo: Note[3: Line] and inverse traverses[2: traverse] some Telephone[1: Telephone]         
+32:133 ;6;    TelephoneLine EquivalentTo: Channel[4: Line] and inverse traverses[2: traverse] some telephone[1: Telephone]         
+32:133 ;6;    TelephoneLine EquivalentTo: Channel[4: Line] and inverse traverses[2: traverse] some Telephone[1: Telephone]         
+12:609 ;1;    CanalSystem SubClassOf: Organization[3: System] and composer[2: composed] some Canal[1: Canal]                 
+12:609 ;1;    CanalSystem SubClassOf: Organization[3: System] and composer[2: composed] some Channel[4: Canal]                 
+32:443 ;4;    TotonacanLanguage SubClassOf: inverse traverses[2: traverse] some Thing             
+38:123 ;2;    AntigenB SubClassOf: instance[4: case] some AntigenA[2: Antigen]                        
+38:123 ;2;    AntigenB SubClassOf: instance[4: case] some AntigenB[2: Antigen]                        
+38:123 ;2;    AntigenB SubClassOf: instance[4: case] some Antigen[1: Antigen]                        
+32:452 ;4;    YukaghirLanguage SubClassOf: inverse traverses[2: traverse] some Thing             
+5:999 ;2;    HostNation EquivalentTo: Server[3: Host] and Nation[1: Nation] 
+10:127 ;1;    BaseballSteal SubClassOf: inverse causes[1: causes] some Baseball[1: Baseball]          
+10:127 ;1;    BaseballSteal SubClassOf: inverse causes[1: causes] some Ball[4: Baseball]          
+10:127 ;2;    BaseballSteal SubClassOf: inverse causes[1: causes] some Thing       
+32:874 ;2;    SuicideBombing SubClassOf: inverse traverses[2: traverse] some Suicide[1: Suicide]                
+32:874 ;4;    SuicideBombing SubClassOf: inverse traverses[2: traverse] some Thing             
+32:874 ;6;    SuicideBombing EquivalentTo: Bombing[1: Bombing] and inverse traverses[2: traverse] some Suicide[1: Suicide]         
+99:86 ;4;    LegalSummons SubClassOf: measure[2: measures] some Thing     
+38:872 ;2;    SecurityUnit SubClassOf: instance[4: case] some Certificate[4: Security]                        
+38:872 ;2;    SecurityUnit SubClassOf: instance[4: case] some Security[1: Security]                        
+32:399 ;4;    AlemannicLanguage SubClassOf: inverse traverses[2: traverse] some Thing             
+10:50 ;2;    AlemannicLanguage SubClassOf: inverse causes[1: causes] some Thing       
+32:472 ;4;    KhandesiLanguage SubClassOf: inverse traverses[2: traverse] some Thing             
+38:744 ;2;    ContentDevelopment SubClassOf: instance[4: case] some Message[4: Content]                        
+38:744 ;2;    ContentDevelopment SubClassOf: instance[4: case] some Contest[2: Content]                        
+38:744 ;2;    ContentDevelopment SubClassOf: instance[4: case] some Substance[4: Content]                        
+32:86 ;2;    SystemSpecification SubClassOf: inverse traverses[2: traverse] some Organization[3: System]                
+32:86 ;4;    SystemSpecification SubClassOf: inverse traverses[2: traverse] some Thing             
+15:632 ;1;    WaterBuffalo SubClassOf: origin[1: origin] some Water[1: Water]            
+32:284 ;4;    PashtoLanguage SubClassOf: inverse traverses[2: traverse] some Thing             
+32:279 ;4;    PenutianLanguage SubClassOf: inverse traverses[2: traverse] some Thing             
+32:58 ;4;    DravidianLanguage SubClassOf: inverse traverses[2: traverse] some Thing             
+32:470 ;4;    ZanLanguage SubClassOf: inverse traverses[2: traverse] some Thing             
+38:275 ;2;    SoilSolution SubClassOf: instance[4: case] some Soil[1: Soil]                        
+15:507 ;1;    GulfLanguage SubClassOf: origin[1: origin] some Gulf[1: Gulf]            
+15:507 ;2;    GulfLanguage EquivalentTo: Tongue[4: Language] and origin[1: origin] some Gulf[1: Gulf]     
+15:507 ;2;    GulfLanguage EquivalentTo: Language[1: Language] and origin[1: origin] some Gulf[1: Gulf]     
+15:507 ;2;    GulfLanguage EquivalentTo: Reading[4: Language] and origin[1: origin] some Gulf[1: Gulf]     
+32:192 ;2;    GulfLanguage SubClassOf: inverse traverses[2: traverse] some Gulf[1: Gulf]                
+32:192 ;4;    GulfLanguage SubClassOf: inverse traverses[2: traverse] some Thing             
+32:192 ;6;    GulfLanguage EquivalentTo: Tongue[4: Language] and inverse traverses[2: traverse] some Gulf[1: Gulf]         
+32:192 ;6;    GulfLanguage EquivalentTo: Language[1: Language] and inverse traverses[2: traverse] some Gulf[1: Gulf]         
+32:192 ;6;    GulfLanguage EquivalentTo: Reading[4: Language] and inverse traverses[2: traverse] some Gulf[1: Gulf]         
+15:401 ;1;    StateChange SubClassOf: origin[1: origin] some Nation[4: State]            
+15:705 ;1;    PlantRoot SubClassOf: origin[1: origin] some Plant[1: Plant]            
+15:705 ;2;    PlantRoot EquivalentTo: Base[3: Root] and origin[1: origin] some Plant[1: Plant]     
+15:705 ;2;    PlantRoot EquivalentTo: Source[4: Root] and origin[1: origin] some Plant[1: Plant]     
+14:264 ;1;    ProjectileShell SubClassOf: Shield[4: Shell] and contains[2: contain] some Missile[4: Projectile]                 
+14:264 ;1;    ProjectileShell SubClassOf: Shield[4: Shell] and contains[2: contain] some Projectile[1: Projectile]                 
+14:264 ;2;    ProjectileShell SubClassOf: Shield[4: Shell] and inverse property[4: place] some Missile[4: Projectile]         
+14:264 ;2;    ProjectileShell SubClassOf: Shield[4: Shell] and inverse property[4: place] some Projectile[1: Projectile]         
+12:88 ;1;    ProjectileShell SubClassOf: Shield[4: Shell] and composer[2: composed] some Missile[4: Projectile]                 
+12:88 ;1;    ProjectileShell SubClassOf: Shield[4: Shell] and composer[2: composed] some Projectile[1: Projectile]                 
+32:832 ;4;    EmailMessage SubClassOf: inverse traverses[2: traverse] some Thing             
+32:539 ;4;    PastoLanguage SubClassOf: inverse traverses[2: traverse] some Thing             
+99:177 ;1;    FootballManeuver EquivalentTo: Maneuver[1: Maneuver] and measure[2: measures] some Football[1: Football] 
+99:177 ;3;    FootballManeuver SubClassOf: measure[2: measures] some Football[1: Football]        
+99:177 ;4;    FootballManeuver SubClassOf: measure[2: measures] some Thing     
+15:405 ;1;    NailDigit SubClassOf: origin[1: origin] some Nail[1: Nail]            
+15:405 ;2;    NailDigit EquivalentTo: Finger[3: Digit] and origin[1: origin] some Nail[1: Nail]     
+15:367 ;1;    HighTide SubClassOf: origin[1: origin] some HighSchool[3: High]            
+15:367 ;2;    HighTide EquivalentTo: Tide[1: Tide] and origin[1: origin] some HighSchool[3: High]     
+15:146 ;1;    CellNucleus SubClassOf: origin[1: origin] some Cell[1: Cell]            
+32:385 ;2;    CounterOperation SubClassOf: inverse traverses[2: traverse] some Mouth[3: Counter]                
+32:385 ;2;    CounterOperation SubClassOf: inverse traverses[2: traverse] some Lip[3: Counter]                
+32:385 ;2;    CounterOperation SubClassOf: inverse traverses[2: traverse] some Replication[3: Counter]                
+32:385 ;4;    CounterOperation SubClassOf: inverse traverses[2: traverse] some Thing             
+32:385 ;6;    CounterOperation EquivalentTo: Procedure[3: Operation] and inverse traverses[2: traverse] some Mouth[3: Counter]         
+32:385 ;6;    CounterOperation EquivalentTo: Procedure[3: Operation] and inverse traverses[2: traverse] some Lip[3: Counter]         
+32:385 ;6;    CounterOperation EquivalentTo: Procedure[3: Operation] and inverse traverses[2: traverse] some Replication[3: Counter]         
+32:385 ;6;    CounterOperation EquivalentTo: Performance[3: Operation] and inverse traverses[2: traverse] some Mouth[3: Counter]         
+32:385 ;6;    CounterOperation EquivalentTo: Performance[3: Operation] and inverse traverses[2: traverse] some Lip[3: Counter]         
+32:385 ;6;    CounterOperation EquivalentTo: Performance[3: Operation] and inverse traverses[2: traverse] some Replication[3: Counter]         
+32:385 ;6;    CounterOperation EquivalentTo: Process[4: Operation] and inverse traverses[2: traverse] some Mouth[3: Counter]         
+32:385 ;6;    CounterOperation EquivalentTo: Process[4: Operation] and inverse traverses[2: traverse] some Lip[3: Counter]         
+32:385 ;6;    CounterOperation EquivalentTo: Process[4: Operation] and inverse traverses[2: traverse] some Replication[3: Counter]         
+32:385 ;6;    CounterOperation EquivalentTo: Surgery[4: Operation] and inverse traverses[2: traverse] some Mouth[3: Counter]         
+32:385 ;6;    CounterOperation EquivalentTo: Surgery[4: Operation] and inverse traverses[2: traverse] some Lip[3: Counter]         
+32:385 ;6;    CounterOperation EquivalentTo: Surgery[4: Operation] and inverse traverses[2: traverse] some Replication[3: Counter]         
+38:341 ;2;    CounterOperation SubClassOf: instance[4: case] some Mouth[3: Counter]                        
+38:341 ;2;    CounterOperation SubClassOf: instance[4: case] some Lip[3: Counter]                        
+38:341 ;2;    CounterOperation SubClassOf: instance[4: case] some Replication[3: Counter]                        
+14:325 ;1;    CellEnvelope SubClassOf: Envelope[1: Envelope] and contains[2: contain] some Cell[1: Cell]                 
+14:325 ;2;    CellEnvelope SubClassOf: Envelope[1: Envelope] and inverse home[3: place] some Cell[1: Cell]         
+14:325 ;2;    CellEnvelope SubClassOf: Envelope[1: Envelope] and inverse property[4: place] some Cell[1: Cell]         
+32:60 ;4;    SpoolValve SubClassOf: inverse traverses[2: traverse] some Thing             
+15:91 ;1;    AnimalSkin SubClassOf: origin[1: origin] some Animal[1: Animal]            
+15:91 ;2;    AnimalSkin EquivalentTo: Skin[1: Skin] and origin[1: origin] some Animal[1: Animal]     
+15:91 ;2;    AnimalSkin EquivalentTo: Pelt[3: Skin] and origin[1: origin] some Animal[1: Animal]     
+10:54 ;1;    AnimalSkin SubClassOf: inverse causes[1: causes] some Animal[1: Animal]          
+10:54 ;2;    AnimalSkin SubClassOf: inverse causes[1: causes] some Thing       
+38:78 ;2;    ComputerTask SubClassOf: instance[4: case] some Computer[1: Computer]                        
+15:52 ;1;    ComputerTask SubClassOf: origin[1: origin] some Computer[1: Computer]            
+38:221 ;2;    ATMMachine SubClassOf: instance[4: case] some Atmosphere[3: ATM]                        
+32:528 ;4;    BhilLanguage SubClassOf: inverse traverses[2: traverse] some Thing             
+32:482 ;4;    TonalLanguage SubClassOf: inverse traverses[2: traverse] some Thing             
+32:289 ;4;    BrythonicLanguage SubClassOf: inverse traverses[2: traverse] some Thing             
+32:188 ;4;    JointOperation SubClassOf: inverse traverses[2: traverse] some Thing             
+15:237 ;1;    VehicleBrake SubClassOf: origin[1: origin] some Vehicle[1: Vehicle]            
+32:79 ;2;    VehicleBrake SubClassOf: inverse traverses[2: traverse] some Vehicle[1: Vehicle]                
+32:79 ;4;    VehicleBrake SubClassOf: inverse traverses[2: traverse] some Thing             
+15:935 ;1;    TelevisionReceiver SubClassOf: origin[1: origin] some television[1: Television]            
+15:935 ;1;    TelevisionReceiver SubClassOf: origin[1: origin] some TV[3: Television]            
+32:85 ;4;    LARBattalion SubClassOf: inverse traverses[2: traverse] some Thing             
+32:469 ;4;    GuahibanLanguage SubClassOf: inverse traverses[2: traverse] some Thing             
+99:110 ;4;    AlphabeticString SubClassOf: measure[2: measures] some Thing     
+10:142 ;2;    TankCar SubClassOf: inverse causes[1: causes] some Thing       
+32:112 ;4;    TankCar SubClassOf: inverse traverses[2: traverse] some Thing             
+12:943 ;1;    ArtilleryBattery SubClassOf: Battery[1: Battery] and composer[2: composed] some Battery[3: Artillery]                 
+12:943 ;1;    ArtilleryBattery SubClassOf: Battery[1: Battery] and composer[2: composed] some Weapon[3: Artillery]                 
+12:943 ;1;    ArtilleryBattery SubClassOf: Battery[1: Battery] and composer[2: composed] some Gun[4: Artillery]                 
+38:368 ;2;    ShipCompartment SubClassOf: instance[4: case] some Ship[1: Ship]                        
+15:73 ;1;    ShipCompartment SubClassOf: origin[1: origin] some Ship[1: Ship]            
+15:73 ;2;    ShipCompartment EquivalentTo: Compartment[1: Compartment] and origin[1: origin] some Ship[1: Ship]     
+14:199 ;1;    CabCar SubClassOf: Railcar[4: Car] and contains[2: contain] some Taxicab[4: Cab]                 
+14:199 ;1;    CabCar SubClassOf: Machine[4: Car] and contains[2: contain] some Taxicab[4: Cab]                 
+14:199 ;2;    CabCar SubClassOf: Railcar[4: Car] and inverse property[4: place] some Taxicab[4: Cab]         
+14:199 ;2;    CabCar SubClassOf: Machine[4: Car] and inverse property[4: place] some Taxicab[4: Cab]         
+38:864 ;2;    BookSeller SubClassOf: instance[4: case] some Book[1: Book]                        
+38:864 ;2;    BookSeller SubClassOf: instance[4: case] some Word[4: Book]                        
+38:864 ;2;    BookSeller SubClassOf: instance[4: case] some Script[4: Book]                        
+14:540 ;1;    ComputerTerminal SubClassOf: Terminal[1: Terminal] and contains[2: contain] some Computer[1: Computer]                 
+14:540 ;2;    ComputerTerminal SubClassOf: Terminal[1: Terminal] and inverse property[4: place] some Computer[1: Computer]         
+5:372 ;2;    ComputerTerminal EquivalentTo: Computer[1: Computer] and Terminal[1: Terminal] 
+5:123 ;2;    GraphCircuit EquivalentTo: Graph[1: Graph] and Circle[4: Circuit] 
+32:860 ;2;    HandGesture SubClassOf: inverse traverses[2: traverse] some Hand[1: Hand]                
+32:860 ;2;    HandGesture SubClassOf: inverse traverses[2: traverse] some Script[4: Hand]                
+32:860 ;4;    HandGesture SubClassOf: inverse traverses[2: traverse] some Thing             
+32:860 ;6;    HandGesture EquivalentTo: Motion[4: Gesture] and inverse traverses[2: traverse] some Hand[1: Hand]         
+32:860 ;6;    HandGesture EquivalentTo: Motion[4: Gesture] and inverse traverses[2: traverse] some Script[4: Hand]         
+32:860 ;6;    HandGesture EquivalentTo: Gesture[1: Gesture] and inverse traverses[2: traverse] some Hand[1: Hand]         
+32:860 ;6;    HandGesture EquivalentTo: Gesture[1: Gesture] and inverse traverses[2: traverse] some Script[4: Hand]         
+32:182 ;4;    BjtTransistor SubClassOf: inverse traverses[2: traverse] some Thing             
+99:75 ;4;    BjtTransistor SubClassOf: measure[2: measures] some Thing     
+15:389 ;1;    ScienceDomain SubClassOf: origin[1: origin] some Science[1: Science]            
+15:389 ;2;    ScienceDomain EquivalentTo: Region[3: Domain] and origin[1: origin] some Science[1: Science]     
+15:389 ;2;    ScienceDomain EquivalentTo: Sphere[4: Domain] and origin[1: origin] some Science[1: Science]     
+15:389 ;2;    ScienceDomain EquivalentTo: Field[4: Domain] and origin[1: origin] some Science[1: Science]     
+99:91 ;1;    ScienceDomain EquivalentTo: Region[3: Domain] and measure[2: measures] some Science[1: Science] 
+99:91 ;1;    ScienceDomain EquivalentTo: Sphere[4: Domain] and measure[2: measures] some Science[1: Science] 
+99:91 ;1;    ScienceDomain EquivalentTo: Field[4: Domain] and measure[2: measures] some Science[1: Science] 
+99:91 ;3;    ScienceDomain SubClassOf: measure[2: measures] some Science[1: Science]        
+99:91 ;4;    ScienceDomain SubClassOf: measure[2: measures] some Thing     
+38:356 ;2;    InsuranceCompany SubClassOf: instance[4: case] some Security[4: Insurance]                        
+38:311 ;2;    ServicePosition SubClassOf: instance[4: case] some Utility[4: Service]                        
+38:311 ;2;    ServicePosition SubClassOf: instance[4: case] some Serving[3: Service]                        
+32:144 ;4;    TupiLanguage SubClassOf: inverse traverses[2: traverse] some Thing             
+32:62 ;4;    ArrowIcon SubClassOf: inverse traverses[2: traverse] some Thing             
+38:812 ;2;    SecurityOperation SubClassOf: instance[4: case] some Certificate[4: Security]                        
+38:812 ;2;    SecurityOperation SubClassOf: instance[4: case] some Security[1: Security]                        
+32:444 ;4;    TiatinaguaLanguage SubClassOf: inverse traverses[2: traverse] some Thing             
+10:349 ;1;    ComputerResponse SubClassOf: inverse causes[1: causes] some Computer[1: Computer]          
+10:349 ;2;    ComputerResponse SubClassOf: inverse causes[1: causes] some Thing       
+32:166 ;2;    ComputerResponse SubClassOf: inverse traverses[2: traverse] some Computer[1: Computer]                
+32:166 ;4;    ComputerResponse SubClassOf: inverse traverses[2: traverse] some Thing             
+32:294 ;4;    ChadicLanguage SubClassOf: inverse traverses[2: traverse] some Thing             
+15:975 ;1;    HomeBase SubClassOf: origin[1: origin] some House[4: Home]            
+15:975 ;1;    HomeBase SubClassOf: origin[1: origin] some Base[3: Home]            
+15:975 ;2;    HomeBase EquivalentTo: Bag[4: Base] and origin[1: origin] some House[4: Home]     
+15:975 ;2;    HomeBase EquivalentTo: Bag[4: Base] and origin[1: origin] some Base[3: Home]     
+15:975 ;2;    HomeBase EquivalentTo: Base[1: Base] and origin[1: origin] some House[4: Home]     
+15:975 ;2;    HomeBase EquivalentTo: Base[1: Base] and origin[1: origin] some Base[3: Home]     
+15:975 ;2;    HomeBase EquivalentTo: Foot[4: Base] and origin[1: origin] some House[4: Home]     
+15:975 ;2;    HomeBase EquivalentTo: Foot[4: Base] and origin[1: origin] some Base[3: Home]     
+15:975 ;2;    HomeBase EquivalentTo: Floor[4: Base] and origin[1: origin] some House[4: Home]     
+15:975 ;2;    HomeBase EquivalentTo: Floor[4: Base] and origin[1: origin] some Base[3: Home]     
+15:166 ;1;    LandSubsidence SubClassOf: origin[1: origin] some Farming[3: Land]            
+15:166 ;1;    LandSubsidence SubClassOf: origin[1: origin] some Soil[4: Land]            
+15:166 ;1;    LandSubsidence SubClassOf: origin[1: origin] some Nation[4: Land]            
+32:470 ;4;    CoahuiltecanLanguage SubClassOf: inverse traverses[2: traverse] some Thing             
+32:562 ;4;    KunarLanguage SubClassOf: inverse traverses[2: traverse] some Thing             
+15:62 ;1;    TransitwayObstacle SubClassOf: origin[1: origin] some Transitway[1: Transitway]            
+32:326 ;4;    UralicLanguage SubClassOf: inverse traverses[2: traverse] some Thing             
+32:322 ;4;    DardicLanguage SubClassOf: inverse traverses[2: traverse] some Thing             
+15:62 ;1;    WaterCloud SubClassOf: origin[1: origin] some Water[1: Water]            
+15:62 ;2;    WaterCloud EquivalentTo: Cloud[1: Cloud] and origin[1: origin] some Water[1: Water]     
+38:131 ;2;    GraphNode SubClassOf: instance[4: case] some Graph[1: Graph]                        
+10:194 ;2;    YersiniaPestis SubClassOf: inverse causes[1: causes] some Thing       
+15:855 ;1;    Air-Force SubClassOf: origin[1: origin] some Atmosphere[3: Air]            
+15:855 ;1;    Air-Force SubClassOf: origin[1: origin] some Flying[4: Air]            
+15:855 ;1;    Air-Force SubClassOf: origin[1: origin] some Air[1: Air]            
+38:96 ;2;    SugarCane SubClassOf: instance[4: case] some Sugar[1: Sugar]                        
+38:96 ;2;    SugarCane SubClassOf: instance[4: case] some Dough[3: Sugar]                        
+38:96 ;2;    SugarCane SubClassOf: instance[4: case] some Cabbage[3: Sugar]                        
+38:96 ;2;    SugarCane SubClassOf: instance[4: case] some Carbohydrate[4: Sugar]                        
+32:990 ;2;    KnifeAttack SubClassOf: inverse traverses[2: traverse] some Tongue[3: Knife]                
+32:990 ;2;    KnifeAttack SubClassOf: inverse traverses[2: traverse] some Knife[1: Knife]                
+32:990 ;4;    KnifeAttack SubClassOf: inverse traverses[2: traverse] some Thing             
+32:990 ;6;    KnifeAttack EquivalentTo: Attack[1: Attack] and inverse traverses[2: traverse] some Tongue[3: Knife]         
+32:990 ;6;    KnifeAttack EquivalentTo: Attack[1: Attack] and inverse traverses[2: traverse] some Knife[1: Knife]         
+32:990 ;6;    KnifeAttack EquivalentTo: Fire[3: Attack] and inverse traverses[2: traverse] some Tongue[3: Knife]         
+32:990 ;6;    KnifeAttack EquivalentTo: Fire[3: Attack] and inverse traverses[2: traverse] some Knife[1: Knife]         
+32:462 ;4;    PyreneanLanguage SubClassOf: inverse traverses[2: traverse] some Thing             
+15:234 ;1;    PlantBranch SubClassOf: origin[1: origin] some Plant[1: Plant]            
+15:234 ;2;    PlantBranch EquivalentTo: Limb[3: Branch] and origin[1: origin] some Plant[1: Plant]     
+15:234 ;2;    PlantBranch EquivalentTo: Arm[3: Branch] and origin[1: origin] some Plant[1: Plant]     
+15:234 ;2;    PlantBranch EquivalentTo: Leg[4: Branch] and origin[1: origin] some Plant[1: Plant]     
+12:226 ;1;    PlantBranch SubClassOf: Limb[3: Branch] and composer[2: composed] some Plant[1: Plant]                 
+12:226 ;1;    PlantBranch SubClassOf: Arm[3: Branch] and composer[2: composed] some Plant[1: Plant]                 
+12:226 ;1;    PlantBranch SubClassOf: Leg[4: Branch] and composer[2: composed] some Plant[1: Plant]                 
+12:105 ;1;    NounPhrase SubClassOf: Phrase[1: Phrase] and composer[2: composed] some Noun[1: Noun]                 
+32:140 ;4;    IntermodalTrip SubClassOf: inverse traverses[2: traverse] some Thing             
+38:776 ;2;    TelevisionBroadcasting SubClassOf: instance[4: case] some television[1: Television]                        
+38:776 ;2;    TelevisionBroadcasting SubClassOf: instance[4: case] some TV[3: Television]                        
+15:196 ;1;    TelevisionBroadcasting SubClassOf: origin[1: origin] some television[1: Television]            
+15:196 ;1;    TelevisionBroadcasting SubClassOf: origin[1: origin] some TV[3: Television]            
+15:196 ;2;    TelevisionBroadcasting EquivalentTo: Broadcasting[1: Broadcasting] and origin[1: origin] some television[1: Television]     
+15:196 ;2;    TelevisionBroadcasting EquivalentTo: Broadcasting[1: Broadcasting] and origin[1: origin] some TV[3: Television]     
+14:658 ;1;    LakeRegion SubClassOf: Region[1: Region] and contains[2: contain] some Lake[1: Lake]                 
+14:658 ;2;    LakeRegion SubClassOf: Region[1: Region] and inverse home[3: place] some Lake[1: Lake]         
+14:658 ;2;    LakeRegion SubClassOf: Region[1: Region] and inverse property[4: place] some Lake[1: Lake]         
+15:241 ;1;    LakeRegion SubClassOf: origin[1: origin] some Lake[1: Lake]            
+15:241 ;2;    LakeRegion EquivalentTo: Region[1: Region] and origin[1: origin] some Lake[1: Lake]     
+68:103 ;2;    VolumeMeasure SubClassOf: Meter[4: Measure] and during[1: during] only Book[4: Volume]                        
+68:103 ;2;    VolumeMeasure SubClassOf: Measuring[4: Measure] and during[1: during] only Book[4: Volume]                        
+68:103 ;2;    VolumeMeasure SubClassOf: Quantity[4: Measure] and during[1: during] only Book[4: Volume]                        
+38:90 ;2;    TurkeyBird SubClassOf: instance[4: case] some Bomb[3: Turkey]                        
+32:953 ;2;    FaxMessage SubClassOf: inverse traverses[2: traverse] some Fax[1: Fax]                
+32:953 ;4;    FaxMessage SubClassOf: inverse traverses[2: traverse] some Thing             
+32:953 ;6;    FaxMessage EquivalentTo: Message[1: Message] and inverse traverses[2: traverse] some Fax[1: Fax]         
+15:102 ;1;    EyeGlass SubClassOf: origin[1: origin] some Eye[1: Eye]            
+15:102 ;1;    EyeGlass SubClassOf: origin[1: origin] some Heart[4: Eye]            
+15:102 ;1;    EyeGlass SubClassOf: origin[1: origin] some Seat[4: Eye]            
+15:102 ;2;    EyeGlass EquivalentTo: Ice[3: Glass] and origin[1: origin] some Eye[1: Eye]     
+15:102 ;2;    EyeGlass EquivalentTo: Ice[3: Glass] and origin[1: origin] some Heart[4: Eye]     
+15:102 ;2;    EyeGlass EquivalentTo: Ice[3: Glass] and origin[1: origin] some Seat[4: Eye]     
+15:102 ;2;    EyeGlass EquivalentTo: Glass[1: Glass] and origin[1: origin] some Eye[1: Eye]     
+15:102 ;2;    EyeGlass EquivalentTo: Glass[1: Glass] and origin[1: origin] some Heart[4: Eye]     
+15:102 ;2;    EyeGlass EquivalentTo: Glass[1: Glass] and origin[1: origin] some Seat[4: Eye]     
+15:102 ;2;    EyeGlass EquivalentTo: Methamphetamine[3: Glass] and origin[1: origin] some Eye[1: Eye]     
+15:102 ;2;    EyeGlass EquivalentTo: Methamphetamine[3: Glass] and origin[1: origin] some Heart[4: Eye]     
+15:102 ;2;    EyeGlass EquivalentTo: Methamphetamine[3: Glass] and origin[1: origin] some Seat[4: Eye]     
+99:122 ;1;    BaseballManeuver EquivalentTo: Maneuver[1: Maneuver] and measure[2: measures] some Baseball[1: Baseball] 
+99:122 ;1;    BaseballManeuver EquivalentTo: Maneuver[1: Maneuver] and measure[2: measures] some Ball[4: Baseball] 
+99:122 ;3;    BaseballManeuver SubClassOf: measure[2: measures] some Baseball[1: Baseball]        
+99:122 ;3;    BaseballManeuver SubClassOf: measure[2: measures] some Ball[4: Baseball]        
+99:122 ;4;    BaseballManeuver SubClassOf: measure[2: measures] some Thing     
+32:466 ;4;    BarbacoanLanguage SubClassOf: inverse traverses[2: traverse] some Thing             
+10:901 ;2;    HarmattanWind SubClassOf: inverse causes[1: causes] some Thing       
+14:178 ;1;    AirStream SubClassOf: River[4: Stream] and contains[2: contain] some Atmosphere[3: Air]                 
+14:178 ;1;    AirStream SubClassOf: River[4: Stream] and contains[2: contain] some Flying[4: Air]                 
+14:178 ;1;    AirStream SubClassOf: River[4: Stream] and contains[2: contain] some Air[1: Air]                 
+14:178 ;2;    AirStream SubClassOf: River[4: Stream] and inverse home[3: place] some Atmosphere[3: Air]         
+14:178 ;2;    AirStream SubClassOf: River[4: Stream] and inverse home[3: place] some Flying[4: Air]         
+14:178 ;2;    AirStream SubClassOf: River[4: Stream] and inverse property[4: place] some Atmosphere[3: Air]         
+14:178 ;2;    AirStream SubClassOf: River[4: Stream] and inverse property[4: place] some Flying[4: Air]         
+14:178 ;2;    AirStream SubClassOf: River[4: Stream] and inverse property[4: place] some Air[1: Air]         
+15:96 ;1;    AirStream SubClassOf: origin[1: origin] some Atmosphere[3: Air]            
+15:96 ;1;    AirStream SubClassOf: origin[1: origin] some Flying[4: Air]            
+15:96 ;1;    AirStream SubClassOf: origin[1: origin] some Air[1: Air]            
+15:96 ;2;    AirStream EquivalentTo: River[4: Stream] and origin[1: origin] some Atmosphere[3: Air]     
+15:96 ;2;    AirStream EquivalentTo: River[4: Stream] and origin[1: origin] some Flying[4: Air]     
+15:96 ;2;    AirStream EquivalentTo: River[4: Stream] and origin[1: origin] some Air[1: Air]     
+5:712 ;2;    ProcessState EquivalentTo: Procedure[4: Process] and Nation[4: State] 
+5:712 ;2;    ProcessState EquivalentTo: Process[1: Process] and Nation[4: State] 
+32:88 ;4;    RLCircuit SubClassOf: inverse traverses[2: traverse] some Thing             
+38:95 ;2;    TelephonyDevice SubClassOf: instance[4: case] some telephone[4: Telephony]                        
+38:95 ;2;    TelephonyDevice SubClassOf: instance[4: case] some Telephone[2: Telephony]                        
+15:387 ;1;    TerminalBuilding SubClassOf: origin[1: origin] some Terminal[1: Terminal]            
+15:387 ;2;    TerminalBuilding EquivalentTo: Building[1: Building] and origin[1: origin] some Terminal[1: Terminal]     
+38:88 ;2;    TerminalBuilding SubClassOf: instance[4: case] some Terminal[1: Terminal]                        
+10:230 ;1;    WeatherProcess SubClassOf: inverse causes[1: causes] some Leather[2: Weather]          
+10:230 ;1;    WeatherProcess SubClassOf: inverse causes[1: causes] some Feather[2: Weather]          
+10:230 ;2;    WeatherProcess SubClassOf: inverse causes[1: causes] some Thing       
+32:390 ;4;    CelticLanguage SubClassOf: inverse traverses[2: traverse] some Thing             
+10:62 ;2;    CelticLanguage SubClassOf: inverse causes[1: causes] some Thing       
+15:286 ;1;    BodyJoint SubClassOf: origin[1: origin] some Torso[3: Body]            
+38:207 ;2;    BodyJoint SubClassOf: instance[4: case] some Torso[3: Body]                        
+99:262 ;3;    VotingPoll SubClassOf: measure[2: measures] some Ballot[4: Voting]        
+99:262 ;3;    VotingPoll SubClassOf: measure[2: measures] some Voting[1: Voting]        
+99:262 ;4;    VotingPoll SubClassOf: measure[2: measures] some Thing     
+32:521 ;4;    YanomamLanguage SubClassOf: inverse traverses[2: traverse] some Thing             
+32:380 ;2;    CounterTerrorism SubClassOf: inverse traverses[2: traverse] some Mouth[3: Counter]                
+32:380 ;2;    CounterTerrorism SubClassOf: inverse traverses[2: traverse] some Lip[3: Counter]                
+32:380 ;2;    CounterTerrorism SubClassOf: inverse traverses[2: traverse] some Replication[3: Counter]                
+32:380 ;4;    CounterTerrorism SubClassOf: inverse traverses[2: traverse] some Thing             
+32:380 ;6;    CounterTerrorism EquivalentTo: Terrorism[1: Terrorism] and inverse traverses[2: traverse] some Mouth[3: Counter]         
+32:380 ;6;    CounterTerrorism EquivalentTo: Terrorism[1: Terrorism] and inverse traverses[2: traverse] some Lip[3: Counter]         
+32:380 ;6;    CounterTerrorism EquivalentTo: Terrorism[1: Terrorism] and inverse traverses[2: traverse] some Replication[3: Counter]         
+15:272 ;1;    CounterTerrorism SubClassOf: origin[1: origin] some Mouth[3: Counter]            
+15:272 ;1;    CounterTerrorism SubClassOf: origin[1: origin] some Lip[3: Counter]            
+15:272 ;1;    CounterTerrorism SubClassOf: origin[1: origin] some Replication[3: Counter]            
+15:272 ;2;    CounterTerrorism EquivalentTo: Terrorism[1: Terrorism] and origin[1: origin] some Mouth[3: Counter]     
+15:272 ;2;    CounterTerrorism EquivalentTo: Terrorism[1: Terrorism] and origin[1: origin] some Lip[3: Counter]     
+15:272 ;2;    CounterTerrorism EquivalentTo: Terrorism[1: Terrorism] and origin[1: origin] some Replication[3: Counter]     
+12:778 ;1;    ChristianHoliday SubClassOf: Holiday[1: Holiday] and composer[2: composed] some Christian[1: Christian]                 
+5:629 ;2;    DigitCharacter EquivalentTo: Finger[3: Digit] and Character[1: Character] 
+32:470 ;4;    CahuapananLanguage SubClassOf: inverse traverses[2: traverse] some Thing             
+12:998 ;1;    ChristianUnion SubClassOf: Device[3: Union] and composer[2: composed] some Christian[1: Christian]                 
+12:998 ;1;    ChristianUnion SubClassOf: Mating[4: Union] and composer[2: composed] some Christian[1: Christian]                 
+32:161 ;2;    EarthTremor SubClassOf: inverse traverses[2: traverse] some Soil[4: Earth]                
+32:161 ;4;    EarthTremor SubClassOf: inverse traverses[2: traverse] some Thing             
+32:161 ;6;    EarthTremor EquivalentTo: Tremor[1: Tremor] and inverse traverses[2: traverse] some Soil[4: Earth]         
+14:371 ;2;    Busness SubClassOf: Cape[4: ness] and inverse property[4: place] some Bus[1: Bus]         
+38:189 ;2;    Busness SubClassOf: instance[4: case] some Bus[1: Bus]                        
+38:960 ;2;    PowerSource SubClassOf: instance[4: case] some Index[4: Power]                        
+5:493 ;2;    IndexBond EquivalentTo: Index[1: Index] and Bond[1: Bond] 
+32:626 ;2;    WaterTransportation SubClassOf: inverse traverses[2: traverse] some Water[1: Water]                
+32:626 ;4;    WaterTransportation SubClassOf: inverse traverses[2: traverse] some Thing             
+32:626 ;6;    WaterTransportation EquivalentTo: Transportation[1: Transportation] and inverse traverses[2: traverse] some Water[1: Water]         
+32:626 ;6;    WaterTransportation EquivalentTo: Transfer[4: Transportation] and inverse traverses[2: traverse] some Water[1: Water]         
+32:626 ;6;    WaterTransportation EquivalentTo: Shipping[4: Transportation] and inverse traverses[2: traverse] some Water[1: Water]         
+38:139 ;2;    WaterTransportation SubClassOf: instance[4: case] some Water[1: Water]                        
+32:151 ;4;    DriftnetFishing SubClassOf: inverse traverses[2: traverse] some Thing             
+10:72 ;1;    AccountID SubClassOf: inverse causes[1: causes] some Score[3: Account]          
+10:72 ;1;    AccountID SubClassOf: inverse causes[1: causes] some Report[4: Account]          
+10:72 ;1;    AccountID SubClassOf: inverse causes[1: causes] some Explanation[4: Account]          
+10:72 ;2;    AccountID SubClassOf: inverse causes[1: causes] some Thing       
+15:195 ;1;    VehicleWindow SubClassOf: origin[1: origin] some Vehicle[1: Vehicle]            
+15:195 ;2;    VehicleWindow EquivalentTo: Window[1: Window] and origin[1: origin] some Vehicle[1: Vehicle]     
+14:124 ;1;    VehicleWindow SubClassOf: Window[1: Window] and contains[2: contain] some Vehicle[1: Vehicle]                 
+14:124 ;2;    VehicleWindow SubClassOf: Window[1: Window] and inverse property[4: place] some Vehicle[1: Vehicle]         
+32:383 ;4;    BalochiLanguage SubClassOf: inverse traverses[2: traverse] some Thing             
+32:566 ;4;    OielLanguage SubClassOf: inverse traverses[2: traverse] some Thing             
+5:284 ;2;    EmbassyBuilding EquivalentTo: Embassy[1: Embassy] and Building[1: Building] 
+15:72 ;1;    EmbassyBuilding SubClassOf: origin[1: origin] some Embassy[1: Embassy]            
+15:72 ;2;    EmbassyBuilding EquivalentTo: Building[1: Building] and origin[1: origin] some Embassy[1: Embassy]     
+1:210 ;1;    FootLength EquivalentTo: duration[4: Length] some Base[4: Foot]             
+1:210 ;1;    FootLength EquivalentTo: duration[4: Length] some Foot[1: Foot]             
+1:210 ;1;    FootLength EquivalentTo: length[1: Length] some Base[4: Foot]             
+1:210 ;1;    FootLength EquivalentTo: length[1: Length] some Foot[1: Foot]             
+38:109 ;2;    SupportIO SubClassOf: instance[4: case] some Funding[3: Support]                        
+12:510 ;1;    CanalStructure SubClassOf: Organization[4: Structure] and composer[2: composed] some Canal[1: Canal]                 
+12:510 ;1;    CanalStructure SubClassOf: Organization[4: Structure] and composer[2: composed] some Channel[4: Canal]                 
+1:80 ;1;    CanalStructure EquivalentTo: structure[1: Structure] some Canal[1: Canal]             
+1:80 ;1;    CanalStructure EquivalentTo: structure[1: Structure] some Channel[4: Canal]             
+10:72 ;1;    LiquidMotion SubClassOf: inverse causes[1: causes] some Beverage[4: Liquid]          
+10:72 ;2;    LiquidMotion SubClassOf: inverse causes[1: causes] some Thing       
+15:502 ;1;    HouseChurch SubClassOf: origin[1: origin] some House[1: House]            
+15:502 ;2;    HouseChurch EquivalentTo: Church[1: Church] and origin[1: origin] some House[1: House]     
+12:168 ;1;    HouseChurch SubClassOf: Church[1: Church] and composer[2: composed] some House[1: House]                 
+38:396 ;2;    HumanYouth SubClassOf: instance[4: case] some Human[1: Human]                        
+38:396 ;2;    HumanYouth SubClassOf: instance[4: case] some Man[4: Human]                        
+99:95 ;3;    HumanYouth SubClassOf: measure[2: measures] some Human[1: Human]        
+99:95 ;3;    HumanYouth SubClassOf: measure[2: measures] some Man[4: Human]        
+99:95 ;4;    HumanYouth SubClassOf: measure[2: measures] some Thing     
+32:350 ;4;    SemiticLanguage SubClassOf: inverse traverses[2: traverse] some Thing             
+10:70 ;2;    SemiticLanguage SubClassOf: inverse causes[1: causes] some Thing       
+32:466 ;4;    JivaroanLanguage SubClassOf: inverse traverses[2: traverse] some Thing             
+32:466 ;4;    PanoanLanguage SubClassOf: inverse traverses[2: traverse] some Thing             
+38:222 ;2;    CircleSector SubClassOf: instance[4: case] some Oval[4: Circle]                        
+38:222 ;2;    CircleSector SubClassOf: instance[4: case] some Circle[1: Circle]                        
+38:222 ;2;    CircleSector SubClassOf: instance[4: case] some Set[4: Circle]                        
+32:88 ;4;    RLCCircuit SubClassOf: inverse traverses[2: traverse] some Thing             
+99:142 ;4;    MathematicsDomain SubClassOf: measure[2: measures] some Thing     
+10:127 ;2;    TreasuryBond SubClassOf: inverse causes[1: causes] some Thing       
+15:325 ;1;    PlaceID SubClassOf: origin[1: origin] some Position[3: Place]            
+15:325 ;1;    PlaceID SubClassOf: origin[1: origin] some Seat[3: Place]            
+99:81 ;3;    LawEnforcement SubClassOf: measure[2: measures] some Law[1: Law]        
+99:81 ;4;    LawEnforcement SubClassOf: measure[2: measures] some Thing     
+10:555 ;2;    LowTide SubClassOf: inverse causes[1: causes] some Thing       
+32:122 ;4;    WakashanLanguage SubClassOf: inverse traverses[2: traverse] some Thing             
+38:105 ;2;    SupportDC SubClassOf: instance[4: case] some Funding[3: Support]                        
+15:670 ;1;    ForestFire SubClassOf: origin[1: origin] some Forest[1: Forest]            
+15:670 ;1;    ForestFire SubClassOf: origin[1: origin] some Timber[4: Forest]            
+15:670 ;1;    ForestFire SubClassOf: origin[1: origin] some Wood[4: Forest]            
+15:670 ;2;    ForestFire EquivalentTo: Attack[3: Fire] and origin[1: origin] some Forest[1: Forest]     
+15:670 ;2;    ForestFire EquivalentTo: Attack[3: Fire] and origin[1: origin] some Timber[4: Forest]     
+15:670 ;2;    ForestFire EquivalentTo: Attack[3: Fire] and origin[1: origin] some Wood[4: Forest]     
+15:670 ;2;    ForestFire EquivalentTo: Fire[1: Fire] and origin[1: origin] some Forest[1: Forest]     
+15:670 ;2;    ForestFire EquivalentTo: Fire[1: Fire] and origin[1: origin] some Timber[4: Forest]     
+15:670 ;2;    ForestFire EquivalentTo: Fire[1: Fire] and origin[1: origin] some Wood[4: Forest]     
+32:383 ;2;    MortarGun SubClassOf: inverse traverses[2: traverse] some Mortar[1: Mortar]                
+32:383 ;4;    MortarGun SubClassOf: inverse traverses[2: traverse] some Thing             
+32:383 ;6;    MortarGun EquivalentTo: Gun[1: Gun] and inverse traverses[2: traverse] some Mortar[1: Mortar]         
+32:383 ;6;    MortarGun EquivalentTo: Firearm[4: Gun] and inverse traverses[2: traverse] some Mortar[1: Mortar]         
+5:165 ;2;    MortarGun EquivalentTo: Mortar[1: Mortar] and Gun[1: Gun] 
+5:165 ;2;    MortarGun EquivalentTo: Mortar[1: Mortar] and Firearm[4: Gun] 
+32:456 ;4;    TidikeltLanguage SubClassOf: inverse traverses[2: traverse] some Thing             
+15:991 ;1;    AreaMeasure SubClassOf: origin[1: origin] some Region[4: Area]            
+15:991 ;1;    AreaMeasure SubClassOf: origin[1: origin] some Sphere[4: Area]            
+15:991 ;1;    AreaMeasure SubClassOf: origin[1: origin] some Field[4: Area]            
+15:991 ;2;    AreaMeasure EquivalentTo: Meter[4: Measure] and origin[1: origin] some Region[4: Area]     
+15:991 ;2;    AreaMeasure EquivalentTo: Meter[4: Measure] and origin[1: origin] some Sphere[4: Area]     
+15:991 ;2;    AreaMeasure EquivalentTo: Meter[4: Measure] and origin[1: origin] some Field[4: Area]     
+15:991 ;2;    AreaMeasure EquivalentTo: Measuring[4: Measure] and origin[1: origin] some Region[4: Area]     
+15:991 ;2;    AreaMeasure EquivalentTo: Measuring[4: Measure] and origin[1: origin] some Sphere[4: Area]     
+15:991 ;2;    AreaMeasure EquivalentTo: Measuring[4: Measure] and origin[1: origin] some Field[4: Area]     
+15:991 ;2;    AreaMeasure EquivalentTo: Quantity[4: Measure] and origin[1: origin] some Region[4: Area]     
+15:991 ;2;    AreaMeasure EquivalentTo: Quantity[4: Measure] and origin[1: origin] some Sphere[4: Area]     
+15:991 ;2;    AreaMeasure EquivalentTo: Quantity[4: Measure] and origin[1: origin] some Field[4: Area]     
+15:972 ;1;    RiverMouth SubClassOf: origin[1: origin] some River[1: River]            
+15:972 ;2;    RiverMouth EquivalentTo: Hole[3: Mouth] and origin[1: origin] some River[1: River]     
+15:972 ;2;    RiverMouth EquivalentTo: Mouth[1: Mouth] and origin[1: origin] some River[1: River]     
+15:972 ;2;    RiverMouth EquivalentTo: Lip[3: Mouth] and origin[1: origin] some River[1: River]     
+15:972 ;2;    RiverMouth EquivalentTo: Replication[3: Mouth] and origin[1: origin] some River[1: River]     
+15:54 ;1;    GunBarrel SubClassOf: origin[1: origin] some Gun[1: Gun]            
+15:54 ;1;    GunBarrel SubClassOf: origin[1: origin] some Firearm[4: Gun]            
+15:54 ;2;    GunBarrel EquivalentTo: Drum[3: Barrel] and origin[1: origin] some Gun[1: Gun]     
+15:54 ;2;    GunBarrel EquivalentTo: Drum[3: Barrel] and origin[1: origin] some Firearm[4: Gun]     
+15:980 ;1;    HomeGarage SubClassOf: origin[1: origin] some House[4: Home]            
+15:980 ;1;    HomeGarage SubClassOf: origin[1: origin] some Base[3: Home]            
+15:980 ;2;    HomeGarage EquivalentTo: Garage[1: Garage] and origin[1: origin] some House[4: Home]     
+15:980 ;2;    HomeGarage EquivalentTo: Garage[1: Garage] and origin[1: origin] some Base[3: Home]     
+5:91 ;2;    GamePiece EquivalentTo: Game[1: Game] and Gun[4: Piece] 
+5:91 ;2;    GamePiece EquivalentTo: Game[1: Game] and Firearm[4: Piece] 
+32:553 ;2;    ComputerProcess SubClassOf: inverse traverses[2: traverse] some Computer[1: Computer]                
+32:553 ;4;    ComputerProcess SubClassOf: inverse traverses[2: traverse] some Thing             
+32:553 ;6;    ComputerProcess EquivalentTo: Procedure[4: Process] and inverse traverses[2: traverse] some Computer[1: Computer]         
+32:553 ;6;    ComputerProcess EquivalentTo: Process[1: Process] and inverse traverses[2: traverse] some Computer[1: Computer]         
+15:50 ;1;    ComputerProcess SubClassOf: origin[1: origin] some Computer[1: Computer]            
+15:50 ;2;    ComputerProcess EquivalentTo: Procedure[4: Process] and origin[1: origin] some Computer[1: Computer]     
+15:50 ;2;    ComputerProcess EquivalentTo: Process[1: Process] and origin[1: origin] some Computer[1: Computer]     
+15:907 ;1;    CountryID SubClassOf: origin[1: origin] some County[2: Country]            
+15:907 ;1;    CountryID SubClassOf: origin[1: origin] some Nation[4: Country]            
+10:256 ;2;    IndustrialPollution SubClassOf: inverse causes[1: causes] some Thing       
+15:337 ;1;    AirTransitway SubClassOf: origin[1: origin] some Atmosphere[3: Air]            
+15:337 ;1;    AirTransitway SubClassOf: origin[1: origin] some Flying[4: Air]            
+15:337 ;1;    AirTransitway SubClassOf: origin[1: origin] some Air[1: Air]            
+15:337 ;2;    AirTransitway EquivalentTo: Transitway[1: Transitway] and origin[1: origin] some Atmosphere[3: Air]     
+15:337 ;2;    AirTransitway EquivalentTo: Transitway[1: Transitway] and origin[1: origin] some Flying[4: Air]     
+15:337 ;2;    AirTransitway EquivalentTo: Transitway[1: Transitway] and origin[1: origin] some Air[1: Air]     
+32:738 ;2;    HandGrenade SubClassOf: inverse traverses[2: traverse] some Hand[1: Hand]                
+32:738 ;2;    HandGrenade SubClassOf: inverse traverses[2: traverse] some Script[4: Hand]                
+32:738 ;4;    HandGrenade SubClassOf: inverse traverses[2: traverse] some Thing             
+32:738 ;6;    HandGrenade EquivalentTo: Grenade[1: Grenade] and inverse traverses[2: traverse] some Hand[1: Hand]         
+32:738 ;6;    HandGrenade EquivalentTo: Grenade[1: Grenade] and inverse traverses[2: traverse] some Script[4: Hand]         
+15:168 ;1;    HandGrenade SubClassOf: origin[1: origin] some Hand[1: Hand]            
+15:168 ;1;    HandGrenade SubClassOf: origin[1: origin] some Script[4: Hand]            
+15:168 ;2;    HandGrenade EquivalentTo: Grenade[1: Grenade] and origin[1: origin] some Hand[1: Hand]     
+15:168 ;2;    HandGrenade EquivalentTo: Grenade[1: Grenade] and origin[1: origin] some Script[4: Hand]     
+10:179 ;2;    EquityOption SubClassOf: inverse causes[1: causes] some Thing       
+32:379 ;2;    EyeMotion SubClassOf: inverse traverses[2: traverse] some Eye[1: Eye]                
+32:379 ;2;    EyeMotion SubClassOf: inverse traverses[2: traverse] some Heart[4: Eye]                
+32:379 ;2;    EyeMotion SubClassOf: inverse traverses[2: traverse] some Seat[4: Eye]                
+32:379 ;4;    EyeMotion SubClassOf: inverse traverses[2: traverse] some Thing             
+32:379 ;6;    EyeMotion EquivalentTo: Question[3: Motion] and inverse traverses[2: traverse] some Eye[1: Eye]         
+32:379 ;6;    EyeMotion EquivalentTo: Question[3: Motion] and inverse traverses[2: traverse] some Heart[4: Eye]         
+32:379 ;6;    EyeMotion EquivalentTo: Question[3: Motion] and inverse traverses[2: traverse] some Seat[4: Eye]         
+32:379 ;6;    EyeMotion EquivalentTo: Motion[1: Motion] and inverse traverses[2: traverse] some Eye[1: Eye]         
+32:379 ;6;    EyeMotion EquivalentTo: Motion[1: Motion] and inverse traverses[2: traverse] some Heart[4: Eye]         
+32:379 ;6;    EyeMotion EquivalentTo: Motion[1: Motion] and inverse traverses[2: traverse] some Seat[4: Eye]         
+32:379 ;6;    EyeMotion EquivalentTo: Gesture[4: Motion] and inverse traverses[2: traverse] some Eye[1: Eye]         
+32:379 ;6;    EyeMotion EquivalentTo: Gesture[4: Motion] and inverse traverses[2: traverse] some Heart[4: Eye]         
+32:379 ;6;    EyeMotion EquivalentTo: Gesture[4: Motion] and inverse traverses[2: traverse] some Seat[4: Eye]         
+15:230 ;1;    EyeMotion SubClassOf: origin[1: origin] some Eye[1: Eye]            
+15:230 ;1;    EyeMotion SubClassOf: origin[1: origin] some Heart[4: Eye]            
+15:230 ;1;    EyeMotion SubClassOf: origin[1: origin] some Seat[4: Eye]            
+15:230 ;2;    EyeMotion EquivalentTo: Question[3: Motion] and origin[1: origin] some Eye[1: Eye]     
+15:230 ;2;    EyeMotion EquivalentTo: Question[3: Motion] and origin[1: origin] some Heart[4: Eye]     
+15:230 ;2;    EyeMotion EquivalentTo: Question[3: Motion] and origin[1: origin] some Seat[4: Eye]     
+15:230 ;2;    EyeMotion EquivalentTo: Motion[1: Motion] and origin[1: origin] some Eye[1: Eye]     
+15:230 ;2;    EyeMotion EquivalentTo: Motion[1: Motion] and origin[1: origin] some Heart[4: Eye]     
+15:230 ;2;    EyeMotion EquivalentTo: Motion[1: Motion] and origin[1: origin] some Seat[4: Eye]     
+15:230 ;2;    EyeMotion EquivalentTo: Gesture[4: Motion] and origin[1: origin] some Eye[1: Eye]     
+15:230 ;2;    EyeMotion EquivalentTo: Gesture[4: Motion] and origin[1: origin] some Heart[4: Eye]     
+15:230 ;2;    EyeMotion EquivalentTo: Gesture[4: Motion] and origin[1: origin] some Seat[4: Eye]     
+12:281 ;1;    ScriptureUnion SubClassOf: Device[3: Union] and composer[2: composed] some Book[4: Scripture]                 
+12:281 ;1;    ScriptureUnion SubClassOf: Device[3: Union] and composer[2: composed] some Word[4: Scripture]                 
+12:281 ;1;    ScriptureUnion SubClassOf: Mating[4: Union] and composer[2: composed] some Book[4: Scripture]                 
+12:281 ;1;    ScriptureUnion SubClassOf: Mating[4: Union] and composer[2: composed] some Word[4: Scripture]                 
+38:198 ;2;    ScriptureUnion SubClassOf: instance[4: case] some Book[4: Scripture]                        
+38:198 ;2;    ScriptureUnion SubClassOf: instance[4: case] some Word[4: Scripture]                        
+15:141 ;1;    ScriptureUnion SubClassOf: origin[1: origin] some Book[4: Scripture]            
+15:141 ;1;    ScriptureUnion SubClassOf: origin[1: origin] some Word[4: Scripture]            
+15:141 ;2;    ScriptureUnion EquivalentTo: Device[3: Union] and origin[1: origin] some Book[4: Scripture]     
+15:141 ;2;    ScriptureUnion EquivalentTo: Device[3: Union] and origin[1: origin] some Word[4: Scripture]     
+15:141 ;2;    ScriptureUnion EquivalentTo: Mating[4: Union] and origin[1: origin] some Book[4: Scripture]     
+15:141 ;2;    ScriptureUnion EquivalentTo: Mating[4: Union] and origin[1: origin] some Word[4: Scripture]     
+32:260 ;4;    NuclearWeapon SubClassOf: inverse traverses[2: traverse] some Thing             
+10:74 ;1;    OpeningEyes SubClassOf: inverse causes[1: causes] some Opening[1: Opening]          
+10:74 ;1;    OpeningEyes SubClassOf: inverse causes[1: causes] some Cutting[4: Opening]          
+10:74 ;2;    OpeningEyes SubClassOf: inverse causes[1: causes] some Thing       
+32:470 ;4;    MisumalpanLanguage SubClassOf: inverse traverses[2: traverse] some Thing             
+32:472 ;4;    OcLanguage SubClassOf: inverse traverses[2: traverse] some Thing             
+32:456 ;4;    AlacalufanLanguage SubClassOf: inverse traverses[2: traverse] some Thing             
+99:116 ;4;    SpineCar SubClassOf: measure[2: measures] some Thing     
+5:422 ;2;    NamePart EquivalentTo: Name[1: Name] and Function[4: Part] 
+5:422 ;2;    NamePart EquivalentTo: Name[1: Name] and Region[4: Part] 
+5:422 ;2;    NamePart EquivalentTo: Name[1: Name] and Character[4: Part] 
+5:422 ;2;    NamePart EquivalentTo: Name[1: Name] and Share[3: Part] 
+32:666 ;2;    ComputerMemory SubClassOf: inverse traverses[2: traverse] some Computer[1: Computer]                
+32:666 ;4;    ComputerMemory SubClassOf: inverse traverses[2: traverse] some Thing             
+32:666 ;6;    ComputerMemory EquivalentTo: Store[4: Memory] and inverse traverses[2: traverse] some Computer[1: Computer]         
+32:666 ;6;    ComputerMemory EquivalentTo: Remembering[4: Memory] and inverse traverses[2: traverse] some Computer[1: Computer]         
+15:133 ;1;    ComputerMemory SubClassOf: origin[1: origin] some Computer[1: Computer]            
+15:133 ;2;    ComputerMemory EquivalentTo: Store[4: Memory] and origin[1: origin] some Computer[1: Computer]     
+15:133 ;2;    ComputerMemory EquivalentTo: Remembering[4: Memory] and origin[1: origin] some Computer[1: Computer]     
+32:473 ;4;    ArawakanLanguage SubClassOf: inverse traverses[2: traverse] some Thing             
+32:604 ;4;    RadioEmission SubClassOf: inverse traverses[2: traverse] some Thing             
+10:107 ;2;    RadioEmission SubClassOf: inverse causes[1: causes] some Thing       
+15:901 ;1;    RiverBank SubClassOf: origin[1: origin] some River[1: River]            
+5:353 ;2;    CellPart EquivalentTo: Cell[1: Cell] and Function[4: Part] 
+5:353 ;2;    CellPart EquivalentTo: Cell[1: Cell] and Region[4: Part] 
+5:353 ;2;    CellPart EquivalentTo: Cell[1: Cell] and Character[4: Part] 
+5:353 ;2;    CellPart EquivalentTo: Cell[1: Cell] and Share[3: Part] 
+15:105 ;1;    BodySubstance SubClassOf: origin[1: origin] some Torso[3: Body]            
+15:105 ;2;    BodySubstance EquivalentTo: Meat[4: Substance] and origin[1: origin] some Torso[3: Body]     
+15:105 ;2;    BodySubstance EquivalentTo: Substance[1: Substance] and origin[1: origin] some Torso[3: Body]     
+32:470 ;4;    BoranLanguage SubClassOf: inverse traverses[2: traverse] some Thing             
+15:528 ;1;    PlantLeaf SubClassOf: origin[1: origin] some Plant[1: Plant]            
+15:528 ;2;    PlantLeaf EquivalentTo: Leaf[1: Leaf] and origin[1: origin] some Plant[1: Plant]     
+5:123 ;2;    PlantLeaf EquivalentTo: Plant[1: Plant] and Leaf[1: Leaf] 
+38:920 ;2;    DrugStore SubClassOf: instance[4: case] some Agent[4: Drug]                        
+68:555 ;2;    TimeMeasure SubClassOf: Meter[4: Measure] and during[1: during] only Hour[4: Time]                        
+68:555 ;2;    TimeMeasure SubClassOf: Meter[4: Measure] and during[1: during] only Meter[3: Time]                        
+68:555 ;2;    TimeMeasure SubClassOf: Meter[4: Measure] and during[1: during] only Sentence[4: Time]                        
+68:555 ;2;    TimeMeasure SubClassOf: Meter[4: Measure] and during[1: during] only Reading[4: Time]                        
+68:555 ;2;    TimeMeasure SubClassOf: Measuring[4: Measure] and during[1: during] only Hour[4: Time]                        
+68:555 ;2;    TimeMeasure SubClassOf: Measuring[4: Measure] and during[1: during] only Meter[3: Time]                        
+68:555 ;2;    TimeMeasure SubClassOf: Measuring[4: Measure] and during[1: during] only Sentence[4: Time]                        
+68:555 ;2;    TimeMeasure SubClassOf: Measuring[4: Measure] and during[1: during] only Reading[4: Time]                        
+68:555 ;2;    TimeMeasure SubClassOf: Quantity[4: Measure] and during[1: during] only Hour[4: Time]                        
+68:555 ;2;    TimeMeasure SubClassOf: Quantity[4: Measure] and during[1: during] only Meter[3: Time]                        
+68:555 ;2;    TimeMeasure SubClassOf: Quantity[4: Measure] and during[1: during] only Sentence[4: Time]                        
+68:555 ;2;    TimeMeasure SubClassOf: Quantity[4: Measure] and during[1: during] only Reading[4: Time]                        
+5:98 ;2;    TimeMeasure EquivalentTo: Hour[4: Time] and Meter[4: Measure] 
+5:98 ;2;    TimeMeasure EquivalentTo: Hour[4: Time] and Measuring[4: Measure] 
+5:98 ;2;    TimeMeasure EquivalentTo: Hour[4: Time] and Quantity[4: Measure] 
+5:98 ;2;    TimeMeasure EquivalentTo: Meter[3: Time] and Meter[4: Measure] 
+5:98 ;2;    TimeMeasure EquivalentTo: Meter[3: Time] and Measuring[4: Measure] 
+5:98 ;2;    TimeMeasure EquivalentTo: Meter[3: Time] and Quantity[4: Measure] 
+5:98 ;2;    TimeMeasure EquivalentTo: Sentence[4: Time] and Meter[4: Measure] 
+5:98 ;2;    TimeMeasure EquivalentTo: Sentence[4: Time] and Measuring[4: Measure] 
+5:98 ;2;    TimeMeasure EquivalentTo: Sentence[4: Time] and Quantity[4: Measure] 
+5:98 ;2;    TimeMeasure EquivalentTo: Reading[4: Time] and Meter[4: Measure] 
+5:98 ;2;    TimeMeasure EquivalentTo: Reading[4: Time] and Measuring[4: Measure] 
+5:98 ;2;    TimeMeasure EquivalentTo: Reading[4: Time] and Quantity[4: Measure] 
+10:172 ;2;    MaritimeHazard SubClassOf: inverse causes[1: causes] some Thing       
+32:470 ;4;    AymaranLanguage SubClassOf: inverse traverses[2: traverse] some Thing             
+38:219 ;2;    ClothesDryer SubClassOf: instance[4: case] some Dress[3: Clothes]                        
+32:470 ;4;    ChimakuanLanguage SubClassOf: inverse traverses[2: traverse] some Thing             
+32:156 ;4;    CreeLanguage SubClassOf: inverse traverses[2: traverse] some Thing             
+10:568 ;1;    FreezingRain SubClassOf: inverse causes[1: causes] some Freezing[1: Freezing]          
+10:568 ;2;    FreezingRain SubClassOf: inverse causes[1: causes] some Thing       
+32:206 ;4;    RiffLanguage SubClassOf: inverse traverses[2: traverse] some Thing             
+15:896 ;1;    MountainRange SubClassOf: origin[1: origin] some Volcano[4: Mountain]            
+15:896 ;1;    MountainRange SubClassOf: origin[1: origin] some Mountain[1: Mountain]            
+15:896 ;2;    MountainRange EquivalentTo: Compass[3: Range] and origin[1: origin] some Volcano[4: Mountain]     
+15:896 ;2;    MountainRange EquivalentTo: Compass[3: Range] and origin[1: origin] some Mountain[1: Mountain]     
+15:896 ;2;    MountainRange EquivalentTo: Stove[4: Range] and origin[1: origin] some Volcano[4: Mountain]     
+15:896 ;2;    MountainRange EquivalentTo: Stove[4: Range] and origin[1: origin] some Mountain[1: Mountain]     
+1:54 ;1;    MountainRange EquivalentTo: range[1: Range] some Volcano[4: Mountain]             
+1:54 ;1;    MountainRange EquivalentTo: range[1: Range] some Mountain[1: Mountain]             
+32:59 ;2;    WindInstrument SubClassOf: inverse traverses[2: traverse] some Wind[1: Wind]                
+32:59 ;2;    WindInstrument SubClassOf: inverse traverses[2: traverse] some Lead[3: Wind]                
+32:59 ;4;    WindInstrument SubClassOf: inverse traverses[2: traverse] some Thing             
+10:162 ;1;    Utility-Strictness SubClassOf: inverse causes[1: causes] some Utility[1: Utility]          
+10:162 ;2;    Utility-Strictness SubClassOf: inverse causes[1: causes] some Thing       
+15:956 ;1;    HomeRun SubClassOf: origin[1: origin] some House[4: Home]            
+15:956 ;1;    HomeRun SubClassOf: origin[1: origin] some Base[3: Home]            
+15:956 ;2;    HomeRun EquivalentTo: Running[4: Run] and origin[1: origin] some House[4: Home]     
+15:956 ;2;    HomeRun EquivalentTo: Running[4: Run] and origin[1: origin] some Base[3: Home]     
+15:956 ;2;    HomeRun EquivalentTo: Ladder[3: Run] and origin[1: origin] some House[4: Home]     
+15:956 ;2;    HomeRun EquivalentTo: Ladder[3: Run] and origin[1: origin] some Base[3: Home]     
+32:182 ;4;    PnpTransistor SubClassOf: inverse traverses[2: traverse] some Thing             
+99:75 ;4;    PnpTransistor SubClassOf: measure[2: measures] some Thing     
+32:137 ;4;    ElectricDevice SubClassOf: inverse traverses[2: traverse] some Thing             
+5:145 ;2;    MotorScooter EquivalentTo: Engine[4: Motor] and Scooter[1: Scooter] 
+5:145 ;2;    MotorScooter EquivalentTo: Motor[1: Motor] and Scooter[1: Scooter] 
+5:107 ;2;    StateGovernment EquivalentTo: Nation[4: State] and Government[1: Government] 
+15:101 ;1;    StateGovernment SubClassOf: origin[1: origin] some Nation[4: State]            
+15:101 ;2;    StateGovernment EquivalentTo: Government[1: Government] and origin[1: origin] some Nation[4: State]     
+99:168 ;1;    EmploymentFiring EquivalentTo: Gun[3: Firing] and measure[2: measures] some Employment[1: Employment] 
+99:168 ;1;    EmploymentFiring EquivalentTo: Fire[4: Firing] and measure[2: measures] some Employment[1: Employment] 
+99:168 ;3;    EmploymentFiring SubClassOf: measure[2: measures] some Employment[1: Employment]        
+99:168 ;4;    EmploymentFiring SubClassOf: measure[2: measures] some Thing     
+32:118 ;4;    NHOrder SubClassOf: inverse traverses[2: traverse] some Thing             
+15:799 ;1;    ShipContainer SubClassOf: origin[1: origin] some Ship[1: Ship]            
+15:799 ;2;    ShipContainer EquivalentTo: Container[1: Container] and origin[1: origin] some Ship[1: Ship]     
+99:176 ;4;    PhysicsDomain SubClassOf: measure[2: measures] some Thing     
+32:254 ;4;    TacticalPSYOP SubClassOf: inverse traverses[2: traverse] some Thing             
+14:240 ;1;    SafeContainer SubClassOf: Container[1: Container] and contains[2: contain] some Rubber[3: Safe]                 
+14:240 ;2;    SafeContainer SubClassOf: Container[1: Container] and inverse property[4: place] some Rubber[3: Safe]         
+5:210 ;2;    SafeContainer EquivalentTo: Rubber[3: Safe] and Container[1: Container] 
+32:669 ;2;    VehicleRegistration SubClassOf: inverse traverses[2: traverse] some Vehicle[1: Vehicle]                
+32:669 ;4;    VehicleRegistration SubClassOf: inverse traverses[2: traverse] some Thing             
+38:103 ;2;    VehicleRegistration SubClassOf: instance[4: case] some Vehicle[1: Vehicle]                        
+10:207 ;1;    FarmBuilding SubClassOf: inverse causes[1: causes] some Farm[1: Farm]          
+10:207 ;2;    FarmBuilding SubClassOf: inverse causes[1: causes] some Thing       
+38:112 ;2;    FarmBuilding SubClassOf: instance[4: case] some Farm[1: Farm]                        
+32:273 ;4;    LightFixture SubClassOf: inverse traverses[2: traverse] some Thing             
+10:70 ;2;    LightFixture SubClassOf: inverse causes[1: causes] some Thing       
+68:94 ;2;    GameShot SubClassOf: Shooting[4: Shot] and during[1: during] only Game[1: Game]                        
+68:94 ;2;    GameShot SubClassOf: Shaft[3: Shot] and during[1: during] only Game[1: Game]                        
+15:76 ;1;    GameShot SubClassOf: origin[1: origin] some Game[1: Game]            
+15:76 ;2;    GameShot EquivalentTo: Shooting[4: Shot] and origin[1: origin] some Game[1: Game]     
+15:76 ;2;    GameShot EquivalentTo: Shaft[3: Shot] and origin[1: origin] some Game[1: Game]     
+12:362 ;1;    WireLine SubClassOf: Pipeline[4: Line] and composer[2: composed] some Wire[1: Wire]                 
+12:362 ;1;    WireLine SubClassOf: Blood[4: Line] and composer[2: composed] some Wire[1: Wire]                 
+12:362 ;1;    WireLine SubClassOf: Air[4: Line] and composer[2: composed] some Wire[1: Wire]                 
+12:362 ;1;    WireLine SubClassOf: Business[4: Line] and composer[2: composed] some Wire[1: Wire]                 
+12:362 ;1;    WireLine SubClassOf: Stock[4: Line] and composer[2: composed] some Wire[1: Wire]                 
+12:362 ;1;    WireLine SubClassOf: Note[3: Line] and composer[2: composed] some Wire[1: Wire]                 
+12:362 ;1;    WireLine SubClassOf: Channel[4: Line] and composer[2: composed] some Wire[1: Wire]                 
+99:138 ;1;    ShotBall EquivalentTo: Nut[4: Ball] and measure[2: measures] some Shooting[4: Shot] 
+99:138 ;1;    ShotBall EquivalentTo: Nut[4: Ball] and measure[2: measures] some Shaft[3: Shot] 
+99:138 ;1;    ShotBall EquivalentTo: Sphere[4: Ball] and measure[2: measures] some Shooting[4: Shot] 
+99:138 ;1;    ShotBall EquivalentTo: Sphere[4: Ball] and measure[2: measures] some Shaft[3: Shot] 
+99:138 ;1;    ShotBall EquivalentTo: Baseball[4: Ball] and measure[2: measures] some Shooting[4: Shot] 
+99:138 ;1;    ShotBall EquivalentTo: Baseball[4: Ball] and measure[2: measures] some Shaft[3: Shot] 
+99:138 ;1;    ShotBall EquivalentTo: Ball[1: Ball] and measure[2: measures] some Shooting[4: Shot] 
+99:138 ;1;    ShotBall EquivalentTo: Ball[1: Ball] and measure[2: measures] some Shaft[3: Shot] 
+99:138 ;1;    ShotBall EquivalentTo: Egg[4: Ball] and measure[2: measures] some Shooting[4: Shot] 
+99:138 ;1;    ShotBall EquivalentTo: Egg[4: Ball] and measure[2: measures] some Shaft[3: Shot] 
+99:138 ;3;    ShotBall SubClassOf: measure[2: measures] some Shooting[4: Shot]        
+99:138 ;3;    ShotBall SubClassOf: measure[2: measures] some Shaft[3: Shot]        
+99:138 ;4;    ShotBall SubClassOf: measure[2: measures] some Thing     
+10:910 ;2;    ChinookWind SubClassOf: inverse causes[1: causes] some Thing       
+5:416 ;2;    ChairmanPublication EquivalentTo: Chair[4: Chairman] and Publication[1: Publication] 
+12:110 ;1;    ChairmanPublication SubClassOf: Publication[1: Publication] and composer[2: composed] some Chair[4: Chairman]                 
+32:991 ;2;    VehicleAttack SubClassOf: inverse traverses[2: traverse] some Vehicle[1: Vehicle]                
+32:991 ;4;    VehicleAttack SubClassOf: inverse traverses[2: traverse] some Thing             
+32:991 ;6;    VehicleAttack EquivalentTo: Attack[1: Attack] and inverse traverses[2: traverse] some Vehicle[1: Vehicle]         
+32:991 ;6;    VehicleAttack EquivalentTo: Fire[3: Attack] and inverse traverses[2: traverse] some Vehicle[1: Vehicle]         
+15:69 ;1;    SurfaceChange SubClassOf: origin[1: origin] some Floor[3: Surface]            
+68:884 ;2;    HolidayCard SubClassOf: Poster[4: Card] and during[1: during] only Holiday[1: Holiday]                        
+68:884 ;2;    HolidayCard SubClassOf: Correspondence[4: Card] and during[1: during] only Holiday[1: Holiday]                        
+14:123 ;1;    OfficeBuilding SubClassOf: Building[1: Building] and contains[2: contain] some Function[4: Office]                 
+14:123 ;1;    OfficeBuilding SubClassOf: Building[1: Building] and contains[2: contain] some Agency[4: Office]                 
+14:123 ;1;    OfficeBuilding SubClassOf: Building[1: Building] and contains[2: contain] some Position[4: Office]                 
+14:123 ;2;    OfficeBuilding SubClassOf: Building[1: Building] and inverse home[3: place] some Function[4: Office]         
+14:123 ;2;    OfficeBuilding SubClassOf: Building[1: Building] and inverse home[3: place] some Agency[4: Office]         
+14:123 ;2;    OfficeBuilding SubClassOf: Building[1: Building] and inverse home[3: place] some Position[4: Office]         
+14:123 ;2;    OfficeBuilding SubClassOf: Building[1: Building] and inverse property[4: place] some Function[4: Office]         
+14:123 ;2;    OfficeBuilding SubClassOf: Building[1: Building] and inverse property[4: place] some Agency[4: Office]         
+14:123 ;2;    OfficeBuilding SubClassOf: Building[1: Building] and inverse property[4: place] some Position[4: Office]         
+15:89 ;1;    OfficeBuilding SubClassOf: origin[1: origin] some Function[4: Office]            
+15:89 ;1;    OfficeBuilding SubClassOf: origin[1: origin] some Agency[4: Office]            
+15:89 ;1;    OfficeBuilding SubClassOf: origin[1: origin] some Position[4: Office]            
+15:89 ;2;    OfficeBuilding EquivalentTo: Building[1: Building] and origin[1: origin] some Function[4: Office]     
+15:89 ;2;    OfficeBuilding EquivalentTo: Building[1: Building] and origin[1: origin] some Agency[4: Office]     
+15:89 ;2;    OfficeBuilding EquivalentTo: Building[1: Building] and origin[1: origin] some Position[4: Office]     
+32:120 ;4;    RailJunction SubClassOf: inverse traverses[2: traverse] some Thing             
+32:443 ;4;    CoconucanLanguage SubClassOf: inverse traverses[2: traverse] some Thing             
+10:190 ;2;    LegalAward SubClassOf: inverse causes[1: causes] some Thing       
+99:143 ;4;    LegalAward SubClassOf: measure[2: measures] some Thing     
+10:162 ;1;    CurrencyCoin SubClassOf: inverse causes[1: causes] some Currency[1: Currency]          
+10:162 ;2;    CurrencyCoin SubClassOf: inverse causes[1: causes] some Thing       
+15:913 ;1;    Coast-Guard SubClassOf: origin[1: origin] some Seacoast[4: Coast]            
+38:673 ;2;    TelevisionStation SubClassOf: instance[4: case] some television[1: Television]                        
+38:673 ;2;    TelevisionStation SubClassOf: instance[4: case] some TV[3: Television]                        
+15:268 ;1;    TelevisionStation SubClassOf: origin[1: origin] some television[1: Television]            
+15:268 ;1;    TelevisionStation SubClassOf: origin[1: origin] some TV[3: Television]            
+32:78 ;2;    ComputerProgram SubClassOf: inverse traverses[2: traverse] some Computer[1: Computer]                
+32:78 ;4;    ComputerProgram SubClassOf: inverse traverses[2: traverse] some Thing             
+32:78 ;6;    ComputerProgram EquivalentTo: Plan[4: Program] and inverse traverses[2: traverse] some Computer[1: Computer]         
+5:876 ;2;    MachineTool EquivalentTo: Automobile[4: Machine] and Shaft[3: Tool] 
+5:876 ;2;    MachineTool EquivalentTo: Machine[1: Machine] and Shaft[3: Tool] 
+38:251 ;2;    BusNetwork SubClassOf: instance[4: case] some Bus[1: Bus]                        
+32:74 ;2;    BusNetwork SubClassOf: inverse traverses[2: traverse] some Bus[1: Bus]                
+32:74 ;4;    BusNetwork SubClassOf: inverse traverses[2: traverse] some Thing             
+14:204 ;1;    PlaceAddress SubClassOf: Address[1: Address] and contains[2: contain] some Position[3: Place]                 
+14:204 ;1;    PlaceAddress SubClassOf: Address[1: Address] and contains[2: contain] some Seat[3: Place]                 
+14:204 ;1;    PlaceAddress SubClassOf: URL[3: Address] and contains[2: contain] some Position[3: Place]                 
+14:204 ;1;    PlaceAddress SubClassOf: URL[3: Address] and contains[2: contain] some Seat[3: Place]                 
+14:204 ;2;    PlaceAddress SubClassOf: Address[1: Address] and inverse home[3: place] some Position[3: Place]         
+14:204 ;2;    PlaceAddress SubClassOf: Address[1: Address] and inverse property[4: place] some Position[3: Place]         
+14:204 ;2;    PlaceAddress SubClassOf: Address[1: Address] and inverse property[4: place] some Seat[3: Place]         
+14:204 ;2;    PlaceAddress SubClassOf: URL[3: Address] and inverse home[3: place] some Position[3: Place]         
+14:204 ;2;    PlaceAddress SubClassOf: URL[3: Address] and inverse property[4: place] some Position[3: Place]         
+14:204 ;2;    PlaceAddress SubClassOf: URL[3: Address] and inverse property[4: place] some Seat[3: Place]         
+10:67 ;2;    TreasuryBill SubClassOf: inverse causes[1: causes] some Thing       
+32:401 ;4;    AlgicLanguage SubClassOf: inverse traverses[2: traverse] some Thing             
+32:231 ;4;    RadioactiveWeapon SubClassOf: inverse traverses[2: traverse] some Thing             
+99:64 ;4;    RadioactiveWeapon SubClassOf: measure[2: measures] some Thing     
+32:198 ;4;    LinguisticCommunication SubClassOf: inverse traverses[2: traverse] some Thing             
+32:519 ;2;    ShipBerth SubClassOf: inverse traverses[2: traverse] some Ship[1: Ship]                
+32:519 ;4;    ShipBerth SubClassOf: inverse traverses[2: traverse] some Thing             
+32:519 ;6;    ShipBerth EquivalentTo: Position[4: Berth] and inverse traverses[2: traverse] some Ship[1: Ship]         
+15:52 ;1;    ShipBerth SubClassOf: origin[1: origin] some Ship[1: Ship]            
+15:52 ;2;    ShipBerth EquivalentTo: Position[4: Berth] and origin[1: origin] some Ship[1: Ship]     
+5:169 ;2;    PlaceDescriptor EquivalentTo: Position[3: Place] and Descriptor[1: Descriptor] 
+5:169 ;2;    PlaceDescriptor EquivalentTo: Seat[3: Place] and Descriptor[1: Descriptor] 
+15:78 ;1;    LandTransitway SubClassOf: origin[1: origin] some Farming[3: Land]            
+15:78 ;1;    LandTransitway SubClassOf: origin[1: origin] some Soil[4: Land]            
+15:78 ;1;    LandTransitway SubClassOf: origin[1: origin] some Nation[4: Land]            
+15:78 ;2;    LandTransitway EquivalentTo: Transitway[1: Transitway] and origin[1: origin] some Farming[3: Land]     
+15:78 ;2;    LandTransitway EquivalentTo: Transitway[1: Transitway] and origin[1: origin] some Soil[4: Land]     
+15:78 ;2;    LandTransitway EquivalentTo: Transitway[1: Transitway] and origin[1: origin] some Nation[4: Land]     
+10:179 ;2;    SportsPlay SubClassOf: inverse causes[1: causes] some Thing       
+32:470 ;4;    ChibchanLanguage SubClassOf: inverse traverses[2: traverse] some Thing             
+15:860 ;1;    RiverPort SubClassOf: origin[1: origin] some River[1: River]            
+32:304 ;4;    PidginLanguage SubClassOf: inverse traverses[2: traverse] some Thing             
+32:77 ;4;    UdhiyahRitual SubClassOf: inverse traverses[2: traverse] some Thing             
+14:642 ;1;    FlowRegion SubClassOf: Region[1: Region] and contains[2: contain] some Menstruation[4: Flow]                 
+14:642 ;2;    FlowRegion SubClassOf: Region[1: Region] and inverse home[3: place] some Menstruation[4: Flow]         
+14:642 ;2;    FlowRegion SubClassOf: Region[1: Region] and inverse property[4: place] some Menstruation[4: Flow]         
+5:178 ;2;    FlowRegion EquivalentTo: Menstruation[4: Flow] and Region[1: Region] 
+38:53 ;2;    FlowRegion SubClassOf: instance[4: case] some Menstruation[4: Flow]                        
+32:438 ;4;    WitotoanLanguage SubClassOf: inverse traverses[2: traverse] some Thing             
+5:137 ;2;    VirusPart EquivalentTo: Virus[1: Virus] and Function[4: Part] 
+5:137 ;2;    VirusPart EquivalentTo: Virus[1: Virus] and Region[4: Part] 
+5:137 ;2;    VirusPart EquivalentTo: Virus[1: Virus] and Character[4: Part] 
+32:972 ;4;    SteamEngine SubClassOf: inverse traverses[2: traverse] some Thing             
+68:59 ;2;    PerformanceProgram SubClassOf: Plan[4: Program] and during[1: during] only Demonstration[4: Performance]                        
+68:59 ;2;    PerformanceProgram SubClassOf: Plan[4: Program] and during[1: during] only Performance[1: Performance]                        
+68:59 ;2;    PerformanceProgram SubClassOf: Plan[4: Program] and during[1: during] only Execution[4: Performance]                        
+32:649 ;4;    RadioBroadcasting SubClassOf: inverse traverses[2: traverse] some Thing             
+32:210 ;2;    ContainerShip SubClassOf: inverse traverses[2: traverse] some Container[1: Container]                
+32:210 ;4;    ContainerShip SubClassOf: inverse traverses[2: traverse] some Thing             
+32:210 ;6;    ContainerShip EquivalentTo: Ship[1: Ship] and inverse traverses[2: traverse] some Container[1: Container]         
+32:180 ;4;    DcMotor SubClassOf: inverse traverses[2: traverse] some Thing             
+38:373 ;2;    ArtPainting SubClassOf: instance[4: case] some ArtWork[4: Art]                        
+5:183 ;2;    ArtPainting EquivalentTo: ArtWork[4: Art] and Painting[1: Painting] 
+15:475 ;1;    PostMeridiem SubClassOf: origin[1: origin] some Position[4: Post]            
+10:340 ;1;    WindFlow SubClassOf: inverse causes[1: causes] some Wind[1: Wind]          
+10:340 ;1;    WindFlow SubClassOf: inverse causes[1: causes] some Lead[3: Wind]          
+10:340 ;2;    WindFlow SubClassOf: inverse causes[1: causes] some Thing       
+5:238 ;2;    InductionMotor EquivalentTo: Installation[4: Induction] and Engine[4: Motor] 
+5:238 ;2;    InductionMotor EquivalentTo: Installation[4: Induction] and Motor[1: Motor] 
+5:238 ;2;    InductionMotor EquivalentTo: Inductance[4: Induction] and Engine[4: Motor] 
+5:238 ;2;    InductionMotor EquivalentTo: Inductance[4: Induction] and Motor[1: Motor] 
+15:957 ;1;    WindowCovering SubClassOf: origin[1: origin] some Window[1: Window]            
+15:957 ;2;    WindowCovering EquivalentTo: Covering[1: Covering] and origin[1: origin] some Window[1: Window]     
+15:957 ;2;    WindowCovering EquivalentTo: Application[4: Covering] and origin[1: origin] some Window[1: Window]     
+15:957 ;2;    WindowCovering EquivalentTo: Dressing[4: Covering] and origin[1: origin] some Window[1: Window]     
+32:944 ;4;    DieselEngine SubClassOf: inverse traverses[2: traverse] some Thing             
+32:472 ;4;    SiouanLanguage SubClassOf: inverse traverses[2: traverse] some Thing             
+5:118 ;2;    ReferenceBook EquivalentTo: Character[3: Reference] and Book[1: Book] 
+5:118 ;2;    ReferenceBook EquivalentTo: Character[3: Reference] and Word[4: Book] 
+5:118 ;2;    ReferenceBook EquivalentTo: Source[3: Reference] and Book[1: Book] 
+5:118 ;2;    ReferenceBook EquivalentTo: Source[3: Reference] and Word[4: Book] 
+12:86 ;1;    ReferenceBook SubClassOf: Book[1: Book] and composer[2: composed] some Character[3: Reference]                 
+12:86 ;1;    ReferenceBook SubClassOf: Book[1: Book] and composer[2: composed] some Source[3: Reference]                 
+12:86 ;1;    ReferenceBook SubClassOf: Word[4: Book] and composer[2: composed] some Character[3: Reference]                 
+12:86 ;1;    ReferenceBook SubClassOf: Word[4: Book] and composer[2: composed] some Source[3: Reference]                 
+38:86 ;2;    ReservoirLake SubClassOf: instance[4: case] some Reservoir[1: Reservoir]                        
+38:86 ;2;    ReservoirLake SubClassOf: instance[4: case] some Source[3: Reservoir]                        
+14:72 ;1;    ReservoirLake SubClassOf: Lake[1: Lake] and contains[2: contain] some Reservoir[1: Reservoir]                 
+14:72 ;1;    ReservoirLake SubClassOf: Lake[1: Lake] and contains[2: contain] some Source[3: Reservoir]                 
+14:72 ;2;    ReservoirLake SubClassOf: Lake[1: Lake] and inverse home[3: place] some Source[3: Reservoir]         
+14:72 ;2;    ReservoirLake SubClassOf: Lake[1: Lake] and inverse property[4: place] some Reservoir[1: Reservoir]         
+14:72 ;2;    ReservoirLake SubClassOf: Lake[1: Lake] and inverse property[4: place] some Source[3: Reservoir]         
+32:180 ;4;    JetStream SubClassOf: inverse traverses[2: traverse] some Thing             
+5:120 ;2;    CaseRole EquivalentTo: Character[3: Case] and Function[3: Role] 
+5:120 ;2;    CaseRole EquivalentTo: Character[3: Case] and Character[4: Role] 
+5:120 ;2;    CaseRole EquivalentTo: Character[3: Case] and Position[4: Role] 
+38:248 ;2;    TrainStation SubClassOf: instance[4: case] some GearTrain[4: Train]                        
+38:248 ;2;    TrainStation SubClassOf: instance[4: case] some String[3: Train]                        
+38:248 ;2;    TrainStation SubClassOf: instance[4: case] some Train[1: Train]                        
+32:167 ;2;    TrainStation SubClassOf: inverse traverses[2: traverse] some GearTrain[4: Train]                
+32:167 ;2;    TrainStation SubClassOf: inverse traverses[2: traverse] some String[3: Train]                
+32:167 ;2;    TrainStation SubClassOf: inverse traverses[2: traverse] some Train[1: Train]                
+32:167 ;4;    TrainStation SubClassOf: inverse traverses[2: traverse] some Thing             
+15:144 ;1;    TrainStation SubClassOf: origin[1: origin] some GearTrain[4: Train]            
+15:144 ;1;    TrainStation SubClassOf: origin[1: origin] some String[3: Train]            
+15:144 ;1;    TrainStation SubClassOf: origin[1: origin] some Train[1: Train]            
+14:61 ;1;    TransformerDevice SubClassOf: Device[1: Device] and contains[2: contain] some Transformer[1: Transformer]                 
+14:61 ;2;    TransformerDevice SubClassOf: Device[1: Device] and inverse property[4: place] some Transformer[1: Transformer]         
+32:141 ;4;    ExternalTransfer SubClassOf: inverse traverses[2: traverse] some Thing             
+99:117 ;4;    ExternalTransfer SubClassOf: measure[2: measures] some Thing     
+32:170 ;4;    MuskogeanLanguage SubClassOf: inverse traverses[2: traverse] some Thing             
+32:477 ;4;    NipodeLanguage SubClassOf: inverse traverses[2: traverse] some Thing             
+32:470 ;4;    PaezanLanguage SubClassOf: inverse traverses[2: traverse] some Thing             
+10:583 ;2;    FinancialResponse SubClassOf: inverse causes[1: causes] some Thing       
+5:260 ;2;    LicenseAgreement EquivalentTo: License[1: License] and Agreement[1: Agreement] 
+5:260 ;2;    LicenseAgreement EquivalentTo: License[1: License] and Correspondence[4: Agreement] 
+32:663 ;4;    ConsoleApplication SubClassOf: inverse traverses[2: traverse] some Thing             
+15:827 ;1;    SeaLane SubClassOf: origin[1: origin] some Sea[1: Sea]            
+15:827 ;1;    SeaLane SubClassOf: origin[1: origin] some Ocean[3: Sea]            
+15:827 ;2;    SeaLane EquivalentTo: Lane[1: Lane] and origin[1: origin] some Sea[1: Sea]     
+15:827 ;2;    SeaLane EquivalentTo: Lane[1: Lane] and origin[1: origin] some Ocean[3: Sea]     
+12:82 ;1;    RailwayTerminal SubClassOf: Terminal[1: Terminal] and composer[2: composed] some Railway[1: Railway]                 
+32:82 ;2;    RailwayTerminal SubClassOf: inverse traverses[2: traverse] some Railway[1: Railway]                
+32:82 ;4;    RailwayTerminal SubClassOf: inverse traverses[2: traverse] some Thing             
+32:82 ;6;    RailwayTerminal EquivalentTo: Terminal[1: Terminal] and inverse traverses[2: traverse] some Railway[1: Railway]         
+14:111 ;1;    TransitShelter SubClassOf: Camp[3: Shelter] and contains[2: contain] some Transportation[4: Transit]                 
+14:111 ;2;    TransitShelter SubClassOf: Camp[3: Shelter] and inverse property[4: place] some Transportation[4: Transit]         
+32:172 ;4;    DhegihaLanguage SubClassOf: inverse traverses[2: traverse] some Thing             
+10:167 ;2;    RainForest SubClassOf: inverse causes[1: causes] some Thing       
+14:132 ;1;    ParkingLot SubClassOf: Circle[4: Lot] and contains[2: contain] some Barking[2: Parking]                 
+14:132 ;1;    ParkingLot SubClassOf: Set[4: Lot] and contains[2: contain] some Barking[2: Parking]                 
+14:132 ;2;    ParkingLot SubClassOf: Circle[4: Lot] and inverse home[3: place] some Barking[2: Parking]         
+14:132 ;2;    ParkingLot SubClassOf: Circle[4: Lot] and inverse property[4: place] some Barking[2: Parking]         
+14:132 ;2;    ParkingLot SubClassOf: Set[4: Lot] and inverse home[3: place] some Barking[2: Parking]         
+14:132 ;2;    ParkingLot SubClassOf: Set[4: Lot] and inverse property[4: place] some Barking[2: Parking]         
+10:59 ;1;    ParkingLot SubClassOf: inverse causes[1: causes] some Barking[2: Parking]          
+10:59 ;2;    ParkingLot SubClassOf: inverse causes[1: causes] some Thing       
+32:705 ;4;    ChemicalWeapon SubClassOf: inverse traverses[2: traverse] some Thing             
+32:450 ;4;    ChocoLanguage SubClassOf: inverse traverses[2: traverse] some Thing             
+38:72 ;2;    ShareUnit SubClassOf: instance[4: case] some Share[1: Share]                        
+38:72 ;2;    ShareUnit SubClassOf: instance[4: case] some Stock[3: Share]                        
+15:579 ;1;    CollegeChapel SubClassOf: origin[1: origin] some College[1: College]            
+15:579 ;1;    CollegeChapel SubClassOf: origin[1: origin] some Collage[2: College]            
+14:245 ;1;    RoadJunction SubClassOf: Function[2: Junction] and contains[2: contain] some Road[1: Road]                 
+14:245 ;2;    RoadJunction SubClassOf: Function[2: Junction] and inverse home[3: place] some Road[1: Road]         
+14:245 ;2;    RoadJunction SubClassOf: Function[2: Junction] and inverse property[4: place] some Road[1: Road]         
+38:222 ;2;    RoadJunction SubClassOf: instance[4: case] some Road[1: Road]                        
+15:109 ;1;    RoadJunction SubClassOf: origin[1: origin] some Road[1: Road]            
+15:109 ;2;    RoadJunction EquivalentTo: Function[2: Junction] and origin[1: origin] some Road[1: Road]     
+32:184 ;4;    CreoleLanguage SubClassOf: inverse traverses[2: traverse] some Thing             
+1:71 ;1;    CookingRange EquivalentTo: range[1: Range] some Cooling[2: Cooking]             
+1:71 ;1;    CookingRange EquivalentTo: range[1: Range] some Cooking[1: Cooking]             
+1:71 ;1;    CookingRange EquivalentTo: range[1: Range] some Looking[2: Cooking]             
+32:786 ;2;    MortarPlatoon SubClassOf: inverse traverses[2: traverse] some Mortar[1: Mortar]                
+32:786 ;4;    MortarPlatoon SubClassOf: inverse traverses[2: traverse] some Thing             
+32:786 ;6;    MortarPlatoon EquivalentTo: Platoon[1: Platoon] and inverse traverses[2: traverse] some Mortar[1: Mortar]         
+12:70 ;1;    MortarPlatoon SubClassOf: Platoon[1: Platoon] and composer[2: composed] some Mortar[1: Mortar]                 
+99:850 ;4;    SocialScience SubClassOf: measure[2: measures] some Thing     
+12:50 ;1;    MissionOrganization SubClassOf: Organization[1: Organization] and composer[2: composed] some Commission[4: Mission]                 
+12:50 ;1;    MissionOrganization SubClassOf: Constitution[4: Organization] and composer[2: composed] some Commission[4: Mission]                 
+15:107 ;1;    ShoeSole SubClassOf: origin[1: origin] some Shoe[1: Shoe]            
+14:883 ;1;    WaterArea SubClassOf: Region[4: Area] and contains[2: contain] some Water[1: Water]                 
+14:883 ;1;    WaterArea SubClassOf: Sphere[4: Area] and contains[2: contain] some Water[1: Water]                 
+14:883 ;1;    WaterArea SubClassOf: Field[4: Area] and contains[2: contain] some Water[1: Water]                 
+14:883 ;2;    WaterArea SubClassOf: Region[4: Area] and inverse property[4: place] some Water[1: Water]         
+14:883 ;2;    WaterArea SubClassOf: Sphere[4: Area] and inverse property[4: place] some Water[1: Water]         
+14:883 ;2;    WaterArea SubClassOf: Field[4: Area] and inverse property[4: place] some Water[1: Water]         
+10:66 ;1;    WaterArea SubClassOf: inverse causes[1: causes] some Water[1: Water]          
+10:66 ;2;    WaterArea SubClassOf: inverse causes[1: causes] some Thing       
+15:651 ;1;    CityDistrict SubClassOf: origin[1: origin] some City[1: City]            
+32:397 ;4;    TurkicLanguage SubClassOf: inverse traverses[2: traverse] some Thing             
+10:57 ;2;    TurkicLanguage SubClassOf: inverse causes[1: causes] some Thing       
+15:923 ;1;    TerritoryID SubClassOf: origin[1: origin] some Soil[3: Territory]            
+10:424 ;1;    TrafficLight SubClassOf: inverse causes[1: causes] some Relation[3: Traffic]          
+10:424 ;2;    TrafficLight SubClassOf: inverse causes[1: causes] some Thing       
+15:216 ;1;    TrafficLight SubClassOf: origin[1: origin] some Relation[3: Traffic]            
+32:94 ;2;    TapeCassette SubClassOf: inverse traverses[2: traverse] some Tape[1: Tape]                
+32:94 ;4;    TapeCassette SubClassOf: inverse traverses[2: traverse] some Thing             
+32:471 ;4;    SakishimaLanguage SubClassOf: inverse traverses[2: traverse] some Thing             
+32:277 ;2;    GasMotion SubClassOf: inverse traverses[2: traverse] some Gasoline[4: Gas]                
+32:277 ;2;    GasMotion SubClassOf: inverse traverses[2: traverse] some Gun[3: Gas]                
+32:277 ;4;    GasMotion SubClassOf: inverse traverses[2: traverse] some Thing             
+32:277 ;6;    GasMotion EquivalentTo: Question[3: Motion] and inverse traverses[2: traverse] some Gasoline[4: Gas]         
+32:277 ;6;    GasMotion EquivalentTo: Question[3: Motion] and inverse traverses[2: traverse] some Gun[3: Gas]         
+32:277 ;6;    GasMotion EquivalentTo: Motion[1: Motion] and inverse traverses[2: traverse] some Gasoline[4: Gas]         
+32:277 ;6;    GasMotion EquivalentTo: Motion[1: Motion] and inverse traverses[2: traverse] some Gun[3: Gas]         
+32:277 ;6;    GasMotion EquivalentTo: Gesture[4: Motion] and inverse traverses[2: traverse] some Gasoline[4: Gas]         
+32:277 ;6;    GasMotion EquivalentTo: Gesture[4: Motion] and inverse traverses[2: traverse] some Gun[3: Gas]         
+15:90 ;1;    ComputerReport SubClassOf: origin[1: origin] some Computer[1: Computer]            
+15:90 ;2;    ComputerReport EquivalentTo: Report[1: Report] and origin[1: origin] some Computer[1: Computer]     
+15:90 ;2;    ComputerReport EquivalentTo: Paper[4: Report] and origin[1: origin] some Computer[1: Computer]     
+32:76 ;2;    ComputerReport SubClassOf: inverse traverses[2: traverse] some Computer[1: Computer]                
+32:76 ;4;    ComputerReport SubClassOf: inverse traverses[2: traverse] some Thing             
+32:76 ;6;    ComputerReport EquivalentTo: Report[1: Report] and inverse traverses[2: traverse] some Computer[1: Computer]         
+32:76 ;6;    ComputerReport EquivalentTo: Paper[4: Report] and inverse traverses[2: traverse] some Computer[1: Computer]         
+32:385 ;4;    LightTruck SubClassOf: inverse traverses[2: traverse] some Thing             
+10:544 ;2;    ContinentalMargin SubClassOf: inverse causes[1: causes] some Thing       
+5:140 ;2;    DepressantDrug EquivalentTo: Depressant[1: Depressant] and Agent[4: Drug] 
+14:156 ;1;    TeaLeaf SubClassOf: Leaf[1: Leaf] and contains[2: contain] some Tea[1: Tea]                 
+14:156 ;2;    TeaLeaf SubClassOf: Leaf[1: Leaf] and inverse property[4: place] some Tea[1: Tea]         
+38:96 ;2;    TeaLeaf SubClassOf: instance[4: case] some Tea[1: Tea]                        
+15:59 ;1;    BodyVessel SubClassOf: origin[1: origin] some Torso[3: Body]            
+15:59 ;2;    BodyVessel EquivalentTo: Tube[4: Vessel] and origin[1: origin] some Torso[3: Body]     
+1:816 ;1;    FunctionQuantity EquivalentTo: measure[4: Quantity] some Function[1: Function]             
+1:816 ;1;    FunctionQuantity EquivalentTo: measure[4: Quantity] some Procedure[4: Function]             
+5:106 ;2;    ConstitutionDocument EquivalentTo: Constitution[1: Constitution] and Document[1: Document] 
+5:106 ;2;    ConstitutionDocument EquivalentTo: Constitution[1: Constitution] and Letter[4: Document] 
+15:71 ;1;    ConstitutionDocument SubClassOf: origin[1: origin] some Organization[4: Constitution]            
+15:71 ;1;    ConstitutionDocument SubClassOf: origin[1: origin] some Constitution[1: Constitution]            
+15:71 ;2;    ConstitutionDocument EquivalentTo: Document[1: Document] and origin[1: origin] some Organization[4: Constitution]     
+15:71 ;2;    ConstitutionDocument EquivalentTo: Document[1: Document] and origin[1: origin] some Constitution[1: Constitution]     
+15:71 ;2;    ConstitutionDocument EquivalentTo: Letter[4: Document] and origin[1: origin] some Organization[4: Constitution]     
+15:71 ;2;    ConstitutionDocument EquivalentTo: Letter[4: Document] and origin[1: origin] some Constitution[1: Constitution]     
+15:733 ;1;    InletPassage SubClassOf: origin[1: origin] some Inlet[1: Inlet]            
+15:733 ;2;    InletPassage EquivalentTo: Relay[3: Passage] and origin[1: origin] some Inlet[1: Inlet]     
+32:141 ;4;    InternetAddress SubClassOf: inverse traverses[2: traverse] some Thing             
+15:757 ;1;    CaveMatrix SubClassOf: origin[1: origin] some Cave[1: Cave]            
+5:73 ;2;    PerformanceBond EquivalentTo: Demonstration[4: Performance] and Bond[1: Bond] 
+5:73 ;2;    PerformanceBond EquivalentTo: Performance[1: Performance] and Bond[1: Bond] 
+5:73 ;2;    PerformanceBond EquivalentTo: Execution[4: Performance] and Bond[1: Bond] 
+10:144 ;1;    GameCall SubClassOf: inverse causes[1: causes] some Game[1: Game]          
+10:144 ;2;    GameCall SubClassOf: inverse causes[1: causes] some Thing       
+99:136 ;3;    HumanBaby SubClassOf: measure[2: measures] some Human[1: Human]        
+99:136 ;3;    HumanBaby SubClassOf: measure[2: measures] some Man[4: Human]        
+99:136 ;4;    HumanBaby SubClassOf: measure[2: measures] some Thing     
+38:119 ;2;    HumanBaby SubClassOf: instance[4: case] some Human[1: Human]                        
+38:119 ;2;    HumanBaby SubClassOf: instance[4: case] some Man[4: Human]                        
+15:99 ;1;    WaterMotion SubClassOf: origin[1: origin] some Water[1: Water]            
+15:99 ;2;    WaterMotion EquivalentTo: Question[3: Motion] and origin[1: origin] some Water[1: Water]     
+15:99 ;2;    WaterMotion EquivalentTo: Motion[1: Motion] and origin[1: origin] some Water[1: Water]     
+15:99 ;2;    WaterMotion EquivalentTo: Gesture[4: Motion] and origin[1: origin] some Water[1: Water]     
+32:95 ;2;    WaterMotion SubClassOf: inverse traverses[2: traverse] some Water[1: Water]                
+32:95 ;4;    WaterMotion SubClassOf: inverse traverses[2: traverse] some Thing             
+32:95 ;6;    WaterMotion EquivalentTo: Question[3: Motion] and inverse traverses[2: traverse] some Water[1: Water]         
+32:95 ;6;    WaterMotion EquivalentTo: Motion[1: Motion] and inverse traverses[2: traverse] some Water[1: Water]         
+32:95 ;6;    WaterMotion EquivalentTo: Gesture[4: Motion] and inverse traverses[2: traverse] some Water[1: Water]         
+12:627 ;1;    WeatherSystem SubClassOf: Organization[3: System] and composer[2: composed] some Leather[2: Weather]                 
+12:627 ;1;    WeatherSystem SubClassOf: Organization[3: System] and composer[2: composed] some Feather[2: Weather]                 
+99:79 ;1;    WeatherSystem EquivalentTo: Organization[3: System] and measure[2: measures] some Leather[2: Weather] 
+99:79 ;1;    WeatherSystem EquivalentTo: Organization[3: System] and measure[2: measures] some Feather[2: Weather] 
+99:79 ;3;    WeatherSystem SubClassOf: measure[2: measures] some Leather[2: Weather]        
+99:79 ;3;    WeatherSystem SubClassOf: measure[2: measures] some Feather[2: Weather]        
+99:79 ;4;    WeatherSystem SubClassOf: measure[2: measures] some Thing     
+99:203 ;1;    AnimalController EquivalentTo: Controller[1: Controller] and measure[2: measures] some Animal[1: Animal] 
+99:203 ;3;    AnimalController SubClassOf: measure[2: measures] some Animal[1: Animal]        
+99:203 ;4;    AnimalController SubClassOf: measure[2: measures] some Thing     
+15:149 ;1;    NerveCell SubClassOf: origin[1: origin] some Heart[3: Nerve]            
+15:149 ;1;    NerveCell SubClassOf: origin[1: origin] some Brass[4: Nerve]            
+15:149 ;1;    NerveCell SubClassOf: origin[1: origin] some Face[4: Nerve]            
+15:149 ;2;    NerveCell EquivalentTo: Cell[1: Cell] and origin[1: origin] some Heart[3: Nerve]     
+15:149 ;2;    NerveCell EquivalentTo: Cell[1: Cell] and origin[1: origin] some Brass[4: Nerve]     
+15:149 ;2;    NerveCell EquivalentTo: Cell[1: Cell] and origin[1: origin] some Face[4: Nerve]     
+32:121 ;4;    StandoffAttack SubClassOf: inverse traverses[2: traverse] some Thing             
+10:93 ;2;    GalleryCar SubClassOf: inverse causes[1: causes] some Thing       
+5:155 ;2;    ParticleWord EquivalentTo: Atom[4: Particle] and Word[1: Word] 
+5:155 ;2;    ParticleWord EquivalentTo: Molecule[4: Particle] and Word[1: Word] 
+5:81 ;2;    GameArtifact EquivalentTo: Game[1: Game] and Artifact[1: Artifact] 
+15:913 ;1;    CoastGuard SubClassOf: origin[1: origin] some Seacoast[4: Coast]            
+32:145 ;4;    RyukyuanLanguage SubClassOf: inverse traverses[2: traverse] some Thing             
+5:590 ;2;    DescriptorPart EquivalentTo: Descriptor[1: Descriptor] and Function[4: Part] 
+5:590 ;2;    DescriptorPart EquivalentTo: Descriptor[1: Descriptor] and Region[4: Part] 
+5:590 ;2;    DescriptorPart EquivalentTo: Descriptor[1: Descriptor] and Character[4: Part] 
+5:590 ;2;    DescriptorPart EquivalentTo: Descriptor[1: Descriptor] and Share[3: Part] 
+32:472 ;4;    AwyuLanguage SubClassOf: inverse traverses[2: traverse] some Thing             
+99:184 ;3;    HurricaneSeason SubClassOf: measure[2: measures] some Hurricane[1: Hurricane]        
+99:184 ;4;    HurricaneSeason SubClassOf: measure[2: measures] some Thing     
+10:138 ;2;    BordetellaPertussis SubClassOf: inverse causes[1: causes] some Thing       
+99:650 ;4;    JointTest SubClassOf: measure[2: measures] some Thing     
+32:104 ;4;    JointTest SubClassOf: inverse traverses[2: traverse] some Thing             
+32:119 ;4;    EducationalCourse SubClassOf: inverse traverses[2: traverse] some Thing             
+12:792 ;1;    RiverSystem SubClassOf: Organization[3: System] and composer[2: composed] some River[1: River]                 
+15:143 ;1;    RiverSystem SubClassOf: origin[1: origin] some River[1: River]            
+15:143 ;2;    RiverSystem EquivalentTo: Organization[3: System] and origin[1: origin] some River[1: River]     
+32:398 ;4;    KhoisanLanguage SubClassOf: inverse traverses[2: traverse] some Thing             
+38:170 ;2;    GasMixture SubClassOf: instance[4: case] some Gasoline[4: Gas]                        
+38:170 ;2;    GasMixture SubClassOf: instance[4: case] some Gun[3: Gas]                        
+32:470 ;4;    MosetenanLanguage SubClassOf: inverse traverses[2: traverse] some Thing             
+32:345 ;4;    ChiwereLanguage SubClassOf: inverse traverses[2: traverse] some Thing             
+10:72 ;2;    PesticidePollution SubClassOf: inverse causes[1: causes] some Thing       
+15:894 ;1;    SeaIce SubClassOf: origin[1: origin] some Sea[1: Sea]            
+15:894 ;1;    SeaIce SubClassOf: origin[1: origin] some Ocean[3: Sea]            
+15:894 ;2;    SeaIce EquivalentTo: Diamond[3: Ice] and origin[1: origin] some Sea[1: Sea]     
+15:894 ;2;    SeaIce EquivalentTo: Diamond[3: Ice] and origin[1: origin] some Ocean[3: Sea]     
+15:894 ;2;    SeaIce EquivalentTo: Ice[1: Ice] and origin[1: origin] some Sea[1: Sea]     
+15:894 ;2;    SeaIce EquivalentTo: Ice[1: Ice] and origin[1: origin] some Ocean[3: Sea]     
+15:894 ;2;    SeaIce EquivalentTo: Glass[3: Ice] and origin[1: origin] some Sea[1: Sea]     
+15:894 ;2;    SeaIce EquivalentTo: Glass[3: Ice] and origin[1: origin] some Ocean[3: Sea]     
+15:894 ;2;    SeaIce EquivalentTo: Icing[3: Ice] and origin[1: origin] some Sea[1: Sea]     
+15:894 ;2;    SeaIce EquivalentTo: Icing[3: Ice] and origin[1: origin] some Ocean[3: Sea]     
+15:894 ;2;    SeaIce EquivalentTo: Methamphetamine[3: Ice] and origin[1: origin] some Sea[1: Sea]     
+15:894 ;2;    SeaIce EquivalentTo: Methamphetamine[3: Ice] and origin[1: origin] some Ocean[3: Sea]     
+38:222 ;2;    CallOption SubClassOf: instance[4: case] some Call[1: Call]                        
+38:222 ;2;    CallOption SubClassOf: instance[4: case] some Song[3: Call]                        
+14:171 ;1;    BodyPosition SubClassOf: Position[1: Position] and contains[2: contain] some Torso[3: Body]                 
+14:171 ;1;    BodyPosition SubClassOf: Locating[4: Position] and contains[2: contain] some Torso[3: Body]                 
+14:171 ;2;    BodyPosition SubClassOf: Position[1: Position] and inverse home[3: place] some Torso[3: Body]         
+14:171 ;2;    BodyPosition SubClassOf: Position[1: Position] and inverse property[4: place] some Torso[3: Body]         
+14:171 ;2;    BodyPosition SubClassOf: Locating[4: Position] and inverse home[3: place] some Torso[3: Body]         
+14:171 ;2;    BodyPosition SubClassOf: Locating[4: Position] and inverse property[4: place] some Torso[3: Body]         
+38:92 ;2;    BodyPosition SubClassOf: instance[4: case] some Torso[3: Body]                        
+15:598 ;1;    ForestDamage SubClassOf: origin[1: origin] some Forest[1: Forest]            
+15:598 ;1;    ForestDamage SubClassOf: origin[1: origin] some Timber[4: Forest]            
+15:598 ;1;    ForestDamage SubClassOf: origin[1: origin] some Wood[4: Forest]            
+10:98 ;1;    ForestDamage SubClassOf: inverse causes[1: causes] some Forest[1: Forest]          
+10:98 ;1;    ForestDamage SubClassOf: inverse causes[1: causes] some Timber[4: Forest]          
+10:98 ;1;    ForestDamage SubClassOf: inverse causes[1: causes] some Wood[4: Forest]          
+10:98 ;2;    ForestDamage SubClassOf: inverse causes[1: causes] some Thing       
+12:98 ;1;    NonlinearCircuit SubClassOf: Circle[4: Circuit] and composer[2: composed] some Nonlinear[1: Nonlinear]                 
+5:135 ;2;    MotorProtein EquivalentTo: Engine[4: Motor] and Protein[1: Protein] 
+5:135 ;2;    MotorProtein EquivalentTo: Motor[1: Motor] and Protein[1: Protein] 
+5:253 ;2;    GraphArc EquivalentTo: Graph[1: Graph] and Limb[3: Arc] 
+15:81 ;1;    GraphArc SubClassOf: origin[1: origin] some Graph[1: Graph]            
+15:81 ;2;    GraphArc EquivalentTo: Limb[3: Arc] and origin[1: origin] some Graph[1: Graph]     
+10:57 ;1;    GraphArc SubClassOf: inverse causes[1: causes] some Graph[1: Graph]          
+10:57 ;2;    GraphArc SubClassOf: inverse causes[1: causes] some Thing       
+14:150 ;1;    PublicPark SubClassOf: Park[1: Park] and contains[2: contain] some Public[1: Public]                 
+14:150 ;2;    PublicPark SubClassOf: Park[1: Park] and inverse property[4: place] some Public[1: Public]         
+38:211 ;2;    MortgageBond SubClassOf: instance[4: case] some Mortgage[1: Mortgage]                        
+10:92 ;1;    MortgageBond SubClassOf: inverse causes[1: causes] some Mortgage[1: Mortgage]          
+10:92 ;2;    MortgageBond SubClassOf: inverse causes[1: causes] some Thing       
+38:461 ;2;    SunflowerSeed SubClassOf: instance[4: case] some Sunflower[1: Sunflower]                        
+5:74 ;2;    SunflowerSeed EquivalentTo: Sunflower[1: Sunflower] and Seed[1: Seed] 
+5:74 ;2;    SunflowerSeed EquivalentTo: Sunflower[1: Sunflower] and Source[4: Seed] 
+38:157 ;2;    SalesPosition SubClassOf: instance[4: case] some Sales[1: Sales]                        
+32:170 ;4;    MosfetTransistor SubClassOf: inverse traverses[2: traverse] some Thing             
+99:680 ;4;    FinancialRating SubClassOf: measure[2: measures] some Thing     
+5:650 ;2;    TransitTerminal EquivalentTo: Transportation[4: Transit] and Terminal[1: Terminal] 
+14:124 ;1;    TransitTerminal SubClassOf: Terminal[1: Terminal] and contains[2: contain] some Transportation[4: Transit]                 
+14:124 ;2;    TransitTerminal SubClassOf: Terminal[1: Terminal] and inverse home[3: place] some Transportation[4: Transit]         
+14:124 ;2;    TransitTerminal SubClassOf: Terminal[1: Terminal] and inverse property[4: place] some Transportation[4: Transit]         
+32:536 ;2;    HumanLanguage SubClassOf: inverse traverses[2: traverse] some Human[1: Human]                
+32:536 ;2;    HumanLanguage SubClassOf: inverse traverses[2: traverse] some Man[4: Human]                
+32:536 ;4;    HumanLanguage SubClassOf: inverse traverses[2: traverse] some Thing             
+32:536 ;6;    HumanLanguage EquivalentTo: Tongue[4: Language] and inverse traverses[2: traverse] some Human[1: Human]         
+32:536 ;6;    HumanLanguage EquivalentTo: Tongue[4: Language] and inverse traverses[2: traverse] some Man[4: Human]         
+32:536 ;6;    HumanLanguage EquivalentTo: Language[1: Language] and inverse traverses[2: traverse] some Human[1: Human]         
+32:536 ;6;    HumanLanguage EquivalentTo: Language[1: Language] and inverse traverses[2: traverse] some Man[4: Human]         
+32:536 ;6;    HumanLanguage EquivalentTo: Reading[4: Language] and inverse traverses[2: traverse] some Human[1: Human]         
+32:536 ;6;    HumanLanguage EquivalentTo: Reading[4: Language] and inverse traverses[2: traverse] some Man[4: Human]         
+10:936 ;2;    DairyProduct SubClassOf: inverse causes[1: causes] some Thing       
+10:236 ;2;    TyphoidFever SubClassOf: inverse causes[1: causes] some Thing       
+32:147 ;4;    VanderpolsEquation SubClassOf: inverse traverses[2: traverse] some Thing             
+32:199 ;4;    CableShip SubClassOf: inverse traverses[2: traverse] some Thing             
+14:142 ;1;    WaterJunction SubClassOf: Function[2: Junction] and contains[2: contain] some Water[1: Water]                 
+14:142 ;2;    WaterJunction SubClassOf: Function[2: Junction] and inverse property[4: place] some Water[1: Water]         
+5:96 ;2;    WaterJunction EquivalentTo: Water[1: Water] and Function[2: Junction] 
+38:219 ;2;    HumanAdult SubClassOf: instance[4: case] some Human[1: Human]                        
+38:219 ;2;    HumanAdult SubClassOf: instance[4: case] some Man[4: Human]                        
+99:125 ;3;    HumanAdult SubClassOf: measure[2: measures] some Human[1: Human]        
+99:125 ;3;    HumanAdult SubClassOf: measure[2: measures] some Man[4: Human]        
+99:125 ;4;    HumanAdult SubClassOf: measure[2: measures] some Thing     
+32:928 ;2;    ComputerLanguage SubClassOf: inverse traverses[2: traverse] some Computer[1: Computer]                
+32:928 ;4;    ComputerLanguage SubClassOf: inverse traverses[2: traverse] some Thing             
+32:928 ;6;    ComputerLanguage EquivalentTo: Tongue[4: Language] and inverse traverses[2: traverse] some Computer[1: Computer]         
+32:928 ;6;    ComputerLanguage EquivalentTo: Language[1: Language] and inverse traverses[2: traverse] some Computer[1: Computer]         
+32:928 ;6;    ComputerLanguage EquivalentTo: Reading[4: Language] and inverse traverses[2: traverse] some Computer[1: Computer]         
+38:186 ;2;    SecurityAlarm SubClassOf: instance[4: case] some Certificate[4: Security]                        
+38:186 ;2;    SecurityAlarm SubClassOf: instance[4: case] some Security[1: Security]                        
+32:397 ;4;    AkanLanguage SubClassOf: inverse traverses[2: traverse] some Thing             
+14:322 ;1;    PictureFrame SubClassOf: Skeleton[4: Frame] and contains[2: contain] some Image[4: Picture]                 
+14:322 ;1;    PictureFrame SubClassOf: Skeleton[4: Frame] and contains[2: contain] some Icon[4: Picture]                 
+14:322 ;1;    PictureFrame SubClassOf: Skeleton[4: Frame] and contains[2: contain] some Painting[4: Picture]                 
+14:322 ;2;    PictureFrame SubClassOf: Skeleton[4: Frame] and inverse home[3: place] some Image[4: Picture]         
+14:322 ;2;    PictureFrame SubClassOf: Skeleton[4: Frame] and inverse home[3: place] some Icon[4: Picture]         
+14:322 ;2;    PictureFrame SubClassOf: Skeleton[4: Frame] and inverse home[3: place] some Painting[4: Picture]         
+14:322 ;2;    PictureFrame SubClassOf: Skeleton[4: Frame] and inverse property[4: place] some Image[4: Picture]         
+14:322 ;2;    PictureFrame SubClassOf: Skeleton[4: Frame] and inverse property[4: place] some Icon[4: Picture]         
+14:322 ;2;    PictureFrame SubClassOf: Skeleton[4: Frame] and inverse property[4: place] some Painting[4: Picture]         
+5:275 ;2;    PictureFrame EquivalentTo: Image[4: Picture] and Skeleton[4: Frame] 
+5:275 ;2;    PictureFrame EquivalentTo: Icon[4: Picture] and Skeleton[4: Frame] 
+5:275 ;2;    PictureFrame EquivalentTo: Painting[4: Picture] and Skeleton[4: Frame] 
+38:72 ;2;    PictureFrame SubClassOf: instance[4: case] some Image[4: Picture]                        
+38:72 ;2;    PictureFrame SubClassOf: instance[4: case] some Icon[4: Picture]                        
+38:72 ;2;    PictureFrame SubClassOf: instance[4: case] some Painting[4: Picture]                        
+38:139 ;2;    OrganicCompound SubClassOf: instance[4: case] some Fertilizer[4: Organic]                        
+5:72 ;2;    SaltLake EquivalentTo: Salt[1: Salt] and Lake[1: Lake] 
+14:51 ;1;    SaltLake SubClassOf: Lake[1: Lake] and contains[2: contain] some Salt[1: Salt]                 
+14:51 ;2;    SaltLake SubClassOf: Lake[1: Lake] and inverse property[4: place] some Salt[1: Salt]         
+32:357 ;4;    GoidelicLanguage SubClassOf: inverse traverses[2: traverse] some Thing             
+32:430 ;4;    DomLanguage SubClassOf: inverse traverses[2: traverse] some Thing             
+15:522 ;1;    CanalLock SubClassOf: origin[1: origin] some Canal[1: Canal]            
+15:522 ;1;    CanalLock SubClassOf: origin[1: origin] some Channel[4: Canal]            
+15:522 ;2;    CanalLock EquivalentTo: Lock[1: Lock] and origin[1: origin] some Canal[1: Canal]     
+15:522 ;2;    CanalLock EquivalentTo: Lock[1: Lock] and origin[1: origin] some Channel[4: Canal]     
+32:228 ;4;    SportsTeam SubClassOf: inverse traverses[2: traverse] some Thing             
+5:542 ;2;    PrimeNumber EquivalentTo: Flower[3: Prime] and Number[1: Number] 
+15:483 ;1;    TheaterProfession SubClassOf: origin[1: origin] some House[4: Theater]            
+15:483 ;1;    TheaterProfession SubClassOf: origin[1: origin] some Field[3: Theater]            
+15:483 ;2;    TheaterProfession EquivalentTo: Profession[1: Profession] and origin[1: origin] some House[4: Theater]     
+15:483 ;2;    TheaterProfession EquivalentTo: Profession[1: Profession] and origin[1: origin] some Field[3: Theater]     
+38:382 ;2;    FoodEgg SubClassOf: instance[4: case] some Nutrient[4: Food]                        
+99:73 ;3;    ProcessTask SubClassOf: measure[2: measures] some Procedure[4: Process]        
+99:73 ;3;    ProcessTask SubClassOf: measure[2: measures] some Process[1: Process]        
+99:73 ;4;    ProcessTask SubClassOf: measure[2: measures] some Thing     
+38:73 ;2;    ProcessTask SubClassOf: instance[4: case] some Procedure[4: Process]                        
+38:73 ;2;    ProcessTask SubClassOf: instance[4: case] some Process[1: Process]                        
+10:128 ;2;    MycobacteriumTuberculosis SubClassOf: inverse causes[1: causes] some Thing       
+32:529 ;4;    MuraLanguage SubClassOf: inverse traverses[2: traverse] some Thing             
+32:362 ;2;    WireSpring SubClassOf: inverse traverses[2: traverse] some Wire[1: Wire]                
+32:362 ;4;    WireSpring SubClassOf: inverse traverses[2: traverse] some Thing             
+32:362 ;6;    WireSpring EquivalentTo: Spring[1: Spring] and inverse traverses[2: traverse] some Wire[1: Wire]         
+15:355 ;1;    CounterReconnaissance SubClassOf: origin[1: origin] some Mouth[3: Counter]            
+15:355 ;1;    CounterReconnaissance SubClassOf: origin[1: origin] some Lip[3: Counter]            
+15:355 ;1;    CounterReconnaissance SubClassOf: origin[1: origin] some Replication[3: Counter]            
+32:205 ;2;    CounterReconnaissance SubClassOf: inverse traverses[2: traverse] some Mouth[3: Counter]                
+32:205 ;2;    CounterReconnaissance SubClassOf: inverse traverses[2: traverse] some Lip[3: Counter]                
+32:205 ;2;    CounterReconnaissance SubClassOf: inverse traverses[2: traverse] some Replication[3: Counter]                
+32:205 ;4;    CounterReconnaissance SubClassOf: inverse traverses[2: traverse] some Thing             
+32:404 ;4;    HuronLanguage SubClassOf: inverse traverses[2: traverse] some Thing             
+15:200 ;1;    ComputerHardware SubClassOf: origin[1: origin] some Computer[1: Computer]            
+12:76 ;1;    PublicSchool SubClassOf: School[1: School] and composer[2: composed] some Public[1: Public]                 
+12:76 ;1;    PublicSchool SubClassOf: Shoal[3: School] and composer[2: composed] some Public[1: Public]                 
+38:287 ;2;    WaterCatchment SubClassOf: instance[4: case] some Water[1: Water]                        
+38:100 ;2;    ChickenMeat SubClassOf: instance[4: case] some Chicken[1: Chicken]                        
+15:153 ;1;    CityMissions SubClassOf: origin[1: origin] some City[1: City]            
+32:550 ;4;    KebarLanguage SubClassOf: inverse traverses[2: traverse] some Thing             
+5:425 ;2;    TimePoint EquivalentTo: Hour[4: Time] and Head[3: Point] 
+5:425 ;2;    TimePoint EquivalentTo: Meter[3: Time] and Head[3: Point] 
+5:425 ;2;    TimePoint EquivalentTo: Sentence[4: Time] and Head[3: Point] 
+5:425 ;2;    TimePoint EquivalentTo: Reading[4: Time] and Head[3: Point] 
+68:308 ;2;    TimePoint SubClassOf: Head[3: Point] and during[1: during] only Hour[4: Time]                        
+68:308 ;2;    TimePoint SubClassOf: Head[3: Point] and during[1: during] only Meter[3: Time]                        
+68:308 ;2;    TimePoint SubClassOf: Head[3: Point] and during[1: during] only Sentence[4: Time]                        
+68:308 ;2;    TimePoint SubClassOf: Head[3: Point] and during[1: during] only Reading[4: Time]                        
+14:547 ;1;    WaterVehicle SubClassOf: Vehicle[1: Vehicle] and contains[2: contain] some Water[1: Water]                 
+14:547 ;2;    WaterVehicle SubClassOf: Vehicle[1: Vehicle] and inverse property[4: place] some Water[1: Water]         
+32:364 ;2;    WaterVehicle SubClassOf: inverse traverses[2: traverse] some Water[1: Water]                
+32:364 ;4;    WaterVehicle SubClassOf: inverse traverses[2: traverse] some Thing             
+32:364 ;6;    WaterVehicle EquivalentTo: Vehicle[1: Vehicle] and inverse traverses[2: traverse] some Water[1: Water]         
+32:472 ;4;    MakuLanguage SubClassOf: inverse traverses[2: traverse] some Thing             
+38:293 ;2;    TransitwayJunction SubClassOf: instance[4: case] some Transitway[1: Transitway]                        
+14:114 ;1;    TransitwayJunction SubClassOf: Function[2: Junction] and contains[2: contain] some Transitway[1: Transitway]                 
+14:114 ;2;    TransitwayJunction SubClassOf: Function[2: Junction] and inverse home[3: place] some Transitway[1: Transitway]         
+14:114 ;2;    TransitwayJunction SubClassOf: Function[2: Junction] and inverse property[4: place] some Transitway[1: Transitway]         
+5:78 ;2;    TransitwayJunction EquivalentTo: Transitway[1: Transitway] and Function[2: Junction] 
+15:412 ;1;    WaterPollution SubClassOf: origin[1: origin] some Water[1: Water]            
+15:412 ;2;    WaterPollution EquivalentTo: Pollution[1: Pollution] and origin[1: origin] some Water[1: Water]     
+10:68 ;1;    WaterPollution SubClassOf: inverse causes[1: causes] some Water[1: Water]          
+10:68 ;2;    WaterPollution SubClassOf: inverse causes[1: causes] some Thing       
+15:190 ;1;    BodyCovering SubClassOf: origin[1: origin] some Torso[3: Body]            
+15:190 ;2;    BodyCovering EquivalentTo: Covering[1: Covering] and origin[1: origin] some Torso[3: Body]     
+15:190 ;2;    BodyCovering EquivalentTo: Application[4: Covering] and origin[1: origin] some Torso[3: Body]     
+15:190 ;2;    BodyCovering EquivalentTo: Dressing[4: Covering] and origin[1: origin] some Torso[3: Body]     
+14:101 ;1;    BodyCovering SubClassOf: Covering[1: Covering] and contains[2: contain] some Torso[3: Body]                 
+14:101 ;1;    BodyCovering SubClassOf: Application[4: Covering] and contains[2: contain] some Torso[3: Body]                 
+14:101 ;1;    BodyCovering SubClassOf: Dressing[4: Covering] and contains[2: contain] some Torso[3: Body]                 
+14:101 ;2;    BodyCovering SubClassOf: Covering[1: Covering] and inverse home[3: place] some Torso[3: Body]         
+14:101 ;2;    BodyCovering SubClassOf: Covering[1: Covering] and inverse property[4: place] some Torso[3: Body]         
+14:101 ;2;    BodyCovering SubClassOf: Application[4: Covering] and inverse home[3: place] some Torso[3: Body]         
+14:101 ;2;    BodyCovering SubClassOf: Application[4: Covering] and inverse property[4: place] some Torso[3: Body]         
+14:101 ;2;    BodyCovering SubClassOf: Dressing[4: Covering] and inverse home[3: place] some Torso[3: Body]         
+14:101 ;2;    BodyCovering SubClassOf: Dressing[4: Covering] and inverse property[4: place] some Torso[3: Body]         
+12:958 ;1;    PoliceOrganization SubClassOf: Organization[1: Organization] and composer[2: composed] some Law[4: Police]                 
+12:958 ;1;    PoliceOrganization SubClassOf: Constitution[4: Organization] and composer[2: composed] some Law[4: Police]                 
+32:472 ;4;    ShawiyaLanguage SubClassOf: inverse traverses[2: traverse] some Thing             
+15:558 ;1;    VehicleLight SubClassOf: origin[1: origin] some Vehicle[1: Vehicle]            
+32:182 ;2;    VehicleLight SubClassOf: inverse traverses[2: traverse] some Vehicle[1: Vehicle]                
+32:182 ;4;    VehicleLight SubClassOf: inverse traverses[2: traverse] some Thing             
+99:352 ;1;    AnimalResidence EquivalentTo: Residence[1: Residence] and measure[2: measures] some Animal[1: Animal] 
+99:352 ;3;    AnimalResidence SubClassOf: measure[2: measures] some Animal[1: Animal]        
+99:352 ;4;    AnimalResidence SubClassOf: measure[2: measures] some Thing     
+15:55 ;1;    AnimalResidence SubClassOf: origin[1: origin] some Animal[1: Animal]            
+15:55 ;2;    AnimalResidence EquivalentTo: Residence[1: Residence] and origin[1: origin] some Animal[1: Animal]     
+32:120 ;4;    JavelinWeapon SubClassOf: inverse traverses[2: traverse] some Thing             
+15:109 ;1;    ObjectAttitude SubClassOf: origin[1: origin] some Object[1: Object]            
+15:109 ;2;    ObjectAttitude EquivalentTo: Position[4: Attitude] and origin[1: origin] some Object[1: Object]     
+32:612 ;2;    CraneShip SubClassOf: inverse traverses[2: traverse] some Crane[1: Crane]                
+32:612 ;4;    CraneShip SubClassOf: inverse traverses[2: traverse] some Thing             
+32:612 ;6;    CraneShip EquivalentTo: Ship[1: Ship] and inverse traverses[2: traverse] some Crane[1: Crane]         
+5:68 ;2;    CraneShip EquivalentTo: Crane[1: Crane] and Ship[1: Ship] 

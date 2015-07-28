@@ -1,0 +1,2125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns="http://knowledgeweb.semanticweb.org/heterogeneity/alignment" 
+	 xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+	 xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+<Alignment>
+<xml>yes</xml>
+<level>0</level>
+<type>??</type>
+
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/UnalloyedMetal"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#ElementalSubstance"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/Place"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#Region"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/OrganismPart"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#OrganicThing"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/OrganicMaterial"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#SelfConnectedObject"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/Language"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#Language"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/KosherFood"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#PlantAnatomicalStructure"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/Eutheria"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#HoofedMammal"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>&gt;</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/ElementStuff"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#PureSubstance"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/AbstractIndividual"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#Abstract"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/TransportationContainerProduct"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#ManufacturedProduct"/>
+		<measure rdf:datatype="xsd:float">0.9999999403953552</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/Microorganism"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#Organism"/>
+		<measure rdf:datatype="xsd:float">0.9999971985816956</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/Vegetable_Plant"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#RootVegetable"/>
+		<measure rdf:datatype="xsd:float">0.9999923706054688</measure>
+		<relation>&gt;</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/ViralBioAgent"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#Virus"/>
+		<measure rdf:datatype="xsd:float">0.9999811053276062</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/Virus"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#Microorganism"/>
+		<measure rdf:datatype="xsd:float">0.9999790787696838</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/Bacterium"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#Bacterium"/>
+		<measure rdf:datatype="xsd:float">0.999977707862854</measure>
+		<relation>&gt;</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/Ship"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#WaterVehicle"/>
+		<measure rdf:datatype="xsd:float">0.9999762773513794</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/FinancialAccount"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#FinancialAccount"/>
+		<measure rdf:datatype="xsd:float">0.9999706149101257</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/VegetationConcept"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#Ecosystem"/>
+		<measure rdf:datatype="xsd:float">0.999967634677887</measure>
+		<relation>&gt;</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/ChemicalCompoundTypeByChemicalSpecies"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#BiochemicalAgent"/>
+		<measure rdf:datatype="xsd:float">0.9999626278877258</measure>
+		<relation>&gt;</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/FinancialCompany"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#FinancialOrganization"/>
+		<measure rdf:datatype="xsd:float">0.9999433159828186</measure>
+		<relation>&gt;</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/ModernMilitaryOrganization"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#GovernmentOrganization"/>
+		<measure rdf:datatype="xsd:float">0.9999351501464844</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/AnimalBodyPartType"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#AnatomicalStructure"/>
+		<measure rdf:datatype="xsd:float">0.9999198913574219</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/AfroasiaticLanguageFamily"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#AfroAsiaticLanguage"/>
+		<measure rdf:datatype="xsd:float">0.9998940229415894</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/NuclearBiologicalOrChemicalWeapon"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#WeaponOfMassDestruction"/>
+		<measure rdf:datatype="xsd:float">0.9998670220375061</measure>
+		<relation>&gt;</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/Sub_AtomicParticles_Chemistry_Topic"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#SubatomicParticle"/>
+		<measure rdf:datatype="xsd:float">0.9998623728752136</measure>
+		<relation>&gt;</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/BuildingConcept"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#GeographicArea"/>
+		<measure rdf:datatype="xsd:float">0.9998461008071899</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/EconomicAction"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#SocialInteraction"/>
+		<measure rdf:datatype="xsd:float">0.999803364276886</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/ProcessType"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#BiologicalProcess"/>
+		<measure rdf:datatype="xsd:float">0.9997806549072266</measure>
+		<relation>&gt;</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/BlisterAgentType"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#BlisterAgent"/>
+		<measure rdf:datatype="xsd:float">0.9997782111167908</measure>
+		<relation>&gt;</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/RoomInAConstruction"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#Room"/>
+		<measure rdf:datatype="xsd:float">0.9996702671051025</measure>
+		<relation>&gt;</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/Lens_Artificial"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#OpticalDevice"/>
+		<measure rdf:datatype="xsd:float">0.9996416568756104</measure>
+		<relation>&gt;</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/RelationalStructures_Math_Topic"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#BinaryRelation"/>
+		<measure rdf:datatype="xsd:float">0.9995926022529602</measure>
+		<relation>&gt;</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/GregorianMonth"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#Month"/>
+		<measure rdf:datatype="xsd:float">0.9995914697647095</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/MilitaryWeapon"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#Weapon"/>
+		<measure rdf:datatype="xsd:float">0.9995799660682678</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/ChemicalAgentType"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#CompoundSubstance"/>
+		<measure rdf:datatype="xsd:float">0.9995736479759216</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/LifeThreateningCondition"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#BiologicalAttribute"/>
+		<measure rdf:datatype="xsd:float">0.9995404481887817</measure>
+		<relation>&gt;</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/WaterTransportationVehicle"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#SelfPoweredDevice"/>
+		<measure rdf:datatype="xsd:float">0.9995251297950745</measure>
+		<relation>&gt;</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/Company_MilitaryEchelon"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#MilitaryOrganization"/>
+		<measure rdf:datatype="xsd:float">0.9995223879814148</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/Truck"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#CargoVehicle"/>
+		<measure rdf:datatype="xsd:float">0.999361515045166</measure>
+		<relation>&gt;</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/GrainOfCereal"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#CerealGrain"/>
+		<measure rdf:datatype="xsd:float">0.9993407130241394</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/Indo_EuropeanLanguageFamily"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#IndoEuropeanLanguage"/>
+		<measure rdf:datatype="xsd:float">0.9993245601654053</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/FormalLanguage"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#ArtificialLanguage"/>
+		<measure rdf:datatype="xsd:float">0.9990546107292175</measure>
+		<relation>&gt;</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/SmokingDevice"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#SmokingDevice"/>
+		<measure rdf:datatype="xsd:float">0.999052882194519</measure>
+		<relation>&gt;</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/RadiologicalAttack_Terrorist"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#DeployingWeaponOfMassDestruction"/>
+		<measure rdf:datatype="xsd:float">0.9990460276603699</measure>
+		<relation>&gt;</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/HumanPathogen"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#BiologicallyActiveSubstance"/>
+		<measure rdf:datatype="xsd:float">0.9990444183349609</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/Polygon"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#ClosedTwoDimensionalFigure"/>
+		<measure rdf:datatype="xsd:float">0.9990122318267822</measure>
+		<relation>&gt;</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/MortgageAgreement"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#Loan"/>
+		<measure rdf:datatype="xsd:float">0.9990121126174927</measure>
+		<relation>&gt;</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/InformationBearingWavePropagation"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#Radiating"/>
+		<measure rdf:datatype="xsd:float">0.9987607002258301</measure>
+		<relation>&gt;</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/QuasiOrdering"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#ReflexiveRelation"/>
+		<measure rdf:datatype="xsd:float">0.9987106323242188</measure>
+		<relation>&gt;</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/SolidFoodArtifact"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#PreparedFood"/>
+		<measure rdf:datatype="xsd:float">0.9985418319702148</measure>
+		<relation>&gt;</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/PlaneFigure"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#ShapeAttribute"/>
+		<measure rdf:datatype="xsd:float">0.9985285401344299</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/Building"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#ContactSite"/>
+		<measure rdf:datatype="xsd:float">0.9984838962554932</measure>
+		<relation>&gt;</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/Forest"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#Forest"/>
+		<measure rdf:datatype="xsd:float">0.9984670877456665</measure>
+		<relation>&gt;</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/CarnivoreOrder"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#Carnivore"/>
+		<measure rdf:datatype="xsd:float">0.9983201622962952</measure>
+		<relation>&gt;</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/FluidReservoir"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#FluidContainer"/>
+		<measure rdf:datatype="xsd:float">0.9982120394706726</measure>
+		<relation>&gt;</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/ViviparousAnimal"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#Animal"/>
+		<measure rdf:datatype="xsd:float">0.9981908798217773</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/ConsumerElectronicDevice"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#ElectricDevice"/>
+		<measure rdf:datatype="xsd:float">0.9981366991996765</measure>
+		<relation>&gt;</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/Product"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#DataStorageDevice"/>
+		<measure rdf:datatype="xsd:float">0.9979699850082397</measure>
+		<relation>&gt;</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/ReligiousOrganization"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#BeliefGroup"/>
+		<measure rdf:datatype="xsd:float">0.9979346394538879</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/HumidSubtropicalClimateCycle"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#TemperateClimateZone"/>
+		<measure rdf:datatype="xsd:float">0.997561514377594</measure>
+		<relation>&gt;</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/AttackOnTangible"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#Damaging"/>
+		<measure rdf:datatype="xsd:float">0.997519850730896</measure>
+		<relation>&gt;</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/History_of_the_social_sciences"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#FieldOfStudy"/>
+		<measure rdf:datatype="xsd:float">0.9974981546401978</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/PositiveNumber"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#NonnegativeRealNumber"/>
+		<measure rdf:datatype="xsd:float">0.9974709153175354</measure>
+		<relation>&gt;</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/FoodGroup"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#DairyProduct"/>
+		<measure rdf:datatype="xsd:float">0.9973793625831604</measure>
+		<relation>&gt;</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/Terminal_TransferPoint"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#TerminalBuilding"/>
+		<measure rdf:datatype="xsd:float">0.9971643090248108</measure>
+		<relation>&gt;</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/AgriculturalCommodity"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#FruitOrVegetable"/>
+		<measure rdf:datatype="xsd:float">0.9970589280128479</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/TransportFacility"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#TransportationDevice"/>
+		<measure rdf:datatype="xsd:float">0.9970333576202393</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/Liquor_Drink"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#Depressant"/>
+		<measure rdf:datatype="xsd:float">0.9969993233680725</measure>
+		<relation>&gt;</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/OrganizationalTransferOut"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#LeavingAnOrganization"/>
+		<measure rdf:datatype="xsd:float">0.9969675540924072</measure>
+		<relation>&gt;</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/UniformResourceLocator"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#UniformResourceIdentifier"/>
+		<measure rdf:datatype="xsd:float">0.996810257434845</measure>
+		<relation>&gt;</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/IDDocument"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#Certificate"/>
+		<measure rdf:datatype="xsd:float">0.9967280626296997</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/BlueCollarWorker"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#ManualLabor"/>
+		<measure rdf:datatype="xsd:float">0.9961981773376465</measure>
+		<relation>&gt;</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/Roadway"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#Roadway"/>
+		<measure rdf:datatype="xsd:float">0.9961223602294922</measure>
+		<relation>&gt;</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/Automobile"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#RoadVehicle"/>
+		<measure rdf:datatype="xsd:float">0.9960322380065918</measure>
+		<relation>&gt;</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/LiterateAgent"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#EducationalOrganization"/>
+		<measure rdf:datatype="xsd:float">0.9958525896072388</measure>
+		<relation>&gt;</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/WindstormAsObject"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#WindProcess"/>
+		<measure rdf:datatype="xsd:float">0.9958323836326599</measure>
+		<relation>&gt;</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/NormativeSpecification"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#Document"/>
+		<measure rdf:datatype="xsd:float">0.995798647403717</measure>
+		<relation>&gt;</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/NonZeroNumber"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#RealNumber"/>
+		<measure rdf:datatype="xsd:float">0.9956108331680298</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/WildAnimal"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#Mammal"/>
+		<measure rdf:datatype="xsd:float">0.9953415393829346</measure>
+		<relation>&gt;</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/NaturalLanguage"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#WestPapuanLanguage"/>
+		<measure rdf:datatype="xsd:float">0.9950381517410278</measure>
+		<relation>&gt;</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/CommunicationConvention"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#SymbolicString"/>
+		<measure rdf:datatype="xsd:float">0.9949184060096741</measure>
+		<relation>&gt;</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/Currency_US"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#Currency"/>
+		<measure rdf:datatype="xsd:float">0.9944056868553162</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/DeviceWithNoMovingParts"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#GameArtifact"/>
+		<measure rdf:datatype="xsd:float">0.9943343997001648</measure>
+		<relation>&gt;</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/ChineseLanguageFamily"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#SinoTibetanLanguage"/>
+		<measure rdf:datatype="xsd:float">0.9942876100540161</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/CompactDisc_Generic"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#VideoDataStorageDevice"/>
+		<measure rdf:datatype="xsd:float">0.9940261244773865</measure>
+		<relation>&gt;</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/IllegalDrug"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#IllicitDrug"/>
+		<measure rdf:datatype="xsd:float">0.9939566254615784</measure>
+		<relation>&gt;</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/Sport"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#RecreationOrExercise"/>
+		<measure rdf:datatype="xsd:float">0.993807852268219</measure>
+		<relation>&gt;</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/CD_ROM"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#AudioVisualDataStorageDevice"/>
+		<measure rdf:datatype="xsd:float">0.9936513304710388</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/HeartValve"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#BloodVessel"/>
+		<measure rdf:datatype="xsd:float">0.993495523929596</measure>
+		<relation>&gt;</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/VehicleExhaustSystem"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#InternalCombustionEngine"/>
+		<measure rdf:datatype="xsd:float">0.9934834241867065</measure>
+		<relation>&gt;</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/BiologicalReproductionEvent"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#PhysiologicProcess"/>
+		<measure rdf:datatype="xsd:float">0.9934425950050354</measure>
+		<relation>&gt;</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/Rocket_attack"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#RocketMissileAttack"/>
+		<measure rdf:datatype="xsd:float">0.9931922554969788</measure>
+		<relation>&gt;</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/HmongicLanguageFamily"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#HmongMienLanguage"/>
+		<measure rdf:datatype="xsd:float">0.9931922554969788</measure>
+		<relation>&gt;</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/EskimoLanguageFamily"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#EskimoAleutLanguage"/>
+		<measure rdf:datatype="xsd:float">0.9931922554969788</measure>
+		<relation>&gt;</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/HotWaterHeater"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#HotWaterHeater"/>
+		<measure rdf:datatype="xsd:float">0.993183434009552</measure>
+		<relation>&gt;</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/GeneticallyEngineeredOrganism"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#GeneticallyEngineeredOrganism"/>
+		<measure rdf:datatype="xsd:float">0.993183434009552</measure>
+		<relation>&gt;</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/BlueChipStock"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#BlueChipStock"/>
+		<measure rdf:datatype="xsd:float">0.993183434009552</measure>
+		<relation>&gt;</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/AustroasiaticLanguageFamily"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#AustroAsiaticLanguage"/>
+		<measure rdf:datatype="xsd:float">0.993183434009552</measure>
+		<relation>&gt;</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/Uto_AztecanLanguageFamily"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#UtoAztecanLanguage"/>
+		<measure rdf:datatype="xsd:float">0.99317467212677</measure>
+		<relation>&gt;</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/Mixe_ZoqueLanguageFamily"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#MixeZoqueLanguage"/>
+		<measure rdf:datatype="xsd:float">0.99317467212677</measure>
+		<relation>&gt;</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/CitrusFruit"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#CitrusFruit"/>
+		<measure rdf:datatype="xsd:float">0.99317467212677</measure>
+		<relation>&gt;</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/Joint_AnimalBodyPart"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#BodyJunction"/>
+		<measure rdf:datatype="xsd:float">0.9931738972663879</measure>
+		<relation>&gt;</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/StLouisEncephalitis_Virus"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#JapaneseEncephalitisVirus"/>
+		<measure rdf:datatype="xsd:float">0.9931658506393433</measure>
+		<relation>&gt;</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/GasPipeline"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#NaturalGasPipeline"/>
+		<measure rdf:datatype="xsd:float">0.9931570291519165</measure>
+		<relation>&gt;</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/SteamElectricPowerGenerationComplex"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#PowerGeneration"/>
+		<measure rdf:datatype="xsd:float">0.993139386177063</measure>
+		<relation>&gt;</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/NadeneLanguageFamily"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#NaDeneLanguage"/>
+		<measure rdf:datatype="xsd:float">0.993139386177063</measure>
+		<relation>&gt;</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/InterestOnlyMortgage"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#InterestOnlyLoan"/>
+		<measure rdf:datatype="xsd:float">0.9931305646896362</measure>
+		<relation>&gt;</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/VenezuelanEquineEncephalitis"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#VenezuelanEquineEncephalitis"/>
+		<measure rdf:datatype="xsd:float">0.9931128025054932</measure>
+		<relation>&gt;</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/IrritableBowelSyndrome"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#LifeThreateningDisease"/>
+		<measure rdf:datatype="xsd:float">0.9931128025054932</measure>
+		<relation>&gt;</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/ChemicalTanker_MerchantMarineShip"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#MerchantMarineShip"/>
+		<measure rdf:datatype="xsd:float">0.9931039214134216</measure>
+		<relation>&gt;</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/CableTVNetwork"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#CableTelevisionSystem"/>
+		<measure rdf:datatype="xsd:float">0.9931039214134216</measure>
+		<relation>&gt;</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/AircraftCarrier"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#MilitaryShip"/>
+		<measure rdf:datatype="xsd:float">0.9931039214134216</measure>
+		<relation>&gt;</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/HardDiskDrive"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#HardDiskDrive"/>
+		<measure rdf:datatype="xsd:float">0.9930950403213501</measure>
+		<relation>&gt;</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/Bell"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#PercussionInstrument"/>
+		<measure rdf:datatype="xsd:float">0.9930950403213501</measure>
+		<relation>&gt;</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/Bandwidth"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#BitsPerSecond"/>
+		<measure rdf:datatype="xsd:float">0.9930772185325623</measure>
+		<relation>&gt;</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/Hajj_Pilgrimage"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#DhuAlHijjah"/>
+		<measure rdf:datatype="xsd:float">0.9930593371391296</measure>
+		<relation>&gt;</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/AnimalPoweredDevice"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#AnimalPoweredDevice"/>
+		<measure rdf:datatype="xsd:float">0.9930593371391296</measure>
+		<relation>&gt;</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/Tank_Vehicle"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#ArmoredVehicle"/>
+		<measure rdf:datatype="xsd:float">0.9930235147476196</measure>
+		<relation>&gt;</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/Warplane"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#MilitaryAircraft"/>
+		<measure rdf:datatype="xsd:float">0.9930145144462585</measure>
+		<relation>&gt;</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/Painting_ArtForm"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#Paint"/>
+		<measure rdf:datatype="xsd:float">0.9930054545402527</measure>
+		<relation>&gt;</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/HeatingElement"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#HeatingDevice"/>
+		<measure rdf:datatype="xsd:float">0.9929693341255188</measure>
+		<relation>&gt;</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/Ensemble"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#MusicalGroup"/>
+		<measure rdf:datatype="xsd:float">0.9929693341255188</measure>
+		<relation>&gt;</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/MetalAlloy"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#MetallicAlloy"/>
+		<measure rdf:datatype="xsd:float">0.9929329752922058</measure>
+		<relation>&gt;</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/FixedRateLoan"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#BankTermLoan"/>
+		<measure rdf:datatype="xsd:float">0.9928964972496033</measure>
+		<relation>&gt;</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/Food_ReadyToEat"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#AgriculturalProduct"/>
+		<measure rdf:datatype="xsd:float">0.9928234219551086</measure>
+		<relation>&gt;</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/Gun_Portable"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#Firearm"/>
+		<measure rdf:datatype="xsd:float">0.9927297830581665</measure>
+		<relation>&gt;</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/Rodent"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#Rodent"/>
+		<measure rdf:datatype="xsd:float">0.9926828145980835</measure>
+		<relation>&gt;</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/ParamilitaryOrganization"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#InternationalOrganization"/>
+		<measure rdf:datatype="xsd:float">0.9925974011421204</measure>
+		<relation>&gt;</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/AirForce"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#MilitaryService"/>
+		<measure rdf:datatype="xsd:float">0.9924591183662415</measure>
+		<relation>&gt;</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/MediaSeriesProduct"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#Series"/>
+		<measure rdf:datatype="xsd:float">0.9924558401107788</measure>
+		<relation>&gt;</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/ClimateControlDevice"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#CoolingDevice"/>
+		<measure rdf:datatype="xsd:float">0.9923747181892395</measure>
+		<relation>&gt;</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/SententialConstituent"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#Phrase"/>
+		<measure rdf:datatype="xsd:float">0.9923648834228516</measure>
+		<relation>&gt;</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/Hokan_SiouanLanguageFamily"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#CaddoanLanguage"/>
+		<measure rdf:datatype="xsd:float">0.9923633933067322</measure>
+		<relation>&gt;</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/Ground"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#ShoreArea"/>
+		<measure rdf:datatype="xsd:float">0.9922358989715576</measure>
+		<relation>&gt;</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/PropositionalConceptualWork"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#Sentence"/>
+		<measure rdf:datatype="xsd:float">0.992053747177124</measure>
+		<relation>&gt;</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/BacterialBioAgent"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#BacterialAgent"/>
+		<measure rdf:datatype="xsd:float">0.9920058846473694</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/CreditCardAccount"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#CreditAccount"/>
+		<measure rdf:datatype="xsd:float">0.9917851686477661</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/RailroadConcept"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#RailTransportationSystem"/>
+		<measure rdf:datatype="xsd:float">0.9917298555374146</measure>
+		<relation>&gt;</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/CuttingDevice"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#CuttingDevice"/>
+		<measure rdf:datatype="xsd:float">0.9917298555374146</measure>
+		<relation>&gt;</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/Form_StandardizedIBO"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#TextDocument"/>
+		<measure rdf:datatype="xsd:float">0.9916032552719116</measure>
+		<relation>&gt;</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/PrecipitationProcess"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#LiquidMotion"/>
+		<measure rdf:datatype="xsd:float">0.9912853240966797</measure>
+		<relation>&gt;</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/RelationalStructure"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#Relation"/>
+		<measure rdf:datatype="xsd:float">0.9911236763000488</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/Story"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#FictionalText"/>
+		<measure rdf:datatype="xsd:float">0.9910106658935547</measure>
+		<relation>&gt;</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/Municipality"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#GeopoliticalArea"/>
+		<measure rdf:datatype="xsd:float">0.9909504055976868</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/MilitaryOperation"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#MilitaryOperation"/>
+		<measure rdf:datatype="xsd:float">0.9909351468086243</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/Watercraft"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#WaterTransportationSystem"/>
+		<measure rdf:datatype="xsd:float">0.9907962679862976</measure>
+		<relation>&gt;</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/CombustionDevice"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#ExplosiveDevice"/>
+		<measure rdf:datatype="xsd:float">0.9904041886329651</measure>
+		<relation>&gt;</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/ComputerNetwork"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#ComputationalSystem"/>
+		<measure rdf:datatype="xsd:float">0.9903569221496582</measure>
+		<relation>&gt;</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/Railway"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#LandTransitway"/>
+		<measure rdf:datatype="xsd:float">0.9900556802749634</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/Bay"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#BodyOfWater"/>
+		<measure rdf:datatype="xsd:float">0.9896235466003418</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/FloweringPlant"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#EdibleNut"/>
+		<measure rdf:datatype="xsd:float">0.9893600940704346</measure>
+		<relation>&gt;</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/UtilityProgram"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#Procedure"/>
+		<measure rdf:datatype="xsd:float">0.9893009066581726</measure>
+		<relation>&gt;</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/VisualInformationBearingThing"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#ArtWork"/>
+		<measure rdf:datatype="xsd:float">0.9890661239624023</measure>
+		<relation>&gt;</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/Stock"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#Investment"/>
+		<measure rdf:datatype="xsd:float">0.9890305995941162</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/Spice"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#Spice"/>
+		<measure rdf:datatype="xsd:float">0.9888341426849365</measure>
+		<relation>&gt;</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/RealNumber"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#Number"/>
+		<measure rdf:datatype="xsd:float">0.9886757731437683</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/YellowFeverVirus"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#YellowFeverVirus"/>
+		<measure rdf:datatype="xsd:float">0.9878571629524231</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/VectorBorneInfection"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#DiseaseOrSyndrome"/>
+		<measure rdf:datatype="xsd:float">0.9867234826087952</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/ProtocolStackLayer"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#ComputerProcess"/>
+		<measure rdf:datatype="xsd:float">0.9863788485527039</measure>
+		<relation>&gt;</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/Artifact_HumanCreated"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#MaterialHandlingEquipment"/>
+		<measure rdf:datatype="xsd:float">0.9863472580909729</measure>
+		<relation>&gt;</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/NuclearWeaponResearchFacility"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#NuclearWeaponResearchFacility"/>
+		<measure rdf:datatype="xsd:float">0.9863297939300537</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/Nilo_SaharanLanguageFamily"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#NiloSaharanLanguage"/>
+		<measure rdf:datatype="xsd:float">0.9858874678611755</measure>
+		<relation>&gt;</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/Competition"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#Selecting"/>
+		<measure rdf:datatype="xsd:float">0.9855839014053345</measure>
+		<relation>&gt;</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/CreditCard"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#BankCard"/>
+		<measure rdf:datatype="xsd:float">0.9853127002716064</measure>
+		<relation>&gt;</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/BodyOfWater_Large"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#SaltWaterArea"/>
+		<measure rdf:datatype="xsd:float">0.9851740002632141</measure>
+		<relation>&gt;</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/Bishop_Clerical"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#Christian"/>
+		<measure rdf:datatype="xsd:float">0.98507159948349</measure>
+		<relation>&gt;</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/MultimediaProgram"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#ComputerFile"/>
+		<measure rdf:datatype="xsd:float">0.9850659370422363</measure>
+		<relation>&gt;</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/LegalConflict"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#LegalAction"/>
+		<measure rdf:datatype="xsd:float">0.9846099019050598</measure>
+		<relation>&gt;</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/Hill"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#UplandArea"/>
+		<measure rdf:datatype="xsd:float">0.9844639301300049</measure>
+		<relation>&gt;</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/Mineral"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#Mineral"/>
+		<measure rdf:datatype="xsd:float">0.9843046069145203</measure>
+		<relation>&gt;</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/SportsGame"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#Game"/>
+		<measure rdf:datatype="xsd:float">0.9840501546859741</measure>
+		<relation>&gt;</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/NegativeNumber"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#NegativeRealNumber"/>
+		<measure rdf:datatype="xsd:float">0.9838752150535583</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/ComputerChassis"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#ComputerComponent"/>
+		<measure rdf:datatype="xsd:float">0.9835836291313171</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/NonCommissionedOfficer"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#MilitaryRank"/>
+		<measure rdf:datatype="xsd:float">0.9834191203117371</measure>
+		<relation>&gt;</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/FungalBioAgent"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#Fungus"/>
+		<measure rdf:datatype="xsd:float">0.9833784103393555</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/Connector"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#AttachingDevice"/>
+		<measure rdf:datatype="xsd:float">0.9832752346992493</measure>
+		<relation>&gt;</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/Nitrogen_mustard_gas"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#MustardGas"/>
+		<measure rdf:datatype="xsd:float">0.9824637770652771</measure>
+		<relation>&gt;</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/CommunistParty"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#PoliticalParty"/>
+		<measure rdf:datatype="xsd:float">0.9824637770652771</measure>
+		<relation>&gt;</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/Kwa_CongoLanguageFamily"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#NigerCongoLanguage"/>
+		<measure rdf:datatype="xsd:float">0.9823238253593445</measure>
+		<relation>&gt;</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/ArenaVirus"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#CrimeanCongoHemorrhagicFeverVirus"/>
+		<measure rdf:datatype="xsd:float">0.9822063446044922</measure>
+		<relation>&gt;</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/UralicAndAltaicLanguageFamily"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#AltaicLanguage"/>
+		<measure rdf:datatype="xsd:float">0.982064425945282</measure>
+		<relation>&gt;</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/EmploymentTermination"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#TerminatingEmployment"/>
+		<measure rdf:datatype="xsd:float">0.9820406436920166</measure>
+		<relation>&gt;</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/CycloneAsObject"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#Windstorm"/>
+		<measure rdf:datatype="xsd:float">0.9818253517150879</measure>
+		<relation>&gt;</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/SickleCellAnemia"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#RedBloodCell"/>
+		<measure rdf:datatype="xsd:float">0.9816137552261353</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/DengueFeverVirus"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#DengueFeverVirus"/>
+		<measure rdf:datatype="xsd:float">0.9816137552261353</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/BulkCargoShip"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#BulkCargoShip"/>
+		<measure rdf:datatype="xsd:float">0.9816137552261353</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/ComputerDisk"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#OpticalDisc"/>
+		<measure rdf:datatype="xsd:float">0.9815832376480103</measure>
+		<relation>&gt;</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/Snake"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#Reptile"/>
+		<measure rdf:datatype="xsd:float">0.9815588593482971</measure>
+		<relation>&gt;</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/WindowCurtain"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#WindowCovering"/>
+		<measure rdf:datatype="xsd:float">0.9815517067909241</measure>
+		<relation>&gt;</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/SupplyTruck"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#MilitarySupplyTruck"/>
+		<measure rdf:datatype="xsd:float">0.9815517067909241</measure>
+		<relation>&gt;</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/CentralBank"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#Bank-FinancialOrganization"/>
+		<measure rdf:datatype="xsd:float">0.9815517067909241</measure>
+		<relation>&gt;</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/SouthernEuropeanCountry"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#Nation"/>
+		<measure rdf:datatype="xsd:float">0.9815099835395813</measure>
+		<relation>&gt;</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/VX_weapon"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#VSeriesNerveAgent"/>
+		<measure rdf:datatype="xsd:float">0.9814945459365845</measure>
+		<relation>&gt;</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/IroquoianLanguageFamily"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#SouthernIroquoianLanguage"/>
+		<measure rdf:datatype="xsd:float">0.9814945459365845</measure>
+		<relation>&gt;</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/Druze_Muslim"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#Muslim"/>
+		<measure rdf:datatype="xsd:float">0.9814945459365845</measure>
+		<relation>&gt;</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/ManagedAccount"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#MutualFundAccount"/>
+		<measure rdf:datatype="xsd:float">0.9814754724502563</measure>
+		<relation>&gt;</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/BookOfTheBible"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#Book"/>
+		<measure rdf:datatype="xsd:float">0.9814723134040833</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/OilTanker"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#PetroleumTankerShip"/>
+		<measure rdf:datatype="xsd:float">0.9814563393592834</measure>
+		<relation>&gt;</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/UtilityWire"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#WireLine"/>
+		<measure rdf:datatype="xsd:float">0.9814180731773376</measure>
+		<relation>&gt;</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/StockMarket"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#StockMarketTransaction"/>
+		<measure rdf:datatype="xsd:float">0.9814180731773376</measure>
+		<relation>&gt;</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/DramaticActing_Live"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#Pretending"/>
+		<measure rdf:datatype="xsd:float">0.9813797473907471</measure>
+		<relation>&gt;</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/Cattle_Domestic"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#Cow"/>
+		<measure rdf:datatype="xsd:float">0.9813797473907471</measure>
+		<relation>&gt;</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/Broadcasting"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#RadioEmission"/>
+		<measure rdf:datatype="xsd:float">0.9813626408576965</measure>
+		<relation>&gt;</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/LargePortableCargoContainer"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#Container-RoRoCargoShip"/>
+		<measure rdf:datatype="xsd:float">0.9813605546951294</measure>
+		<relation>&gt;</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/MusicalComposition_1980sPop"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#MusicalComposition"/>
+		<measure rdf:datatype="xsd:float">0.9812834858894348</measure>
+		<relation>&gt;</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/Device_FunctionallyDefective"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#TurningOffDevice"/>
+		<measure rdf:datatype="xsd:float">0.9812448620796204</measure>
+		<relation>&gt;</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/CertificateOfDepositAccount"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#FixedRateAccount"/>
+		<measure rdf:datatype="xsd:float">0.9812448620796204</measure>
+		<relation>&gt;</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/Pressure"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#UnitOfAtmosphericPressure"/>
+		<measure rdf:datatype="xsd:float">0.9811868071556091</measure>
+		<relation>&gt;</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/MilitaryOffensiveOperation"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#InformationOperation"/>
+		<measure rdf:datatype="xsd:float">0.9811868071556091</measure>
+		<relation>&gt;</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/OpenClassWord"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#Word"/>
+		<measure rdf:datatype="xsd:float">0.9811643958091736</measure>
+		<relation>&gt;</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/LawEnforcementAgent"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#SkilledOccupation"/>
+		<measure rdf:datatype="xsd:float">0.9809526205062866</measure>
+		<relation>&gt;</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/RadioReceiver"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#RadioSystem"/>
+		<measure rdf:datatype="xsd:float">0.9808146357536316</measure>
+		<relation>&gt;</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/Bridge"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#Bridge"/>
+		<measure rdf:datatype="xsd:float">0.9808124899864197</measure>
+		<relation>&gt;</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/Index_PointerList"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#ReferenceBook"/>
+		<measure rdf:datatype="xsd:float">0.9806956052780151</measure>
+		<relation>&gt;</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/CarbohydrateStuff"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#Carbohydrate"/>
+		<measure rdf:datatype="xsd:float">0.9806756973266602</measure>
+		<relation>&gt;</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/Ceremony"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#Ceremony"/>
+		<measure rdf:datatype="xsd:float">0.9804955720901489</measure>
+		<relation>&gt;</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/Slope_Topographical"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#SlopedArea"/>
+		<measure rdf:datatype="xsd:float">0.9804754257202148</measure>
+		<relation>&gt;</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/TemperateClimateCycle"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#SemiaridClimateZone"/>
+		<measure rdf:datatype="xsd:float">0.9804351329803467</measure>
+		<relation>&gt;</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/ElectronicComponent"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#ElectricalCircuit"/>
+		<measure rdf:datatype="xsd:float">0.9804351329803467</measure>
+		<relation>&gt;</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/Path_InfoTransfer"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#MainTelephoneLine"/>
+		<measure rdf:datatype="xsd:float">0.9803947806358337</measure>
+		<relation>&gt;</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/Watercraft_Small"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#WaterTransportation"/>
+		<measure rdf:datatype="xsd:float">0.9801915884017944</measure>
+		<relation>&gt;</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/Stimulant"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#ChemicalBase"/>
+		<measure rdf:datatype="xsd:float">0.9799450039863586</measure>
+		<relation>&gt;</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/ElectricalLightingDevice"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#VehicleLight"/>
+		<measure rdf:datatype="xsd:float">0.9797372221946716</measure>
+		<relation>&gt;</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/CertificateDocument"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#License"/>
+		<measure rdf:datatype="xsd:float">0.9796744585037231</measure>
+		<relation>&gt;</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/Capillary"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#BodyCavity"/>
+		<measure rdf:datatype="xsd:float">0.9795825481414795</measure>
+		<relation>&gt;</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/Wire"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#Wire"/>
+		<measure rdf:datatype="xsd:float">0.9795029759407043</measure>
+		<relation>&gt;</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/AntiTankWeapon"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#AntiArmorWeapon"/>
+		<measure rdf:datatype="xsd:float">0.9789380431175232</measure>
+		<relation>&gt;</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/MedicalCareOrganization"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#MedicalClinicBuilding"/>
+		<measure rdf:datatype="xsd:float">0.9789059162139893</measure>
+		<relation>&gt;</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/PetroleumProduct"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#LiquidMixture"/>
+		<measure rdf:datatype="xsd:float">0.9783281087875366</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/PublicTransportationDevice"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#PassengerShip"/>
+		<measure rdf:datatype="xsd:float">0.9781798124313354</measure>
+		<relation>&gt;</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/CarBombing"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#Attack"/>
+		<measure rdf:datatype="xsd:float">0.9781743884086609</measure>
+		<relation>&gt;</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/SouthernCaucasianLanguageFamily"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#SouthCaucasianLanguage"/>
+		<measure rdf:datatype="xsd:float">0.9781575202941895</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/Ambulance"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#EmergencyVehicle"/>
+		<measure rdf:datatype="xsd:float">0.9781386852264404</measure>
+		<relation>&gt;</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/CommunicationsSatellite"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#Satellite"/>
+		<measure rdf:datatype="xsd:float">0.9780670404434204</measure>
+		<relation>&gt;</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/EntertainmentOrArtsProfessional"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#EntertainmentProfession"/>
+		<measure rdf:datatype="xsd:float">0.97806316614151</measure>
+		<relation>&gt;</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/State_Geopolitical"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#DependencyOrSpecialSovereigntyArea"/>
+		<measure rdf:datatype="xsd:float">0.9770023822784424</measure>
+		<relation>&gt;</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/GeographicalQuantity"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#CompositeUnitOfMeasure"/>
+		<measure rdf:datatype="xsd:float">0.9769864082336426</measure>
+		<relation>&gt;</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/Cyanide"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#ChemicalAgent"/>
+		<measure rdf:datatype="xsd:float">0.9766958951950073</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/Cloth"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#Fabric"/>
+		<measure rdf:datatype="xsd:float">0.9761779308319092</measure>
+		<relation>&gt;</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/MagneticTapeCassette"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#TapeCassette"/>
+		<measure rdf:datatype="xsd:float">0.9760483503341675</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/RoadVehicle"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#RoadTransportationSystem"/>
+		<measure rdf:datatype="xsd:float">0.9752509593963623</measure>
+		<relation>&gt;</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/FruitTree"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#Fruit"/>
+		<measure rdf:datatype="xsd:float">0.9751055836677551</measure>
+		<relation>&gt;</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/Underwater"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#SubmergedLandArea"/>
+		<measure rdf:datatype="xsd:float">0.9748098850250244</measure>
+		<relation>&gt;</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/PrimeNumber"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#Integer"/>
+		<measure rdf:datatype="xsd:float">0.9743557572364807</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/AdministrationProgram"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#ComputerProgram"/>
+		<measure rdf:datatype="xsd:float">0.9724066853523254</measure>
+		<relation>&gt;</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/ManufacturingCompany"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#Corporation"/>
+		<measure rdf:datatype="xsd:float">0.9701204895973206</measure>
+		<relation>&gt;</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/Touchscreen"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#ComputerInputDevice"/>
+		<measure rdf:datatype="xsd:float">0.9699581861495972</measure>
+		<relation>&gt;</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/RedBloodCell"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#BloodCell"/>
+		<measure rdf:datatype="xsd:float">0.9699581861495972</measure>
+		<relation>&gt;</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/Refined_petroleum_product"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#RefinedPetroleumProduct"/>
+		<measure rdf:datatype="xsd:float">0.9698764085769653</measure>
+		<relation>&lt;</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/IrrigatedLand"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#FreshWaterArea"/>
+		<measure rdf:datatype="xsd:float">0.969857394695282</measure>
+		<relation>&gt;</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/MissileAssemblyFacility"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#WMDWeaponsProductionFacility"/>
+		<measure rdf:datatype="xsd:float">0.9697944521903992</measure>
+		<relation>&gt;</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/Altimeter"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#PressureMeasuringDevice"/>
+		<measure rdf:datatype="xsd:float">0.9697533845901489</measure>
+		<relation>&gt;</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/AnnualEventType"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#TimePosition"/>
+		<measure rdf:datatype="xsd:float">0.9696183204650879</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/CommercialFishingBoat"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#FishingShip"/>
+		<measure rdf:datatype="xsd:float">0.9693397879600525</measure>
+		<relation>&gt;</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/BaseballInning"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#Score"/>
+		<measure rdf:datatype="xsd:float">0.9685818552970886</measure>
+		<relation>&gt;</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/TopographicalFeature"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#MaritimeClaimArea"/>
+		<measure rdf:datatype="xsd:float">0.9674740433692932</measure>
+		<relation>&gt;</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/Ball"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#GamePiece"/>
+		<measure rdf:datatype="xsd:float">0.9671459794044495</measure>
+		<relation>&gt;</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/Cone"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#GeometricFigure"/>
+		<measure rdf:datatype="xsd:float">0.9659695029258728</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/Scientist"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#ApplicationDomain"/>
+		<measure rdf:datatype="xsd:float">0.964898407459259</measure>
+		<relation>&gt;</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/AquaticOrganism"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#Seafood"/>
+		<measure rdf:datatype="xsd:float">0.9647094011306763</measure>
+		<relation>&gt;</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/LightingDevice"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#LightFixture"/>
+		<measure rdf:datatype="xsd:float">0.9645187258720398</measure>
+		<relation>&gt;</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/ElectronicHouseholdAppliance"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#ReceiverDevice"/>
+		<measure rdf:datatype="xsd:float">0.9643231630325317</measure>
+		<relation>&gt;</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/Joint_Physical"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#BodyPart"/>
+		<measure rdf:datatype="xsd:float">0.9638921022415161</measure>
+		<relation>&lt;</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://umbel.org/umbel/rc/MachineGun"/>
+		<entity2 rdf:resource="http://www.ontologyportal.org/SUMO.owl#AutomaticGun"/>
+		<measure rdf:datatype="xsd:float">0.9610580801963806</measure>
+		<relation>&gt;</relation>
+	</Cell>
+</map>
+
+</Alignment>
+</rdf:RDF>

@@ -1,0 +1,3 @@
+    <http://www.owl-ontologies.com/ex1.owl#ArticleTitle> SubClassOf: <http://www.owl-ontologies.com/ex2.owl#Title>                     
+    <http://www.owl-ontologies.com/ex1.owl#ArticleTitle> EquivalentTo: <http://www.owl-ontologies.com/ex2.owl#titleOf> some <http://www.owl-ontologies.com/ex2.owl#Writing>             
+    <http://www.owl-ontologies.com/ex1.owl#ArticleTitle> EquivalentTo: <http://www.owl-ontologies.com/ex2.owl#Title> and <http://www.owl-ontologies.com/ex2.owl#titleOf> some <http://www.owl-ontologies.com/ex2.owl#Writing>             

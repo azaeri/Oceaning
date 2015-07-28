@@ -1,0 +1,4 @@
+    		if(         calcSimilarity(s1, s2, SimilarityMeasures.S_ISUB)   >=0.98 ) return 1;
+    		if(  		calcSimilarity(s1, s2, SimilarityMeasures.S_LEVEN)  >=0.74 ) return 2;
+    		if(  		calcSimilarity(s1, s2, SimilarityMeasures.SM_RESNIK)>=0.84 ) return 3;
+    		if(  		calcSimilarity(s1, s2, SimilarityMeasures.SM_JIANG) >=0.99 ) return 4;

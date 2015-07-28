@@ -1,0 +1,119 @@
+//
+// pattern =  class#;pattern# in class; pattern expression in Manchester OWL;function*
+// function = sc|sr|si,O2|O1,strmatch, thershold , primarymeasure, secondarymeasure
+// primarymeasur    = s_is ub| s_leven | s_cosi ne | sm_resn ik | sm_ji ang | sm_ lin | sm_p irro
+// secondarymeasure = s_is ub| s_leven | s_cosi ne | sm_resn ik | sm_ji ang | sm_ lin | sm_p irro
+//@1,@2,@n1,@n2
+//
+// class #1
+//1 ;0 ;    @1 SubClassOf: %1                     ;  sc , O2 ,@n2,       0.71 , s_isub , sm_pirro
+1 ;1 ;    @1 EquivalentTo: %1 some %2             ;  sr , O2 ,@n2,       0.71 , s_isub, sm_pirro  ; sc , O2  ,@n1, 0.71, s_isub, sm_pirro
+1 ;2 ;    @1 EquivalentTo: %1 some %2             ;  sr , O2 ,@n2of,     0.71 , s_isub, sm_pirro  ; sc , O2  ,@n1, 0.71, s_isub, sm_pirro
+1 ;3 ;    @1 EquivalentTo: inverse %1 some %2     ;  sr , O2 ,has@n2,    0.71 , s_isub, sm_pirro  ; sc , O2  ,@n1, 0.71, s_isub, sm_pirro 
+1 ;4 ;    @1 EquivalentTo: %1 some Thing          ;  sr , O2 ,@n2of@n1,  0.71 , s_isub, sm_pirro  ; sc , O2  ,@n2, 0.71, s_isub, sm_pirro
+1 ;5 ;    @1 EquivalentTo: inverse %1 some Thing  ;  sr , O2 ,has@n1@n2, 0.71 , s_isub, sm_pirro  ; sc , O2  ,@n2, 0.71, s_isub, sm_pirro 
+//
+// class #2
+//2 ;0 ;    @1 SubClassOf: %1                  ;  sc , O2 ,@n2,   0.71 , s_isub , sm_pirro
+//2 ;1 ;    @1 SubClassOf: %1                  ;  sc , O2 ,@n1,   0.71 , s_isub , sm_pirro
+//2 ;2 ;    @1 SubClassOf: %1                  ;  sc , O2 ,human, 0.71 , s_isub , sm_pirro
+2 ;3 ;    @1 SubClassOf: %1 and %2 and %3    ;  sc , O2 ,@n1,   0.71 , s_isub , sm_pirro  ;  sc , O2 ,@n2, 0.71 , s_isub , sm_pirro ;  sc , O2 ,human, 0.71 , s_isub , sm_pirro
+//
+// class #4
+ //  4 ;0 ;    @1 SubClassOf: %1                    ;  sc , O2 ,@n2,  0.71 , s_isub , sm_pirro
+//*4 ;1 ;    @1 SubClassOf: %1 and ? some %2      ;  sc , O2 ,@n2,  0.71 , s_isub , sm_pirro  ;  sc , O2 ,@n1, 0.71 , s_isub , sm_pirro
+//*4 ;2 ;    @1 SubClassOf: %1 and ? some {%2}    ;  sc , O2 ,@n2,  0.71 , s_isub , sm_pirro  ;  si , O2 ,@n1, 0.71 , s_isub , sm_pirro
+//*4 ;3 ;    @1 SubClassOf: %1 and ? some Thing   ;  sc , O2 ,@n2,  0.71 , s_isub , sm_pirro 
+//
+// class #5
+//5 ;0 ;    @1 SubClassOf: %1        ;  sc , O2 ,@n2, 0.71 , s_isub , sm_pirro
+//5 ;1 ;    @1 SubClassOf: %1        ;  sc , O2 ,@n1, 0.71 , s_isub , sm_pirro
+5 ;2 ;    @1 EquivalentTo: %1 and %2 ;  sc , O2 ,@n1, 0.71 , s_isub , sm_pirro  ;  sc , O2 ,@n2, 0.71 , s_isub , sm_pirro
+//
+// class #10
+//10 ;0 ;    @1 SubClassOf: %1                  ;  sc , O2 ,@n2, 0.71 , s_isub , sm_pirro
+10 ;1 ;    @1 SubClassOf: inverse %1 some %2          ;  sr , O2 ,creates::produces::generates::provides::causes,           0.71 , s_isub, s_isub      ; sc , O2  ,@n1,               0.71, s_isub, sm_pirro
+10 ;2 ;    @1 SubClassOf: inverse %1 some Thing       ;  sr , O2 ,creates::produces::generates::providse::causes,           0.71 , s_isub, s_isub      
+10 ;3 ;    @1 SubClassOf: %1 some Thing       ;  sr , O2 ,createdby::producedby::generatedby::provideby::causedby, 0.71 , s_isub, s_isub      
+10 ;4 ;    @1 SubClassOf: %1 some %2          ;  sr , O2 ,createdby::producedby::generatedby::provideby::causedby, 0.71 , s_isub, s_isub      ; sc , O2  ,@n1,               0.71, s_isub, sm_pirro
+10 ;5 ;    @1 EquivalentTo: %1 and %2 some %3   ;  sc , O2 ,@n2, 0.71 , s_isub , sm_pirro                                                       ;  sr , O2 ,createdby::producedby::generatedby::provideby::causedby,       0.71 , s_isub, sm_pirro  ; sc , O2  ,@n1,               0.71, s_isub, sm_pirro
+10 ;6 ;    @1 SubClassOf: %1 and  %2          ;  sc , O2 ,@n2, 0.71 , s_isub , sm_pirro                                                       ; sc , O2  ,cost::revenue::debt, 0.71 , s_isub , sm_pirro
+//
+// class #12
+//12 ;0 ;    @1 SubClassOf: %1                  ;  sc , O2 ,@n2, 0.71 , s_isub , sm_pirro
+12 ;1 ;    @1 SubClassOf: %1 and %2 some %3 and %4 only %5                 ;  sc , O2 ,@n2, 0.71 , s_isub , sm_pirro;  sr , O2 ,has::include,                 0.71 , s_isub, sm_pirro  ;sc , O2 ,@n1, 0.71 , s_isub , sm_pirro;  sr , O2 ,has::include,                 0.71 , s_isub, sm_pirro  ;sc , O2 ,@n1, 0.71 , s_isub , sm_pirro;
+//
+// class #13
+//12 ;0 ;    @1 SubClassOf: %1                                ;  sc , O2 ,@n2, 0.71 , s_isub , sm_pirro
+12 ;1 ;    @1 SubClassOf: %1 and %2 some %3                 ;  sc , O2 ,@n2, 0.71 , s_isub , sm_pirro;  sr , O2 ,composed::made_out_of::made_from::ingerident,                 0.71 , s_isub, sm_pirro  ;sc , O2 ,@n1, 0.71 , s_isub , sm_pirro
+//
+// class #14
+//14 ;0 ;    @1 SubClassOf: %1                                ;  sc , O2 ,@n2, 0.71 , s_isub , sm_pirro
+14 ;1 ;    @1 SubClassOf: %1 and %2 some %3                 ;  sc , O2 ,@n2, 0.71 , s_isub , sm_pirro   ;  sr , O2 ,contain::cover::surround, 0.71 , s_isub, sm_pirro  ; sc , O2  ,@n1,  0.71, s_isub, sm_pirro
+14 ;2 ;    @1 SubClassOf: %1 and inverse %2 some %3         ;  sc , O2 ,@n2, 0.71 , s_isub , sm_pirro   ;  sr , O2 ,live_in::live_at::live_on::livein::liveat::liveon::place::locatedin::keepedin::surrondedin::located_in::keeped_in::surronded_in, 0.71 , s_isub, sm_pirro  ; sc , O2  ,@n1,  0.71, s_isub, sm_pirro
+//*14 ;3  ;    @1 SubClassOf: %1 and %2 some %3  and ? min 1 ;  sc , O2 ,@n2, 0.71 , s_isub , sm_pirro   ;  sr , O2 ,contain::cover::surround, 0.71 , s_isub, sm_pirro  ; sc , O2  ,@n1,  0.71, s_isub, sm_pirro
+//
+// class #15
+//15 ;0 ;    @1 SubClassOf: %1                    ;  sc , O2 ,@n2,                   0.71 , s_isub , sm_pirro
+15 ;1 ;    @1 SubClassOf: %1 some %2            ;  sr , O2 ,location::origin::area,  0.71 , s_isub, sm_pirro  ; sc , O2  ,@n1,                                0.71, s_isub, sm_pirro
+15 ;2 ;    @1 EquivalentTo: %1 and %2 some %3     ;  sc , O2 ,@n2,                   0.71 , s_isub , sm_pirro ;  sr , O2 ,location::origin::area,               0.71 , s_isub, sm_pirro  ; sc , O2  ,@n1, 0.71, s_isub, sm_pirro
+15 ;3 ;    @1 EquivalentTo: %1 and %2 some {%3}   ;  sc , O2 ,@n2,                   0.71 , s_isub , sm_pirro ;  sr , O2 ,location::origin::area,               0.71 , s_isub, sm_pirro  ; si , O2  ,@n1, 0.71, s_isub, sm_pirro
+//
+// class 19
+//19 ;0 ;    @1 SubClassOf: %1                              ;  sc , O2 ,@n2,                   0.71 , s_isub , sm_pirro
+19 ;1 ;    @1 EquivalentTo: %1 and %2 some %3               ;  sc , O2 ,@n2,                   0.71 , s_isub , sm_pirro ;  sr , O2 ,partof::memberof::part_of::member_of,     0.71 , s_isub, sm_pirro  ; sc , O2  ,@n1, 0.71, s_isub, sm_pirro
+19 ;2 ;    @1 EquivalentTo: %1 and inverse %2 some %3       ;  sc , O2 ,@n2,                   0.71 , s_isub , sm_pirro ;  sr , O2 ,haspart::hasmember::has_part::has_member::hasa, 0.71 , s_isub, sm_pirro  ; sc , O2  ,@n1, 0.71, s_isub, sm_pirro
+19 ;3 ;    @1 SubClassOf: %1 and %2 some {%3}             ;  sc , O2 ,@n2,                   0.71 , s_isub , sm_pirro ;  sr , O2 ,partof::memberof::part_of::member_of,     0.71 , s_isub, sm_pirro  ; si , O2  ,@n1, 0.71, s_isub, sm_pirro
+19 ;4 ;    @1 SubClassOf: %1 and inverse %2 some {%3}             ;  sc , O2 ,@n2,                   0.71 , s_isub , sm_pirro ;  sr , O2 ,haspart::hasmember::has_part::has_member::hasa,     0.71 , s_isub, sm_pirro  ; si , O2  ,@n1, 0.71, s_isub, sm_pirro
+19 ;5 ;    @1 SubClassOf: {%1} and %2 some %3             ;  si , O2 ,@n2,                   0.71 , s_isub , sm_pirro ;  sr , O2 ,partof::memberof::part_of::member_of,     0.71 , s_isub, sm_pirro  ; sc , O2  ,@n1, 0.71, s_isub, sm_pirro
+19 ;6 ;    @1 SubClassOf: {%1} and inverse %2 some %3             ;  si , O2 ,@n2,                   0.71 , s_isub , sm_pirro ;  sr , O2 ,haspart::hasmember::has_part::has_member::hasa,     0.71 , s_isub, sm_pirro  ; sc , O2  ,@n1, 0.71, s_isub, sm_pirro
+19 ;7 ;    @1 EquivalentTo: {%1} and %2 some {%3}           ;  si , O2 ,@n2,                   0.71 , s_isub , sm_pirro ;  sr , O2 ,partof::memberof::part_of::member_of,     0.71 , s_isub, sm_pirro  ; si , O2  ,@n1, 0.71, s_isub, sm_pirro
+//
+// class 22
+//22 ;0 ;    @1 SubClassOf: %1                              ;  sc , O2 ,@n2,                   0.71 , s_isub , sm_pirro
+22 ;1 ;    @1 EquivalentTo: %1 and %2 some %3               ;  sc , O2 ,@n2,                   0.71 , s_isub , sm_pirro ;  sr , O2 ,partof::memberof::part_of::member_of,     0.71 , s_isub, sm_pirro  ; sc , O2  ,@n1, 0.71, s_isub, sm_pirro
+22 ;2 ;    @1 EquivalentTo: %1 and inverse %2 some %3       ;  sc , O2 ,@n2,                   0.71 , s_isub , sm_pirro ;  sr , O2 ,haspart::hasmember::has_part::has_member::hasa, 0.71 , s_isub, sm_pirro  ; sc , O2  ,@n1, 0.71, s_isub, sm_pirro
+22 ;3 ;    @1 SubClassOf: %1 and %2 some {%3}             ;  sc , O2 ,@n2,                   0.71 , s_isub , sm_pirro ;  sr , O2 ,partof::memberof::part_of::member_of,     0.71 , s_isub, sm_pirro  ; si , O2  ,@n1, 0.71, s_isub, sm_pirro
+22 ;4 ;    @1 SubClassOf: %1 and inverse %2 some {%3}             ;  sc , O2 ,@n2,                   0.71 , s_isub , sm_pirro ;  sr , O2 ,haspart::hasmember::has_part::has_member::hasa,     0.71 , s_isub, sm_pirro  ; si , O2  ,@n1, 0.71, s_isub, sm_pirro
+22 ;5 ;    @1 SubClassOf: {%1} and %2 some %3             ;  si , O2 ,@n2,                   0.71 , s_isub , sm_pirro ;  sr , O2 ,partof::memberof::part_of::member_of,     0.71 , s_isub, sm_pirro  ; sc , O2  ,@n1, 0.71, s_isub, sm_pirro
+22 ;6 ;    @1 SubClassOf: {%1} and inverse %2 some %3             ;  si , O2 ,@n2,                   0.71 , s_isub , sm_pirro ;  sr , O2 ,haspart::hasmember::has_part::has_member::hasa,     0.71 , s_isub, sm_pirro  ; sc , O2  ,@n1, 0.71, s_isub, sm_pirro
+22 ;7 ;    @1 EquivalentTo: {%1} and %2 some {%3}           ;  si , O2 ,@n2,                   0.71 , s_isub , sm_pirro ;  sr , O2 ,partof::memberof::part_of::member_of,     0.71 , s_isub, sm_pirro  ; si , O2  ,@n1, 0.71, s_isub, sm_pirro
+//
+// class 32
+//32 ;0 ;    @1 SubClassOf: %1                        ;  sc , O2 ,@n2,                   0.71 , s_isub , sm_pirro
+32 ;1 ;    @1 SubClassOf: %1 some %2                ;  sr , O2 ,usedby::visitedby::traversedby::used_by::visited_by::traversed_by,  0.71 , s_isub, sm_pirro  ; sc , O2  ,@n1, 0.71, s_isub, sm_pirro
+32 ;2 ;    @1 SubClassOf: inverse %1 some %2                ;  sr , O2 ,use::visit::traverse,  0.71 , s_isub, sm_pirro  ; sc , O2  ,@n1, 0.71, s_isub, sm_pirro
+32 ;3 ;    @1 SubClassOf: %1 some Thing             ;  sr , O2 ,usedby::visitedby::traversedby::used_by::visited_by::traversed_by,  0.71 , s_isub, sm_pirro
+32 ;4 ;    @1 SubClassOf: inverse %1 some Thing             ;  sr , O2 ,use::visit::traverse,  0.71 , s_isub, sm_pirro
+32 ;5 ;    @1 EquivalentTo: %1 and %2 some %3         ;  sc , O2 ,@n2,                   0.71 , s_isub , sm_pirro                                         ;  sr , O2 ,usedby::visitedby::traversedby::used_by::visited_by::traversed_by,  0.71 , s_isub, sm_pirro  ; sc , O2  ,@n1, 0.71, s_isub, sm_pirro
+32 ;6 ;    @1 EquivalentTo: %1 and inverse %2 some %3         ;  sc , O2 ,@n2,                   0.71 , s_isub , sm_pirro                                         ;  sr , O2 ,use::visit::traverse,  0.71 , s_isub, sm_pirro  ; sc , O2  ,@n1, 0.71, s_isub, sm_pirro
+32 ;7 ;    @1 SubClassOf: %1 and %2 and %3 some %4  ;  sc , O2 ,@n2,                   0.71 , s_isub , sm_pirro                                         ;  sc , O2 ,info::service::right::money::resource,                   0.71 , s_isub , sm_pirro           ;  sr , O2 ,receivedby::acquiredby::received_by::acquired_by,  0.71 , s_isub, sm_pirro                 ; sc , O2  ,@n1, 0.71, s_isub, sm_pirro
+//
+// class 38
+//38 ;0 ;    @1 SubClassOf: %1                                ;  sc , O2 ,@n2,                       0.71 , s_isub , sm_pirro
+38 ;1 ;    @1 SubClassOf: %1 some %2                        ;  sr , O2 ,usedfor::used_for,          0.71 , s_isub , sm_pirro  ; sc , O2  ,@n1,              0.71 , s_isub, sm_pirro
+38 ;2 ;    @1 SubClassOf: %1 some %2                        ;  sr , O2 ,create::provide::case::sell,  0.71 , s_isub , sm_pirro  ; sc , O2  ,@n1,              0.71 , s_isub, sm_pirro
+//38 ;3 ;    @1 EquivalentTo: %1 and %2 some (%3 some Thing)    ;  sc , O2 ,@n2,                       0.71 , s_isub , sm_pirro  ; sr , O2  ,usedfor::used_for, 0.71 , s_isub, sm_pirro  ; sr , O2  ,@n1, 0.71, s_isub, sm_pirro
+// 
+// class 49
+//49    ;0  ;   @1 SubClassOf: %1                                ;  sc , O2 ,@n2,                   0.71 , s_isub , sm_pirro
+49 ;1  ;    @1 EquivalentTo: %1 some %2            ;  sr , O2 ,engaged_in::engagedin::perform,  0.71 , s_isub, sm_pirro  ; sc , O2  ,@n1,   0.71, s_isub, sm_pirro
+//*49 ;2 not owl
+//*49 ;3 not owl
+//
+// class 51
+//51 ;0 ;    @1 SubClassOf: %1                                ;  sc , O2 ,@n2,                   0.71 , s_isub , sm_pirro
+//*51 ;1
+//
+// class 68
+//68 ;0 ;    @1 SubClassOf: %1                                       ;  sc , O2 ,@n2,                   0.71 , s_isub , sm_pirro
+//*68 ;1 ;    @1 SubClassOf: %1 and %2 only %3                     ;  sc , O2 ,@n2,                   0.71 , s_isub , sm_pirro  ;  sr , O2 ,?,  0.71 , s_isub, sm_pirro  ; sc , O2  ,@n2, 0.71, s_isub, sm_pirro
+68 ;2 ;    @1 SubClassOf: %1 and %2 only %3                        ;  sc , O2 ,@n2,                   0.71 , s_isub , sm_pirro  ;  sr , O2 ,happensat::happen_at::during,  0.71 , s_isub, sm_pirro  ; sc , O2  ,@n1, 0.71, s_isub, sm_pirro
+//*68 ;3 ;    @1 SubClassOf: %1 and %2 only [some_data_range]      ;  sc , O2 ,@n2,                   0.71 , s_isub , sm_pirro  ;  sr , O2 ,?,  0.71 , s_isub, sm_pirro  
+//
+// class 99
+//99 ;0 ;    @1 SubClassOf: %1                ;  sc , O2 ,@n2,                   0.71 , s_isub , sm_pirro
+99 ;1 ;    @1 EquivalentTo: %1 and %2 some %3 ;  sc , O2 ,@n2,                   0.71 , s_isub , sm_pirro                                                                                                                                                  ; sr , O2 ,observes::examines::studies::ivestigates::evaluates::measures::countes,  0.71 , s_isub, sm_pirro  ; sc , O2  ,@n1, 0.71, s_isub, sm_pirro
+99 ;2 ;    @1 SubClassOf:inverse %1 some %2        ;  sr , O2 ,observed_by::examined_by::studied_by::ivestigated_by::evaluated_by::measured_by::counted_by::observedby::examinedby::studiedby::ivestigatedby::evaluatedby::measuredby::countedby,  0.71 , s_isub, sm_pirro   ; sc , O2  ,@n2, 0.71, s_isub, sm_pirro
+99 ;3 ;    @1 SubClassOf: %1 some %2        ;  sr , O2 ,observes::examines::studies::ivestigates::evaluates::measures::countes,  0.71 , s_isub, sm_pirro                                                                                                       ; sc , O2  ,@n1, 0.71, s_isub, sm_pirro
+99 ;4 ;    @1 SubClassOf: %1 some Thing     ;  sr , O2 ,observes::examines::studies::ivestigates::evaluates::measures::countes,  0.71 , s_isub, sm_pirro 

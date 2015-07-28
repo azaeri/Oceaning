@@ -1,0 +1,11 @@
+    <http://www.ontologyportal.org/SUMO.owl#WinterSeason> SubClassOf: <http://www.ontologyportal.org/SUMO.owl#Quantity> and <http://www.ontologyportal.org/SUMO.owl#during> only <http://www.ontologyportal.org/SUMO.owl#Quantity>                        
+    <http://www.ontologyportal.org/SUMO.owl#PropellerJet> EquivalentTo: <http://www.ontologyportal.org/SUMO.owl#PropellerJet> and <http://www.ontologyportal.org/SUMO.owl#Airplane> 
+    <http://www.ontologyportal.org/SUMO.owl#DateFruit> SubClassOf: <http://www.ontologyportal.org/SUMO.owl#Fruit> and <http://www.ontologyportal.org/SUMO.owl#during> only <http://www.ontologyportal.org/SUMO.owl#Quantity>                        
+    <http://www.ontologyportal.org/SUMO.owl#HumanChild> SubClassOf: <http://www.ontologyportal.org/SUMO.owl#Human> and <http://www.ontologyportal.org/SUMO.owl#Organism> and <http://www.ontologyportal.org/SUMO.owl#Human>    
+    <http://www.ontologyportal.org/SUMO.owl#HumanChild> SubClassOf: <http://www.ontologyportal.org/SUMO.owl#Human> and <http://www.ontologyportal.org/SUMO.owl#Organism>    
+    <http://www.ontologyportal.org/SUMO.owl#AutomaticGun> EquivalentTo: <http://www.ontologyportal.org/SUMO.owl#AutomaticGun> and <http://www.ontologyportal.org/SUMO.owl#Gun> 
+    <http://www.ontologyportal.org/SUMO.owl#SunniMuslim> SubClassOf: <http://www.ontologyportal.org/SUMO.owl#Muslim> and <http://www.ontologyportal.org/SUMO.owl#Muslim>    
+    <http://www.ontologyportal.org/SUMO.owl#SummerSeason> SubClassOf: <http://www.ontologyportal.org/SUMO.owl#Quantity> and <http://www.ontologyportal.org/SUMO.owl#during> only <http://www.ontologyportal.org/SUMO.owl#Quantity>                        
+    <http://www.ontologyportal.org/SUMO.owl#StandoffAttack> SubClassOf: <http://www.ontologyportal.org/SUMO.owl#Attack> and <http://www.ontologyportal.org/SUMO.owl#during> only <http://www.ontologyportal.org/SUMO.owl#Entity>                        
+    <http://www.ontologyportal.org/SUMO.owl#HumanAdult> SubClassOf: <http://www.ontologyportal.org/SUMO.owl#Human> and <http://www.ontologyportal.org/SUMO.owl#Organism> and <http://www.ontologyportal.org/SUMO.owl#Human>    
+    <http://www.ontologyportal.org/SUMO.owl#HumanAdult> SubClassOf: <http://www.ontologyportal.org/SUMO.owl#Human> and <http://www.ontologyportal.org/SUMO.owl#Organism>    

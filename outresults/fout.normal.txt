@@ -1,0 +1,3 @@
+1:138 ;0;    ArticleTitle SubClassOf: Title[Title:2:C-noun--1-S_ISUB-1,00-Title]                     
+1:138 ;2;    ArticleTitle EquivalentTo: titleOf[Titleof:2:R-adjective--1-S_ISUB-1,00-titleOf] some Writing[Article:2:C-noun-2-S_LEVEN-0,86-writing#Writing]             
+1:138 ;7;    ArticleTitle EquivalentTo: Title[Title:2:C-noun--1-S_ISUB-1,00-Title] and titleOf[Titleof:2:R-adjective--1-S_ISUB-1,00-titleOf] some Writing[Article:2:C-noun-2-S_LEVEN-0,86-writing#Writing]             
